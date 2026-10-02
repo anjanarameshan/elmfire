@@ -73,17 +73,21 @@ def read_isochrones(outputs, toa, extent, dx):
     return sorted(lines, key=lambda l: l[0])
 
 
-def parse_run_dir(description):
+def parse_run_dir(description, extra_args=None):
+    """Parse RUN_DIR (plus any extra options); return (outputs, analysis[, args])."""
     ap = argparse.ArgumentParser(description=description)
     ap.add_argument("run_dir", nargs="?", default=DEFAULT_RUN_DIR,
                     help="folder containing outputs/ (default: %(default)s)")
-    run_dir = ap.parse_args().run_dir
+    if extra_args:
+        extra_args(ap)
+    args = ap.parse_args()
+    run_dir = args.run_dir
     outputs = os.path.join(run_dir, "outputs")
     if not os.path.isdir(outputs):
         ap.error(f"{outputs} not found - run the tutorial first (./run_tutorial.sh)")
     analysis = os.path.join(run_dir, "analysis")
     os.makedirs(analysis, exist_ok=True)
-    return outputs, analysis
+    return (outputs, analysis, args) if extra_args else (outputs, analysis)
 
 
 def main():

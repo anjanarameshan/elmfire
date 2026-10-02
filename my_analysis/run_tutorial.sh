@@ -14,6 +14,9 @@ RUNS=$HERE/runs
 # Make sure this repo's ELMFIRE build is on PATH even if ~/.bashrc wasn't loaded
 BIN=$(cd "$HERE/../build/linux/bin" && pwd)
 case ":$PATH:" in *":$BIN:"*) ;; *) export PATH=$PATH:$BIN ;; esac
+# Tutorials that download data (e.g. 03-real-fuels) need these
+export ELMFIRE_BASE_DIR=${ELMFIRE_BASE_DIR:-$(cd "$HERE/.." && pwd)}
+export CLOUDFIRE_SERVER=${CLOUDFIRE_SERVER:-worldgen.cloudfire.io}
 
 if [ ! -d "$SRC/$NAME" ]; then
    echo "No tutorial named '$NAME'. Available:"; ls "$SRC" | grep -v functions

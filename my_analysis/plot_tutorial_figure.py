@@ -4,7 +4,7 @@ Map-style figure of tutorial 01 results: fireline intensity with hourly
 isochrones, a scale bar and a legend (same layout as the tutorial figure).
 
 Usage:
-    python plot_tutorial_figure.py [RUN_DIR]
+    python plot_tutorial_figure.py [RUN_DIR] [--vmax KW_PER_M] [--iso-every HOURS] [--min-iso-len M]
 RUN_DIR is a folder containing outputs/ (default: runs/01-constant-wind).
 Writes RUN_DIR/analysis/flin_isochrones.png
 """
@@ -40,14 +40,29 @@ def add_scalebar(ax, x0, y0, length, ndiv, height):
                 fontsize=9, zorder=5)
 
 
+def add_options(ap):
+    ap.add_argument("--vmax", type=float, default=VMAX,
+                    help="top of the colour scale, kW/m (default: %(default)s)")
+    ap.add_argument("--iso-every", type=int, default=1,
+                    help="draw an isochrone every N hours (default: %(default)s)")
+    ap.add_argument("--min-iso-len", type=float, default=0.0,
+                    help="skip isochrone pieces shorter than this, m (default: %(default)s)")
+
+
 def main():
-    OUTPUTS, ANALYSIS = parse_run_dir("Map of fireline intensity with hourly isochrones")
+    OUTPUTS, ANALYSIS, args = parse_run_dir(
+        "Map of fireline intensity with hourly isochrones",
+        add_options)
+    vmax = args.vmax
 
     toa, extent, dx = read_raster(OUTPUTS, "time_of_arrival")
     flin, _, _ = read_raster(OUTPUTS, "flin")
     toa[toa < 0] = np.nan
     flin[np.isnan(toa)] = np.nan
-    iso = read_isochrones(OUTPUTS, toa, extent, dx)
+    iso = [(h, lx, ly) for h, lx, ly in read_isochrones(OUTPUTS, toa, extent, dx)
+           if h % args.iso_every == 0
+           and np.hypot(np.diff(lx), np.diff(ly)).sum() >= args.min_iso_len]
+    iso_label = "Hourly isochrones" if args.iso_every == 1 else f"{args.iso_every}-hourly isochrones"
 
     # Crop the view to the burned area (+ margin), with room on the right for the legend
     rows, cols = np.where(~np.isnan(flin))
@@ -61,7 +76,7 @@ def main():
     w = xview[1] - xview[0]
     fig = plt.figure(figsize=(10 * w / h, 10))
     ax = fig.add_axes([0, 0, 1, 1])
-    ax.imshow(flin, extent=extent, origin="upper", cmap=CMAP, vmin=VMIN, vmax=VMAX,
+    ax.imshow(flin, extent=extent, origin="upper", cmap=CMAP, vmin=VMIN, vmax=vmax,
               interpolation="nearest")
     for _, lx, ly in iso:
         ax.plot(lx, ly, color="black", lw=1.4)
@@ -73,13 +88,13 @@ def main():
     # Legend block (bottom right): isochrone line, colour bar, scale bar
     lx0 = xview[1] - LEGEND_W + 0.1 * LEGEND_W
     ax.plot([lx0, lx0 + 0.12 * LEGEND_W], [ymin + 0.20 * h] * 2, color="black", lw=1.4)
-    ax.text(lx0 + 0.16 * LEGEND_W, ymin + 0.20 * h, "Hourly isochrones", va="center",
+    ax.text(lx0 + 0.16 * LEGEND_W, ymin + 0.20 * h, iso_label, va="center",
             fontsize=11)
     ax.text(lx0, ymin + 0.165 * h, "Fireline intensity (kW/m)", va="center", fontsize=11)
     cax = fig.add_axes([(lx0 - xview[0]) / w, 0.105, 0.035 * h / w * 0.9, 0.04])
-    sm = plt.cm.ScalarMappable(cmap=CMAP, norm=plt.Normalize(VMIN, VMAX))
-    cb = fig.colorbar(sm, cax=cax, ticks=[VMIN, VMAX])
-    cb.ax.set_yticklabels([f"{VMIN:,}", f"{VMAX:,}"], fontsize=11)
+    sm = plt.cm.ScalarMappable(cmap=CMAP, norm=plt.Normalize(VMIN, vmax))
+    cb = fig.colorbar(sm, cax=cax, ticks=[VMIN, vmax])
+    cb.ax.set_yticklabels([f"{VMIN:,.0f}", f"{vmax:,.0f}"], fontsize=11)
     cb.ax.tick_params(length=0)
     cb.outline.set_linewidth(0.6)
 
