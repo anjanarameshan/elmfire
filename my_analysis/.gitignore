@@ -1,0 +1,46 @@
+runs/
+__pycache__/
+*/fuel/
+*/inputs/
+*/outputs/
+*/scratch/
+*/analysis/
+*/run.log
+*/elmfire_try*.log
+*/results_*/
+*/partial_seed*/
+spotting-test/*/fuel/
+spotting-test/*/inputs/
+spotting-test/*/outputs/
+spotting-test/*/scratch/
+spotting-test/*/results_*/
+spotting-test/*/*.log
+*/results_too_large/
+slope-wind-test/*/fuel/
+slope-wind-test/*/inputs/
+slope-wind-test/*/outputs/
+slope-wind-test/*/scratch/
+slope-wind-test/*/analysis/
+slope-wind-test/*/*.log
+chimney-tops-2016-moistfix/*/fuel/
+chimney-tops-2016-moistfix/*/inputs/
+chimney-tops-2016-moistfix/*/outputs/
+chimney-tops-2016-moistfix/*/scratch/
+chimney-tops-2016-moistfix/*/analysis/
+chimney-tops-2016-moistfix/*/*.log
+wind-test/*/fuel/
+wind-test/*/inputs/
+wind-test/*/outputs/
+wind-test/*/scratch/
+wind-test/*/analysis/
+wind-test/*/results_*/
+wind-test/*/*.log
+# Copies of the MTBS perimeter in each run folder (the scripts use chimney-tops-2016/observed/)
+*/*/observed/
+chimney-tops-2016-nov23/observed/
+# CloudFire download archive (the extracted .tif files next to it are kept)
+weather_stations/*/*.tar
+# Python caches and test leftovers
+**/__pycache__/
+*/watchdog_test.log
+*/sweep.log

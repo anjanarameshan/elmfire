@@ -1,0 +1,22 @@
+&SPOTTING
+! Ember (spotting) model settings, copied from tutorials/05-UMD-spotting.
+! NOTE: these are the tutorial's demonstration values, not calibrated for this fire:
+!   PIGN = 100 % means every ember that lands on burnable fuel starts a new fire, and
+!   CRITICAL_SPOTTING_FIRELINE_INTENSITY = 0 lets even weak fires loft embers.
+CRITICAL_SPOTTING_FIRELINE_INTENSITY(:)   = 0.
+EMBER_GR                                  = 1.0
+ENABLE_SPOTTING                           = .TRUE.
+PIGN                                      = 100.0 !Percent
+PIGN_MAX                                  = 100.0
+PIGN_MIN                                  = 100.0
+TAU_EMBERGEN                              = 10.0
+GENERATION_MODEL                          = 'PER-AREA'
+SPOTTING_DISTANCE_MODEL                   = 'EMPIRICAL'
+ACCUMULATION_MODEL                        = 'LAGRANGIAN'
+IGNITION_MODEL                            = 'SIMPLE'
+P_EPS                                     = 0.001
+EMBER_SAMPLING_FACTOR                     = 2000.0 ! tutorial 05: 50. Each tracked ember stands for 2000 real ones (flux is weighted, so totals are unchanged); fewer random draws = fewer crashes, faster
+GLOBAL_SURFACE_FIRE_SPOTTING_PERCENT_MAX  = 100.0
+GLOBAL_SURFACE_FIRE_SPOTTING_PERCENT_MIN  = 100.0
+USE_SUPERSEDED_SPOTTING                   = .FALSE.
+/
