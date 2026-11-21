@@ -1,0 +1,16 @@
+Ember ignition model comparison, observed spot point, 16 h (buildings counted from bldg_count of ignited cells)
+model     seed     acres    bldg in   bldg out   ember-ign in    ember share  ember-ign out
+x1        1        26560       1039       5856              0             0%              0
+x1        2        26268       1049       5785              0             0%              0
+x1        3        26661       1060       6001              0             0%              0
+x1        mean     26496       1049       5881              0             0%              0
+x10       1        26506       1037       5855              0             0%              0
+x10       mean     26506       1037       5855              0             0%              0
+x30       1        26749       1056       5934              3             0%             13
+x30       mean     26749       1056       5934              3             0%             13
+x100      1        26649       1032       5918             13             1%             93
+x100      mean     26649       1032       5918             13             1%             93
+x300      1        27159       1050       5965             17             2%            240
+x300      mean     27159       1050       5965             17             2%            240
+x1000     1        27279       1080       6145             67             6%            656
+x1000     mean     27279       1080       6145             67             6%            656

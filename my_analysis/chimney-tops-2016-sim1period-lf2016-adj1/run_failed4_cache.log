@@ -1,0 +1,21 @@
+Settings unchanged - reusing ./fuel/chimneytops2016.tar
+Spotting: ON (spotting.in) - ignition prob 100 %, cells spotting 100 %, min intensity 0 kW/m
+Fuel map: /home/anjana/elmfire-1/my_analysis/fuel-test/lf2016_full/fbfm40_lf2016_complete.tif
+Spread-rate adjustment factor (adj): 1
+Leaf-off canopy cover factor: 1.0 (fuel models 182 186 189)
+Traceback (most recent call last):
+  File "/home/anjana/elmfire-1/my_analysis/hrrr_winds.py", line 259, in <module>
+    main()
+    ~~~~^^
+  File "/home/anjana/elmfire-1/my_analysis/hrrr_winds.py", line 205, in main
+    u, v, g, lat, lon, source = get_hour(t)
+                                ~~~~~~~~^^^
+  File "/home/anjana/elmfire-1/my_analysis/hrrr_winds.py", line 142, in get_hour
+    u, v, lat, lon, rel = scan_10m_wind(H)
+                          ~~~~~~~~~~~~~^^^
+  File "/home/anjana/elmfire-1/my_analysis/hrrr_winds.py", line 91, in scan_10m_wind
+    raise RuntimeError("10 m wind not found after the indexed part of " + url)
+RuntimeError: 10 m wind not found after the indexed part of https://storage.googleapis.com/high-resolution-rapid-refresh/hrrr.20161126/conus/hrrr.t19z.wrfprsf00.grib2
+double free or corruption (!prev)
+./01-run.sh: line 157: 51787 Aborted                    $PY $A/hrrr_winds.py $INPUTS "$START_UTC" ./hrrr_wind 2>&1
+     51788 Done                       | grep -v -i "warn\|xr.merge\|logic ="

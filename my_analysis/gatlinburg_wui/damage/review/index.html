@@ -1,0 +1,306 @@
+<title>Gatlinburg Damage Review</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one building at a time, before|after pair large, answer bar under it, progress grid below. */
+:root {
+  --bg: #f3f4f2; --panel: #ffffff; --ink: #1d2320; --ink2: #56605a; --line: #d9ddd8;
+  --accent: #c2410c; --accent-ink: #ffffff;
+  --l-survived: #2f7d4f; --l-damaged: #b7791f; --l-destroyed: #9b2c2c; --l-new: #4a6fa5; --l-unsure: #7a7f7c;
+  --empty: #e4e7e3;
+  --f-ui: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --f-data: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #151917; --panel: #1e2421; --ink: #e8ece9; --ink2: #9aa59f; --line: #333b37;
+  --accent: #f07a3e; --accent-ink: #1a0e07;
+  --l-survived: #4fb57a; --l-damaged: #e0a43f; --l-destroyed: #e06464; --l-new: #7d9fd6; --l-unsure: #8e9590;
+  --empty: #2a312d; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #151917; --panel: #1e2421; --ink: #e8ece9; --ink2: #9aa59f; --line: #333b37;
+  --accent: #f07a3e; --accent-ink: #1a0e07;
+  --l-survived: #4fb57a; --l-damaged: #e0a43f; --l-destroyed: #e06464; --l-new: #7d9fd6; --l-unsure: #8e9590;
+  --empty: #2a312d; color-scheme: dark }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-ui); font-size: 15px; line-height: 1.45 }
+.wrap { max-width: 1060px; margin: 0 auto; padding-block: 20px 48px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 18px }
+header { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px }
+h1 { font-size: 1.45rem; margin: 0; text-wrap: balance }
+.sub { color: var(--ink2); margin: 2px 0 0 }
+.count { font-family: var(--f-data); font-variant-numeric: tabular-nums; font-size: .95rem; color: var(--ink2) }
+.count b { color: var(--ink); font-size: 1.25rem; font-weight: 500 }
+.bar { height: 6px; background: var(--empty); border-radius: 3px; overflow: hidden; display: flex }
+.bar span { display: block; height: 100% }
+.save { font-size: .85rem; color: var(--ink2) }
+.save.warn { color: var(--l-destroyed) }
+
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px; display: grid; gap: 14px }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: baseline; font-family: var(--f-data); font-size: .85rem; color: var(--ink2) }
+.meta .bid { color: var(--ink); font-size: 1rem; font-weight: 500 }
+.meta a { color: var(--accent); font-family: var(--f-ui); font-weight: 700; font-size: .9rem }
+.pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px }
+figure { margin: 0; display: grid; gap: 4px; min-width: 0 }
+figcaption { font-size: .8rem; color: var(--ink2); letter-spacing: .04em; text-transform: uppercase }
+canvas { width: 100%; max-width: 100%; aspect-ratio: 1; border-radius: 6px; background: var(--empty); image-rendering: auto }
+
+.answers { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px }
+.answers button { font: inherit; font-weight: 700; border: 2px solid var(--line); background: var(--panel); color: var(--ink);
+  border-radius: 8px; padding: 10px 6px; cursor: pointer; display: grid; gap: 2px; justify-items: center; text-align: center }
+.answers button small { font-weight: 400; color: var(--ink2); font-size: .75rem }
+.answers button kbd { font-family: var(--f-data); font-size: .7rem; color: var(--ink2) }
+.answers button:hover { border-color: var(--c) }
+.answers button.on { border-color: var(--c); background: color-mix(in srgb, var(--c) 16%, var(--panel)) }
+.answers button::before { content: ""; width: 10px; height: 10px; border-radius: 50%; background: var(--c) }
+button:focus-visible, a:focus-visible, textarea:focus-visible, select:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px }
+.row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center }
+textarea { font: inherit; flex: 1 1 260px; min-width: 0; min-height: 38px; resize: vertical; border: 1px solid var(--line);
+  border-radius: 8px; padding: 8px 10px; background: var(--bg); color: var(--ink) }
+.nav button, select, #batch { font: inherit; border: 1px solid var(--line); background: var(--bg); color: var(--ink); border-radius: 8px; padding: 8px 12px; cursor: pointer }
+.nav { display: flex; gap: 8px }
+
+.grid-wrap h2, .guide h2 { font-size: 1rem; margin: 0 0 8px }
+.cells { display: grid; grid-template-columns: repeat(auto-fill, minmax(14px, 1fr)); gap: 3px }
+.cells button { aspect-ratio: 1; border: 0; padding: 0; border-radius: 3px; background: var(--empty); cursor: pointer }
+.cells button.cur { outline: 2px solid var(--ink); outline-offset: 1px }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: .82rem; color: var(--ink2); margin-top: 10px }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px }
+
+.guide { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; font-size: .92rem }
+.guide div { min-width: 0 }
+.guide p { margin: 0 0 6px; max-width: 65ch }
+.guide b { color: var(--ink) }
+.tip { color: var(--ink2) }
+.dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 5px }
+
+@media (max-width: 620px) {
+  .answers { grid-template-columns: repeat(3, 1fr) }
+  .pair { gap: 6px }
+}
+@media (prefers-reduced-motion: no-preference) { .answers button { transition: border-color .12s, background .12s } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Gatlinburg damage review</h1>
+      <p class="sub">Did this building survive the 28 Nov 2016 fire? Compare April 2016 with October 2018.</p>
+    </div>
+    <div class="count">
+      <select id="batch" aria-label="Which batch to review">
+        <option value="2">Batch 2 · 1,084 buildings</option>
+        <option value="1">Batch 1 · 590 buildings</option>
+      </select>
+      <b id="nDone">0</b> / <span id="nAll">0</span> reviewed · <span id="save" class="save">connecting…</span></div>
+  </header>
+  <div class="bar" id="bar" aria-hidden="true"></div>
+
+  <section class="card" aria-label="Current building">
+    <div class="meta">
+      <span class="bid" id="bid">Building –</span>
+      <span id="pos"></span>
+      <span id="coord"></span>
+      <span id="area"></span>
+      <a id="ge" href="#" target="_blank" rel="noopener">Open in Google Earth ↗</a>
+    </div>
+    <div class="pair">
+      <figure><figcaption>Before · NAIP 17 Apr 2016</figcaption><canvas id="c16" width="400" height="400"></canvas></figure>
+      <figure><figcaption>After · NAIP 30 Oct 2018</figcaption><canvas id="c18" width="400" height="400"></canvas></figure>
+    </div>
+    <div class="answers" id="answers"></div>
+    <div class="row">
+      <label for="note" class="tip" style="flex-basis:100%">Note (optional: e.g. "rubble in GE Dec 2016", "roof hidden by trees")</label>
+      <textarea id="note" placeholder="Type a note, it saves when you move on"></textarea>
+      <div class="nav">
+        <button id="prev" type="button">← Back</button>
+        <button id="next" type="button">Next →</button>
+        <select id="mode" aria-label="Which buildings to step through">
+          <option value="todo">Skip reviewed</option>
+          <option value="all">Show all</option>
+        </select>
+      </div>
+    </div>
+  </section>
+
+  <section class="card grid-wrap">
+    <h2>All buildings in this review</h2>
+    <div class="cells" id="cells"></div>
+    <div class="legend" id="legend"></div>
+  </section>
+
+  <section class="card">
+    <div class="guide">
+      <div>
+        <h2>How to decide</h2>
+        <p><span class="dot" style="background:var(--l-survived)"></span><b>Survived</b>: same roof shape, colour and position in both images. Moss, a car or new trees don't matter.</p>
+        <p><span class="dot" style="background:var(--l-damaged)"></span><b>Damaged</b>: the building is still there but part of it is missing or repaired, such as a lost deck or a patched roof section.</p>
+        <p><span class="dot" style="background:var(--l-destroyed)"></span><b>Destroyed</b>: 2018 shows an empty lot, a bare slab, or a <em>different</em> new building. A house that was rebuilt counts as destroyed.</p>
+      </div>
+      <div>
+        <h2>&nbsp;</h2>
+        <p><span class="dot" style="background:var(--l-new)"></span><b>Not built yet</b>: there was no building inside the yellow outline in 2016, only trees or bare ground. These are left out of the validation.</p>
+        <p><span class="dot" style="background:var(--l-unsure)"></span><b>Can't tell</b>: trees or shadow hide the roof, or both images are too blurry.</p>
+        <p class="tip">Keys: <b>1–5</b> answer, <b>←</b> / <b>→</b> move, <b>G</b> opens Google Earth.</p>
+      </div>
+      <div>
+        <h2>When to use Google Earth</h2>
+        <p>Use it when the 2018 roof looks similar but not quite the same, since a rebuilt house can look like the old one. In Google Earth, click the clock icon and choose <b>Dec 2, 2016</b> (four days after the fire). In that false-colour image, a burned house shows as dark grey or black rubble and green vegetation shows red or pink.</p>
+        <p class="tip">Keep one tab on Dec 2, 2016; the date can reset when a link opens.</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script>
+const LABELS = [
+  { k: "survived",  name: "Survived",      hint: "same roof",          c: "--l-survived" },
+  { k: "damaged",   name: "Damaged",       hint: "partly lost",        c: "--l-damaged" },
+  { k: "destroyed", name: "Destroyed",     hint: "gone / rebuilt",     c: "--l-destroyed" },
+  { k: "new",       name: "Not built yet", hint: "empty in 2016",      c: "--l-new" },
+  { k: "unsure",    name: "Can't tell",    hint: "hidden / blurry",    c: "--l-unsure" },
+];
+const $ = id => document.getElementById(id);
+let B = [], answers = {}, cur = 0, db = null, local = false, sheets = {}, batch = "2", DATA = {};
+
+function lsGet() { try { return JSON.parse(localStorage.getItem("gdr-answers") || "{}") } catch (e) { return {} } }
+function lsSet() { try { localStorage.setItem("gdr-answers", JSON.stringify(answers)) } catch (e) {} }
+function lsPos(v) { try { if (v === undefined) return +(localStorage.getItem("gdr-pos" + batch) || 0); localStorage.setItem("gdr-pos" + batch, v) } catch (e) { return 0 } }
+
+function sheet(f) {
+  if (!sheets[f]) { const im = new Image(); im.src = f; sheets[f] = im }
+  return sheets[f];
+}
+function draw() {
+  const b = B[cur]; if (!b) return;
+  const im = sheet(b.file);
+  const paint = () => {
+    for (const [cv, dx] of [[$("c16"), 0], [$("c18"), 200]]) {
+      const g = cv.getContext("2d"); g.imageSmoothingQuality = "high";
+      g.drawImage(im, b.x + dx, b.y, 200, 200, 0, 0, 400, 400);
+    }
+  };
+  if (im.complete && im.naturalWidth) paint(); else im.onload = () => { if (B[cur] === b) paint() };
+  const nx = B.find(o => o.s === b.s + 1); if (nx) sheet(nx.file);
+}
+
+function show(i) {
+  saveNote();
+  cur = Math.max(0, Math.min(B.length - 1, i)); lsPos(cur);
+  const b = B[cur], a = answers[b.k];
+  $("bid").textContent = "Building " + b.id;
+  $("pos").textContent = "#" + (cur + 1) + " of " + B.length;
+  $("coord").textContent = b.lat.toFixed(5) + ", " + b.lon.toFixed(5);
+  $("area").textContent = b.area + " m²";
+  $("ge").href = "https://earth.google.com/web/@" + b.lat + "," + b.lon + ",450a,220d,35y,0h,0t,0r";
+  $("note").value = a?.note || "";
+  document.querySelectorAll(".answers button").forEach(el => el.classList.toggle("on", a?.label === el.dataset.k));
+  document.querySelectorAll(".cells button").forEach((el, j) => el.classList.toggle("cur", j === cur));
+  draw();
+}
+
+function paintProgress() {
+  const n = B.filter(b => answers[b.k]?.label).length;
+  $("nDone").textContent = n; $("nAll").textContent = B.length;
+  const cells = $("cells").children;
+  B.forEach((b, j) => {
+    const L = LABELS.find(l => l.k === answers[b.k]?.label);
+    cells[j].style.background = L ? "var(" + L.c + ")" : "";
+    cells[j].title = "Building " + b.id + (L ? " · " + L.name : " · not reviewed");
+  });
+  $("bar").innerHTML = LABELS.map(l => {
+    const c = B.filter(b => answers[b.k]?.label === l.k).length;
+    return c ? '<span style="width:' + (100 * c / B.length) + '%;background:var(' + l.c + ')"></span>' : "";
+  }).join("");
+  $("legend").innerHTML = LABELS.map(l => {
+    const c = B.filter(b => answers[b.k]?.label === l.k).length;
+    return '<span><i style="background:var(' + l.c + ')"></i>' + l.name + " " + c + "</span>";
+  }).join("") + '<span><i style="background:var(--empty)"></i>Not reviewed ' + (B.length - n) + "</span>";
+}
+
+async function write(b, rec) {
+  const k = b.k; if (b.col === "labels2") rec.h = b.h;
+  answers[k] = rec; paintProgress();
+  if (db) {
+    try { await db.collection(b.col).doc(k).set(rec); setSave("Saved", false) }
+    catch (e) { setSave("Not saved: " + (e?.code || "error") + ". Answers are kept in this browser too.", true); lsSet() }
+  } else lsSet();
+}
+function setSave(t, warn) { if (!local) { $("save").textContent = t; $("save").classList.toggle("warn", warn) } }
+
+function saveNote() {
+  const b = B[cur]; if (!b) return;
+  const v = $("note").value.trim(), a = answers[b.k];
+  if ((a?.note || "") === v) return;
+  write(b, { label: a?.label || "", note: v, t: Date.now() });
+}
+
+function nextIdx(dir) {
+  if ($("mode").value === "all") return cur + dir;
+  for (let j = cur + dir; j >= 0 && j < B.length; j += dir) if (!answers[B[j].k]?.label) return j;
+  return cur + dir;
+}
+function answer(k) {
+  const b = B[cur];
+  write(b, { label: k, note: $("note").value.trim(), t: Date.now() });
+  document.querySelectorAll(".answers button").forEach(el => el.classList.toggle("on", el.dataset.k === k));
+  setTimeout(() => { if (B[cur] === b) show(nextIdx(1)) }, 180);
+}
+
+function buildCells() {
+  $("cells").innerHTML = B.map((b, j) => '<button type="button" aria-label="Building ' + b.id + '" data-j="' + j + '"></button>').join("");
+}
+function buildUI() {
+  $("answers").innerHTML = LABELS.map((l, i) =>
+    '<button type="button" data-k="' + l.k + '" style="--c:var(' + l.c + ')">' + l.name +
+    "<small>" + l.hint + "</small><kbd>" + (i + 1) + "</kbd></button>").join("");
+  $("answers").onclick = e => { const t = e.target.closest("button"); if (t) answer(t.dataset.k) };
+  $("cells").onclick = e => { const t = e.target.closest("button"); if (t) show(+t.dataset.j) };
+  $("prev").onclick = () => show(cur - 1);
+  $("next").onclick = () => show(nextIdx(1));
+  $("batch").onchange = () => setBatch($("batch").value);
+  document.addEventListener("keydown", e => {
+    if (e.target.tagName === "TEXTAREA" || e.target.tagName === "SELECT" || e.metaKey || e.ctrlKey || e.altKey) return;
+    if (e.key >= "1" && e.key <= "5") answer(LABELS[+e.key - 1].k);
+    else if (e.key === "ArrowRight") show(nextIdx(1));
+    else if (e.key === "ArrowLeft") show(cur - 1);
+    else if (e.key === "g" || e.key === "G") $("ge").click();
+  });
+}
+function setBatch(v) {
+  saveNote(); batch = v; $("batch").value = v; B = DATA[v];
+  try { localStorage.setItem("gdr-batch", v) } catch (e) {}
+  buildCells(); paintProgress();
+  let start = lsPos(); if (!(start >= 0 && start < B.length)) start = 0;
+  if (answers[B[start]?.k]?.label) start = Math.max(0, B.findIndex(b => !answers[b.k]?.label));
+  cur = start; show(start);
+}
+
+async function connect() {
+  const cl = window.claude;
+  db = cl?.use ? await cl.use("db").catch(() => null) : null;
+  if (!db) {
+    local = true;
+    $("save").textContent = "Saving in this browser only";
+    $("save").classList.add("warn");
+    return;
+  }
+  setSave("Saved answers load…", false);
+  // batch 1 in "labels" (590); batch 2 in "labels2", split by field h so each listen stays under 1,000
+  const qs = [db.collection("labels").limit(1000),
+              db.collection("labels2").where("h", "==", 0).limit(1000),
+              db.collection("labels2").where("h", "==", 1).limit(1000)];
+  qs.forEach(q => q.onSnapshot(snap => {
+    snap.docs.forEach(d => { answers[d.id] = d.data() });
+    paintProgress(); show(cur); setSave("All answers saved", false);
+  }, e => setSave("Lost connection (" + e.code + "). Reload the page.", true)));
+}
+
+Promise.all([fetch("buildings.json").then(r => r.json()), fetch("buildings2.json").then(r => r.json())]).then(([d1, d2]) => {
+  DATA["1"] = d1.map(b => ({ ...b, k: "b" + b.id, col: "labels", file: "sheet_" + String(b.s).padStart(2, "0") + ".jpg" }));
+  DATA["2"] = d2.map((b, j) => ({ ...b, col: "labels2", h: j % 2, file: "sheet2_" + String(b.s).padStart(2, "0") + ".jpg" }));
+  answers = lsGet(); buildUI();
+  let v = "2"; try { v = localStorage.getItem("gdr-batch") || "2" } catch (e) {}
+  setBatch(v); connect();
+});
+</script>

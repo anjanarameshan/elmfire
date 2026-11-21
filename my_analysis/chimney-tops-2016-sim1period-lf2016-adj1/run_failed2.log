@@ -1,0 +1,16 @@
+Settings unchanged - reusing ./fuel/chimneytops2016.tar
+Spotting: ON (spotting.in) - ignition prob 100 %, cells spotting 100 %, min intensity 0 kW/m
+Fuel map: /home/anjana/elmfire-1/my_analysis/fuel-test/lf2016_full/fbfm40_lf2016_complete.tif
+Spread-rate adjustment factor (adj): 1
+Leaf-off canopy cover factor: 1.0 (fuel models 182 186 189)
+Traceback (most recent call last):
+  File "/home/anjana/elmfire-1/my_analysis/hrrr_winds.py", line 170, in <module>
+    main()
+    ~~~~^^
+  File "/home/anjana/elmfire-1/my_analysis/hrrr_winds.py", line 116, in main
+    u, v, g, lat, lon, source = get_hour(t)
+                                ~~~~~~~~^^^
+  File "/home/anjana/elmfire-1/my_analysis/hrrr_winds.py", line 60, in get_hour
+    w = [d for d in dss if "u10" in d][0]
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range

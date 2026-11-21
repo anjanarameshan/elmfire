@@ -1,0 +1,77 @@
+&INPUTS
+FUELS_AND_TOPOGRAPHY_DIRECTORY = './inputs'
+LANDSCAPE_FILENAME             = 'landscape'
+ADJ_FILENAME                   = 'adj'
+PHI_FILENAME                   = 'phi'
+DT_METEOROLOGY                 = 3600.0
+WEATHER_DIRECTORY              = './inputs'
+WS_FILENAME                    = 'ws'
+WD_FILENAME                    = 'wd'
+M1_FILENAME                    = 'm1'
+M10_FILENAME                   = 'm10'
+M100_FILENAME                  = 'm100'
+USE_CONSTANT_LH                = .FALSE.
+MLH_FILENAME                   = 'lh'
+USE_CONSTANT_LW                = .FALSE.
+MLW_FILENAME                   = 'lw'
+BLDG_AREA_FILENAME             = 'bldg_area'
+BLDG_FOOTPRINT_FRAC_FILENAME   = 'bldg_footprint_frac'
+BLDG_FUEL_MODEL_FILENAME       = 'bldg_fuel_model'
+BLDG_NONBURNABLE_FRAC_FILENAME = 'bldg_nonburnable_frac'
+BLDG_SEPARATION_DIST_FILENAME  = 'bldg_separation'
+
+/
+&OUTPUTS
+OUTPUTS_DIRECTORY      = './outputs'
+DTDUMP                 = 3600.
+DUMP_FLIN              = .TRUE.
+DUMP_TIME_OF_ARRIVAL   = .TRUE.
+DUMP_SURFACE_FIRE      = .TRUE.
+DUMP_TRANSIENT_ACREAGE = .TRUE.
+DUMP_EMBER_FLUX        = .TRUE.
+ACCUMULATE_EMBER_FLUX  = .TRUE.
+DUMP_EMBER_IGNITION    = .TRUE.
+CONVERT_TO_GEOTIFF     = .TRUE.
+/
+&TIME_CONTROL
+SIMULATION_DT    = 30.0
+TARGET_CFL       = 0.4
+SIMULATION_TSTOP = 57600
+
+/
+&SIMULATOR
+NUM_IGNITIONS = 0
+/
+&SPOTTING
+ENABLE_SPOTTING                          = .TRUE.
+ENABLE_SURFACE_FIRE_SPOTTING             = .TRUE.
+USE_SUPERSEDED_SPOTTING                  = .FALSE.
+GENERATION_MODEL                         = 'PER-MW'
+SPOTTING_DISTANCE_MODEL                  = 'EMPIRICAL'
+ACCUMULATION_MODEL                       = 'EULERIAN'
+IGNITION_MODEL                           = 'PHYSICAL'
+DIFF_WILDLAND_IGNITION                   = .TRUE.
+CRITICAL_SPOTTING_FIRELINE_INTENSITY(:)  = 0.
+GLOBAL_SURFACE_FIRE_SPOTTING_PERCENT     = 100.
+GLOBAL_SURFACE_FIRE_SPOTTING_PERCENT_MAX = 100.
+GLOBAL_SURFACE_FIRE_SPOTTING_PERCENT_MIN = 100.
+TAU_EMBERGEN                             = 10.0
+USE_PHYSICAL_SPOTTING_DURATION           = .FALSE.
+P_EPS                                    = 0.001
+EMBER_SAMPLING_FACTOR                    = 2000.0
+USE_EMBER_CONSUMPTION                    = .TRUE.
+/
+&WUI
+USE_BLDG_SPREAD_MODEL                 = .TRUE.
+BLDG_SPREAD_MODEL_TYPE                = 2
+USE_CONSTANT_BLDG_SPREAD_MODEL_PARAMS = .FALSE.
+GLOBAL_HARDENING_FACTOR               = 1.0
+/
+&MISCELLANEOUS
+MISCELLANEOUS_INPUTS_DIRECTORY = './inputs'
+PATH_TO_GDAL                   = 'auto'
+SCRATCH                        = './scratch'
+/
+&MONTE_CARLO
+SEED = 3
+/

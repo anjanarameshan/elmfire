@@ -1,0 +1,92 @@
+&INPUTS
+FUELS_AND_TOPOGRAPHY_DIRECTORY = './inputs'
+LANDSCAPE_FILENAME             = 'landscape'
+ADJ_FILENAME                   = 'adj'
+PHI_FILENAME                   = 'phi'
+DT_METEOROLOGY                 = 3600.0
+WEATHER_DIRECTORY              = './inputs'
+WS_FILENAME                    = 'ws'
+WD_FILENAME                    = 'wd'
+M1_FILENAME                    = 'm1'
+M10_FILENAME                   = 'm10'
+M100_FILENAME                  = 'm100'
+USE_CONSTANT_LH                = .FALSE.
+MLH_FILENAME                   = 'lh'
+USE_CONSTANT_LW                = .FALSE.
+MLW_FILENAME                   = 'lw'
+USE_BARRIERS                   = .TRUE.   ! OSM roads + rivers, width in m (guide 1.10)
+BARRIER_FILENAME               = 'barrier'
+/
+
+&OUTPUTS
+OUTPUTS_DIRECTORY    = './outputs'
+DTDUMP = 3600
+DUMP_FLIN            = .TRUE.
+DUMP_SPREAD_RATE     = .TRUE.
+DUMP_TIME_OF_ARRIVAL = .TRUE.
+DUMP_SURFACE_FIRE      = .TRUE.   ! hourly burned-area map (kept even if a run stops early)
+DUMP_TRANSIENT_ACREAGE = .TRUE.   ! acres at every dump -> outputs/acres_*.csv
+CONVERT_TO_GEOTIFF   = .TRUE.
+/
+
+&TIME_CONTROL
+SIMULATION_DT    = 30.0   ! 1 s trips the "stalled" check on slow litter fires
+TARGET_CFL       = 0.4   ! ELMFIRE default; tutorial 3 used 0.2 (2x more steps)
+SIMULATION_TSTOP = 259200
+/
+
+&SIMULATOR
+NUM_IGNITIONS = 0
+X_IGN(1)      =
+Y_IGN(1)      =
+T_IGN(1)      =
+X_IGN(2)      =
+Y_IGN(2)      =
+T_IGN(2)      =
+/
+
+&MISCELLANEOUS
+PATH_TO_GDAL                   = 'auto'
+SCRATCH                        = './scratch'
+/
+&SPOTTING
+! Ember (spotting) model settings, copied from tutorials/05-UMD-spotting.
+! NOTE: these are the tutorial's demonstration values, not calibrated for this fire:
+!   PIGN = 100 % means every ember that lands on burnable fuel starts a new fire, and
+!   CRITICAL_SPOTTING_FIRELINE_INTENSITY = 0 lets even weak fires loft embers.
+CRITICAL_SPOTTING_FIRELINE_INTENSITY(:) = 0
+EMBER_GR                                  = 1.0
+ENABLE_SPOTTING                           = .TRUE.
+PIGN = 100
+PIGN_MAX = 100
+PIGN_MIN = 100
+TAU_EMBERGEN                              = 10.0
+GENERATION_MODEL                          = 'PER-AREA'
+SPOTTING_DISTANCE_MODEL                   = 'EMPIRICAL'
+ACCUMULATION_MODEL                        = 'LAGRANGIAN'
+IGNITION_MODEL                            = 'SIMPLE'
+P_EPS                                     = 0.001
+EMBER_SAMPLING_FACTOR                     = 2000.0 ! tutorial 05: 50. Each tracked ember stands for 2000 real ones (flux is weighted, so totals are unchanged); fewer random draws = fewer crashes, faster
+GLOBAL_SURFACE_FIRE_SPOTTING_PERCENT_MAX = 100
+GLOBAL_SURFACE_FIRE_SPOTTING_PERCENT_MIN = 100
+USE_SUPERSEDED_SPOTTING                   = .FALSE.
+/
+
+&MONTE_CARLO
+SEED = 2024
+/
+&SUPPRESSION
+! Extended attack, area-growth-based containment model (guide 1.14.2 / 2.5.2), ELMFIRE default parameters.
+! No SDI raster available -> USE_SDI = .FALSE. (uniform SDI factor of 1, guide 1.14.2).
+! Initial attack not used: it ends the simulation when successful, and this fire had been burning since 23 Nov.
+ENABLE_INITIAL_ATTACK      = .FALSE.
+ENABLE_EXTENDED_ATTACK     = .TRUE.
+EXTENDED_ATTACK_MODEL      = 0
+DT_EXTENDED_ATTACK         = 3600.
+AREA_NO_CONTAINMENT_CHANGE = 10000.
+MAX_CONTAINMENT_PER_DAY    = 100.
+SDI_FACTOR                 = 1.0
+B_SDI                      = 1.0
+USE_SDI                    = .FALSE.
+USE_SDI_LOG_FUNCTION       = .FALSE.
+/

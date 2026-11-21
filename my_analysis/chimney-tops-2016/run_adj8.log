@@ -1,0 +1,113 @@
+Settings unchanged - reusing ./fuel/chimneytops2016.tar
+Spotting: ON (spotting.in)
+Spread-rate adjustment factor (adj): 8
+0...10...20...30...40...50...60...70...80...90...100 - done.
+Ignition at x=275569.517369452 y=3945616.77709352 (+proj=utm +zone=17 +datum=WGS84 +units=m +no_defs)
+ELMFIRE run 1/5 (seed 2024, 34 h) started 10:55
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+ ELMFIRE 1.1
+ Reading &MISCELLANEOUS namelist group
+ Auto-detected PATH_TO_GDAL: /usr/bin
+ Reading &INPUTS namelist group
+ Reading &OUTPUTS namelist group
+ Reading &TIME_CONTROL namelist group
+ Reading &SIMULATOR namelist group
+ Reading &WUI namelist group
+ Reading &CALIBRATION namelist group
+ Reading &SUPPRESSION namelist group
+ Reading &SPOTTING namelist group
+ Reading &SMOKE namelist group
+ Reading &MONTE_CARLO namelist group
+ Reading headers for fuels/topography and weather rasters
+ Setting up shared memory, part 1
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+ Reading weather, fuel, and topography rasters
+ Reading fuel and topography rasters
+ Using input Phi grid as ignition source
+ Determining number of cases to run
+ Allocating additional rasters
+ Setting up shared memory, part 2
+ Setting up statistics arrays
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+[DESKTOP-KE86DS1:50371] ../../../../../../ompi/mca/osc/ucx/osc_ucx_component.c:375  Error: OSC UCX component priority set inside component query failed 
+ 
+ ELMFIRE is running each ensemble member

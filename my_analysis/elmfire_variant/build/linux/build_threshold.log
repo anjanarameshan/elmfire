@@ -1,0 +1,37 @@
+Making elmfire_gnu_mpi_linux
+  FC      ../../source/elmfire_vars.f90
+  FC      ../../source/sort.for
+  FC      ../../source/elmfire_subs.f90
+  FC      ../../source/elmfire_init.f90
+  FC      ../../source/elmfire_namelists.f90
+  FC      ../../source/elmfire_spread_rate.f90
+  FC      ../../source/elmfire_ignition.f90
+  FC      ../../source/elmfire_io.f90
+  FC      ../../source/elmfire_spotting.f90
+  FC      ../../source/elmfire_suppression.f90
+../../source/elmfire_suppression.f90:503:16:
+
+  503 |          DO DY = -FIRE_LINE_THICKNESS, FIRE_LINE_THICKNESS
+      |                1
+Warning: Deleted feature: Start expression in DO loop at (1) must be integer
+../../source/elmfire_suppression.f90:503:38:
+
+  503 |          DO DY = -FIRE_LINE_THICKNESS, FIRE_LINE_THICKNESS
+      |                                      1
+Warning: Deleted feature: End expression in DO loop at (1) must be integer
+../../source/elmfire_suppression.f90:495:31:
+
+  495 |       SEARCH_NEIGHBORS: DO DX = -FIRE_LINE_THICKNESS, &
+      |                               1
+Warning: Deleted feature: Start expression in DO loop at (1) must be integer
+../../source/elmfire_suppression.f90:495:53:
+
+  495 |       SEARCH_NEIGHBORS: DO DX = -FIRE_LINE_THICKNESS, &
+      |                                                     1
+Warning: Deleted feature: End expression in DO loop at (1) must be integer
+  FC      ../../source/elmfire_spotting_superseded.f90
+  FC      ../../source/elmfire_calibration.f90
+  FC      ../../source/elmfire_level_set.f90
+  FC      ../../source/elmfire.f90
+  LD      elmfire
+FAST build: skipping gprof/block/perf/debug variants and elmfire_post

@@ -1,0 +1,7 @@
+quantity,n,p5,p25,p50,p75,p95,max
+heat flux at ignition (kW/m2),50118,2.0307,6.3357,13.119,23.167,49.215,29635
+flame-contact share of heat,50118,0.17704,0.68686,0.80928,0.87468,0.95102,1
+20-ft wind at ignition (mph),50118,18.019,22.331,26.723,28.881,32.734,37.638
+20-ft wind at ignition (m/s),50118,8.0544,9.9821,11.945,12.91,14.632,16.824
+accumulated ember load on cell (g/cm2),50118,1.2395e-14,4.7254e-10,6.9324e-08,1.9958e-06,1.6104e-05,0.00068128
+heat flux, cells never ignited, last value (kW/m2),15613,3.5352e-05,0.0011559,0.025461,0.17586,2.8356,30.888

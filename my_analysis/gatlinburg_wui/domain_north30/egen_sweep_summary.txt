@@ -1,0 +1,12 @@
+Forest ember-load threshold (DIFF_WILDLAND_IGNITION = .FALSE.), EMBER_GR_PER_MW_VEGE sweep, domain extended north,
+inputs_spot2 (no barriers, default CELL_IGNITION_DELAY), seeds 1-3, run_egen_sweep.sh, 2026-10-30.
+Result: every run (100, 300, 1000, 3000 g/MW; default 33.3) burned 25 ac in 16 h, 0 cells ignited by embers.
+Embers reached 175 cells (same cells for every value; source fire stays at the ignition area).
+Most embers in one cell: 2,203 (100 g/MW) / 66,093 (3000 g/MW).
+Why (elmfire_spotting.f90, PHYSICAL criterion, De Beer / UMD fit for PTW): ignition needs
+  PSI*(V+0.073)*(V-4.111)+0.211 < 0, PSI = embers/m2 * 0.2 g / 1e4, V = 20-ft wind * canopy reduction (median 0.081
+  in the ember cells, CROWN_RATIO 1.0) * 0.447. For 10-30 mph: V 0.36-1.09 m/s -> need 0.060-0.129 g/cm2
+  = 2.7-5.8 million embers per 30 m cell, 40-90 times more than the 3000 g/MW run delivered (~120,000+ g/MW needed).
+Conclusion: with the threshold rule forest never ignites from embers at any plausible generation rate, and without
+ember ignition the fire does not grow (surface spread alone 25 ac). Any-ember rule = far too much (~80,000 ac);
+threshold rule = none. Middle ground tested so far: receptive fraction (spread_reduction/step5_receptive*).

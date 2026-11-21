@@ -1,0 +1,7 @@
+case,locations,runs,buildings_mean,buildings_min,buildings_max,by_embers_mean,acres_mean
+WU-E, ST09 (baseline),all 5,50,1072.6,929,1289,0.00,24757
+Hamada (type 1), ST09,all 5,50,1509.1,1391,1578,0.00,39490
+WU-E, ST09 (baseline),observed,10,1043.1,1010,1060,0.00,26495
+WU-E, ST10,observed,10,1117.7,1087,1141,0.00,27337
+WU-E, ST11,observed,10,1163.7,1147,1180,0.00,27565
+WU-E, ST12,observed,10,1209.7,1196,1230,0.00,28727

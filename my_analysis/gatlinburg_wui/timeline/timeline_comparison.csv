@@ -1,0 +1,201 @@
+location,seed,place,model_arrival_10pct_road_h,model_first_cell_h,share_road_burned,observed_h
+observed,1,Twin Creeks,nan,nan,0.000,11.500
+observed,1,Park Vista,22.105,21.659,0.302,18.133
+observed,1,Gatlinburg Spur,13.296,13.059,0.547,19.000
+observed,1,Ski Mountain Rd,nan,nan,0.000,19.000
+observed,2,Twin Creeks,nan,nan,0.000,11.500
+observed,2,Park Vista,21.953,21.585,0.264,18.133
+observed,2,Gatlinburg Spur,14.652,14.481,0.547,19.000
+observed,2,Ski Mountain Rd,nan,26.558,0.015,19.000
+observed,3,Twin Creeks,nan,nan,0.000,11.500
+observed,3,Park Vista,23.818,21.666,0.321,18.133
+observed,3,Gatlinburg Spur,13.194,12.924,0.547,19.000
+observed,3,Ski Mountain Rd,nan,26.442,0.005,19.000
+observed,4,Twin Creeks,nan,nan,0.000,11.500
+observed,4,Park Vista,22.195,21.945,0.283,18.133
+observed,4,Gatlinburg Spur,13.235,12.964,0.547,19.000
+observed,4,Ski Mountain Rd,nan,26.360,0.020,19.000
+observed,5,Twin Creeks,26.688,26.688,0.125,11.500
+observed,5,Park Vista,22.229,21.636,0.340,18.133
+observed,5,Gatlinburg Spur,12.970,12.697,0.547,19.000
+observed,5,Ski Mountain Rd,nan,nan,0.000,19.000
+observed,6,Twin Creeks,nan,26.630,0.062,11.500
+observed,6,Park Vista,22.029,20.960,0.340,18.133
+observed,6,Gatlinburg Spur,12.863,12.551,0.547,19.000
+observed,6,Ski Mountain Rd,nan,nan,0.000,19.000
+observed,7,Twin Creeks,nan,nan,0.000,11.500
+observed,7,Park Vista,24.114,21.734,0.283,18.133
+observed,7,Gatlinburg Spur,12.915,12.559,0.547,19.000
+observed,7,Ski Mountain Rd,nan,nan,0.000,19.000
+observed,8,Twin Creeks,nan,nan,0.000,11.500
+observed,8,Park Vista,22.158,21.788,0.264,18.133
+observed,8,Gatlinburg Spur,14.675,14.471,0.547,19.000
+observed,8,Ski Mountain Rd,nan,26.499,0.005,19.000
+observed,9,Twin Creeks,nan,nan,0.000,11.500
+observed,9,Park Vista,22.002,21.605,0.321,18.133
+observed,9,Gatlinburg Spur,13.148,12.782,0.547,19.000
+observed,9,Ski Mountain Rd,nan,nan,0.000,19.000
+observed,10,Twin Creeks,nan,nan,0.000,11.500
+observed,10,Park Vista,22.150,21.874,0.302,18.133
+observed,10,Gatlinburg Spur,15.326,14.884,0.547,19.000
+observed,10,Ski Mountain Rd,nan,26.365,0.029,19.000
+N 1 km,1,Twin Creeks,nan,nan,0.000,11.500
+N 1 km,1,Park Vista,21.987,21.610,0.283,18.133
+N 1 km,1,Gatlinburg Spur,15.510,15.101,0.545,19.000
+N 1 km,1,Ski Mountain Rd,nan,26.577,0.015,19.000
+N 1 km,2,Twin Creeks,nan,26.688,0.031,11.500
+N 1 km,2,Park Vista,21.976,21.617,0.245,18.133
+N 1 km,2,Gatlinburg Spur,15.330,14.964,0.542,19.000
+N 1 km,2,Ski Mountain Rd,nan,26.302,0.015,19.000
+N 1 km,3,Twin Creeks,nan,nan,0.000,11.500
+N 1 km,3,Park Vista,21.976,21.635,0.321,18.133
+N 1 km,3,Gatlinburg Spur,15.334,14.972,0.547,19.000
+N 1 km,3,Ski Mountain Rd,nan,nan,0.000,19.000
+N 1 km,4,Twin Creeks,nan,nan,0.000,11.500
+N 1 km,4,Park Vista,23.830,21.748,0.245,18.133
+N 1 km,4,Gatlinburg Spur,15.317,14.958,0.547,19.000
+N 1 km,4,Ski Mountain Rd,nan,26.535,0.049,19.000
+N 1 km,5,Twin Creeks,nan,nan,0.000,11.500
+N 1 km,5,Park Vista,24.013,21.909,0.302,18.133
+N 1 km,5,Gatlinburg Spur,15.473,14.992,0.545,19.000
+N 1 km,5,Ski Mountain Rd,nan,26.456,0.010,19.000
+N 1 km,6,Twin Creeks,nan,nan,0.000,11.500
+N 1 km,6,Park Vista,21.965,21.632,0.321,18.133
+N 1 km,6,Gatlinburg Spur,15.351,14.993,0.545,19.000
+N 1 km,6,Ski Mountain Rd,nan,26.492,0.020,19.000
+N 1 km,7,Twin Creeks,nan,26.616,0.094,11.500
+N 1 km,7,Park Vista,22.224,21.573,0.245,18.133
+N 1 km,7,Gatlinburg Spur,15.285,14.959,0.543,19.000
+N 1 km,7,Ski Mountain Rd,nan,nan,0.000,19.000
+N 1 km,8,Twin Creeks,nan,nan,0.000,11.500
+N 1 km,8,Park Vista,22.137,21.592,0.283,18.133
+N 1 km,8,Gatlinburg Spur,15.402,15.008,0.543,19.000
+N 1 km,8,Ski Mountain Rd,nan,26.506,0.005,19.000
+N 1 km,9,Twin Creeks,nan,nan,0.000,11.500
+N 1 km,9,Park Vista,22.211,21.752,0.321,18.133
+N 1 km,9,Gatlinburg Spur,15.372,14.998,0.547,19.000
+N 1 km,9,Ski Mountain Rd,nan,26.407,0.010,19.000
+N 1 km,10,Twin Creeks,nan,nan,0.000,11.500
+N 1 km,10,Park Vista,21.945,21.634,0.283,18.133
+N 1 km,10,Gatlinburg Spur,15.282,14.976,0.545,19.000
+N 1 km,10,Ski Mountain Rd,nan,26.425,0.020,19.000
+S 1 km,1,Twin Creeks,12.160,12.121,0.938,11.500
+S 1 km,1,Park Vista,13.801,13.565,0.547,18.133
+S 1 km,1,Gatlinburg Spur,14.093,13.780,0.547,19.000
+S 1 km,1,Ski Mountain Rd,nan,26.318,0.010,19.000
+S 1 km,2,Twin Creeks,12.160,12.118,0.938,11.500
+S 1 km,2,Park Vista,13.663,13.476,0.509,18.133
+S 1 km,2,Gatlinburg Spur,14.104,13.738,0.547,19.000
+S 1 km,2,Ski Mountain Rd,nan,nan,0.000,19.000
+S 1 km,3,Twin Creeks,12.164,12.119,0.938,11.500
+S 1 km,3,Park Vista,13.421,13.277,0.528,18.133
+S 1 km,3,Gatlinburg Spur,13.909,13.450,0.547,19.000
+S 1 km,3,Ski Mountain Rd,nan,nan,0.000,19.000
+S 1 km,4,Twin Creeks,12.168,12.126,0.938,11.500
+S 1 km,4,Park Vista,13.339,13.253,0.547,18.133
+S 1 km,4,Gatlinburg Spur,13.920,13.339,0.547,19.000
+S 1 km,4,Ski Mountain Rd,nan,26.873,0.005,19.000
+S 1 km,5,Twin Creeks,12.192,12.150,0.938,11.500
+S 1 km,5,Park Vista,13.485,13.341,0.528,18.133
+S 1 km,5,Gatlinburg Spur,13.922,13.513,0.547,19.000
+S 1 km,5,Ski Mountain Rd,nan,26.805,0.010,19.000
+S 1 km,6,Twin Creeks,12.159,12.117,0.938,11.500
+S 1 km,6,Park Vista,13.441,13.297,0.509,18.133
+S 1 km,6,Gatlinburg Spur,13.877,13.470,0.547,19.000
+S 1 km,6,Ski Mountain Rd,nan,26.682,0.010,19.000
+S 1 km,7,Twin Creeks,12.163,12.114,0.938,11.500
+S 1 km,7,Park Vista,13.328,13.233,0.491,18.133
+S 1 km,7,Gatlinburg Spur,13.877,13.328,0.547,19.000
+S 1 km,7,Ski Mountain Rd,nan,nan,0.000,19.000
+S 1 km,8,Twin Creeks,12.166,12.124,0.938,11.500
+S 1 km,8,Park Vista,13.386,13.271,0.547,18.133
+S 1 km,8,Gatlinburg Spur,13.900,13.415,0.547,19.000
+S 1 km,8,Ski Mountain Rd,nan,26.702,0.010,19.000
+S 1 km,9,Twin Creeks,12.159,12.117,0.938,11.500
+S 1 km,9,Park Vista,13.486,13.328,0.509,18.133
+S 1 km,9,Gatlinburg Spur,13.987,13.486,0.547,19.000
+S 1 km,9,Ski Mountain Rd,nan,26.464,0.044,19.000
+S 1 km,10,Twin Creeks,12.167,12.125,0.938,11.500
+S 1 km,10,Park Vista,13.427,13.307,0.509,18.133
+S 1 km,10,Gatlinburg Spur,13.912,13.456,0.547,19.000
+S 1 km,10,Ski Mountain Rd,nan,nan,0.000,19.000
+E 1 km,1,Twin Creeks,nan,nan,0.000,11.500
+E 1 km,1,Park Vista,18.149,17.533,0.434,18.133
+E 1 km,1,Gatlinburg Spur,17.628,17.186,0.545,19.000
+E 1 km,1,Ski Mountain Rd,nan,26.415,0.025,19.000
+E 1 km,2,Twin Creeks,nan,26.643,0.031,11.500
+E 1 km,2,Park Vista,18.227,17.599,0.434,18.133
+E 1 km,2,Gatlinburg Spur,17.682,17.233,0.547,19.000
+E 1 km,2,Ski Mountain Rd,nan,nan,0.000,19.000
+E 1 km,3,Twin Creeks,nan,nan,0.000,11.500
+E 1 km,3,Park Vista,18.290,17.742,0.472,18.133
+E 1 km,3,Gatlinburg Spur,17.689,17.290,0.545,19.000
+E 1 km,3,Ski Mountain Rd,nan,26.379,0.010,19.000
+E 1 km,4,Twin Creeks,nan,nan,0.000,11.500
+E 1 km,4,Park Vista,18.239,17.610,0.491,18.133
+E 1 km,4,Gatlinburg Spur,17.706,17.178,0.547,19.000
+E 1 km,4,Ski Mountain Rd,nan,26.329,0.025,19.000
+E 1 km,5,Twin Creeks,nan,26.691,0.094,11.500
+E 1 km,5,Park Vista,18.211,17.609,0.528,18.133
+E 1 km,5,Gatlinburg Spur,17.686,17.224,0.534,19.000
+E 1 km,5,Ski Mountain Rd,nan,26.414,0.020,19.000
+E 1 km,6,Twin Creeks,nan,nan,0.000,11.500
+E 1 km,6,Park Vista,18.171,17.644,0.509,18.133
+E 1 km,6,Gatlinburg Spur,17.702,17.189,0.547,19.000
+E 1 km,6,Ski Mountain Rd,nan,26.425,0.010,19.000
+E 1 km,7,Twin Creeks,nan,nan,0.000,11.500
+E 1 km,7,Park Vista,18.202,17.602,0.434,18.133
+E 1 km,7,Gatlinburg Spur,17.679,17.231,0.547,19.000
+E 1 km,7,Ski Mountain Rd,nan,26.384,0.010,19.000
+E 1 km,8,Twin Creeks,nan,26.676,0.031,11.500
+E 1 km,8,Park Vista,18.269,17.628,0.415,18.133
+E 1 km,8,Gatlinburg Spur,17.723,17.226,0.545,19.000
+E 1 km,8,Ski Mountain Rd,nan,26.377,0.005,19.000
+E 1 km,9,Twin Creeks,nan,26.699,0.062,11.500
+E 1 km,9,Park Vista,18.173,17.619,0.472,18.133
+E 1 km,9,Gatlinburg Spur,17.664,17.203,0.545,19.000
+E 1 km,9,Ski Mountain Rd,nan,26.511,0.025,19.000
+E 1 km,10,Twin Creeks,nan,26.700,0.094,11.500
+E 1 km,10,Park Vista,18.245,17.707,0.509,18.133
+E 1 km,10,Gatlinburg Spur,17.688,17.285,0.543,19.000
+E 1 km,10,Ski Mountain Rd,nan,26.346,0.029,19.000
+W 1 km,1,Twin Creeks,26.593,26.593,0.125,11.500
+W 1 km,1,Park Vista,13.912,13.821,0.509,18.133
+W 1 km,1,Gatlinburg Spur,16.119,15.823,0.547,19.000
+W 1 km,1,Ski Mountain Rd,nan,nan,0.000,19.000
+W 1 km,2,Twin Creeks,nan,26.614,0.031,11.500
+W 1 km,2,Park Vista,13.967,13.855,0.509,18.133
+W 1 km,2,Gatlinburg Spur,16.111,15.843,0.547,19.000
+W 1 km,2,Ski Mountain Rd,nan,26.529,0.015,19.000
+W 1 km,3,Twin Creeks,nan,nan,0.000,11.500
+W 1 km,3,Park Vista,13.911,13.816,0.528,18.133
+W 1 km,3,Gatlinburg Spur,16.103,15.848,0.547,19.000
+W 1 km,3,Ski Mountain Rd,nan,26.434,0.005,19.000
+W 1 km,4,Twin Creeks,nan,nan,0.000,11.500
+W 1 km,4,Park Vista,13.973,13.674,0.509,18.133
+W 1 km,4,Gatlinburg Spur,16.087,15.816,0.547,19.000
+W 1 km,4,Ski Mountain Rd,nan,26.333,0.029,19.000
+W 1 km,5,Twin Creeks,nan,nan,0.000,11.500
+W 1 km,5,Park Vista,13.927,13.845,0.528,18.133
+W 1 km,5,Gatlinburg Spur,16.089,15.791,0.547,19.000
+W 1 km,5,Ski Mountain Rd,nan,26.398,0.015,19.000
+W 1 km,6,Twin Creeks,nan,nan,0.000,11.500
+W 1 km,6,Park Vista,13.886,13.806,0.547,18.133
+W 1 km,6,Gatlinburg Spur,16.165,15.844,0.547,19.000
+W 1 km,6,Ski Mountain Rd,nan,26.353,0.029,19.000
+W 1 km,7,Twin Creeks,nan,26.748,0.062,11.500
+W 1 km,7,Park Vista,13.887,13.807,0.491,18.133
+W 1 km,7,Gatlinburg Spur,16.100,15.826,0.547,19.000
+W 1 km,7,Ski Mountain Rd,nan,26.343,0.044,19.000
+W 1 km,8,Twin Creeks,nan,nan,0.000,11.500
+W 1 km,8,Park Vista,14.000,13.830,0.491,18.133
+W 1 km,8,Gatlinburg Spur,16.149,15.870,0.547,19.000
+W 1 km,8,Ski Mountain Rd,nan,nan,0.000,19.000
+W 1 km,9,Twin Creeks,nan,nan,0.000,11.500
+W 1 km,9,Park Vista,14.020,13.855,0.547,18.133
+W 1 km,9,Gatlinburg Spur,16.110,15.839,0.547,19.000
+W 1 km,9,Ski Mountain Rd,nan,26.366,0.059,19.000
+W 1 km,10,Twin Creeks,26.628,26.597,0.125,11.500
+W 1 km,10,Park Vista,13.946,13.820,0.528,18.133
+W 1 km,10,Gatlinburg Spur,16.124,15.845,0.547,19.000
+W 1 km,10,Ski Mountain Rd,nan,26.345,0.039,19.000

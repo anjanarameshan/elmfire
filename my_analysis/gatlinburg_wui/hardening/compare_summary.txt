@@ -1,0 +1,10 @@
+Ember ignition model comparison, observed spot point, 16 h (buildings counted from bldg_count of ignited cells)
+model     seed     acres    bldg in   bldg out   ember-ign in    ember share  ember-ign out
+H7        1        26560       1039       5856              0             0%              0
+H7        2        26268       1049       5785              0             0%              0
+H7        3        26661       1060       6001              0             0%              0
+H7        mean     26496       1049       5881              0             0%              0
+H10       1        26560       1039       5856              0             0%              0
+H10       2        26268       1049       5785              0             0%              0
+H10       3        26661       1060       6001              0             0%              0
+H10       mean     26496       1049       5881              0             0%              0

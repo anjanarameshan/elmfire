@@ -1,0 +1,73 @@
+&INPUTS
+FUELS_AND_TOPOGRAPHY_DIRECTORY = './inputs'
+LANDSCAPE_FILENAME             = 'landscape'
+ADJ_FILENAME                   = 'adj'
+PHI_FILENAME                   = 'phi'
+DT_METEOROLOGY                 = 3600.0
+WEATHER_DIRECTORY              = './inputs'
+WS_FILENAME                    = 'ws'
+WD_FILENAME                    = 'wd'
+M1_FILENAME                    = 'm1'
+M10_FILENAME                   = 'm10'
+M100_FILENAME                  = 'm100'
+USE_CONSTANT_LH                = .FALSE.
+MLH_FILENAME                   = 'lh'
+USE_CONSTANT_LW                = .FALSE.
+MLW_FILENAME                   = 'lw'
+/
+&OUTPUTS
+OUTPUTS_DIRECTORY      = './outputs'
+DTDUMP                 = 3600.
+DUMP_FLIN              = .TRUE.
+DUMP_FLAME_LENGTH      = .TRUE.
+DUMP_TIME_OF_ARRIVAL   = .TRUE.
+DUMP_SURFACE_FIRE      = .TRUE.
+DUMP_TRANSIENT_ACREAGE = .TRUE.
+DUMP_EMBER_FLUX        = .TRUE.
+ACCUMULATE_EMBER_FLUX  = .TRUE.
+CONVERT_TO_GEOTIFF     = .TRUE.
+/
+&TIME_CONTROL
+SIMULATION_DT    = 30.0
+TARGET_CFL       = 0.4
+SIMULATION_TSTOP = 57600
+/
+&SIMULATOR
+NUM_IGNITIONS = 0
+/
+&SPOTTING
+ENABLE_SPOTTING                          = .TRUE.
+USE_SUPERSEDED_SPOTTING                  = .TRUE.
+STOCHASTIC_SPOTTING                      = .TRUE.
+ENABLE_SURFACE_FIRE_SPOTTING             = .TRUE.
+SPOTTING_DISTRIBUTION_TYPE               = 'LOGNORMAL'
+CRITICAL_SPOTTING_FIRELINE_INTENSITY(:)  = 304*0.
+CROWN_FIRE_SPOTTING_PERCENT_MIN          = 100
+CROWN_FIRE_SPOTTING_PERCENT_MAX          = 100
+GLOBAL_SURFACE_FIRE_SPOTTING_PERCENT_MIN = 100
+GLOBAL_SURFACE_FIRE_SPOTTING_PERCENT_MAX = 100
+NEMBERS_MIN                              = 1
+NEMBERS_MAX_LO                           = 5
+NEMBERS_MAX_HI                           = 5
+MEAN_SPOTTING_DIST_MIN                   = 5.0
+MEAN_SPOTTING_DIST_MAX                   = 10.0
+NORMALIZED_SPOTTING_DIST_VARIANCE_MIN    = 250.0
+NORMALIZED_SPOTTING_DIST_VARIANCE_MAX    = 600.0
+SPOT_WS_EXP_LO                           = 0.4
+SPOT_WS_EXP_HI                           = 0.7
+SPOT_FLIN_EXP_LO                         = 0.2
+SPOT_FLIN_EXP_HI                         = 0.4
+PIGN_MIN                                 = 100.0
+PIGN_MAX                                 = 100.0
+/
+&WUI
+USE_BLDG_SPREAD_MODEL = .FALSE.
+/
+&MISCELLANEOUS
+MISCELLANEOUS_INPUTS_DIRECTORY = './inputs'
+PATH_TO_GDAL                   = 'auto'
+SCRATCH                        = './scratch'
+/
+&MONTE_CARLO
+SEED = 1
+/

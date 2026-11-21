@@ -1,0 +1,33 @@
+Settings unchanged - reusing ./fuel/chimneytops2016.tar
+Spotting: ON (spotting.in) - ignition prob 100 %, cells spotting 100 %, min intensity 0 kW/m
+Fuel map: /home/anjana/elmfire-1/my_analysis/fuel-test/lf2016_full/fbfm40_lf2016_complete.tif
+Spread-rate adjustment factor (adj): 1
+Leaf-off canopy cover factor: 1.0 (fuel models 182 186 189)
+hour  0 Sat 26 14:00 EST | Chimney Tops   6.2 mph from 312 deg, gust  12.7 mph | Gatlinburg   3.9 mph from  10 deg, gust   6.9 mph   [analysis (wrfprs, 10 m wind read past truncated .idx)]
+Traceback (most recent call last):
+  File "/home/anjana/elmfire-1/my_analysis/hrrr_winds.py", line 213, in <module>
+    main()
+    ~~~~^^
+  File "/home/anjana/elmfire-1/my_analysis/hrrr_winds.py", line 159, in main
+    u, v, g, lat, lon, source = get_hour(t)
+                                ~~~~~~~~^^^
+  File "/home/anjana/elmfire-1/my_analysis/hrrr_winds.py", line 96, in get_hour
+    u, v, lat, lon, rel = scan_10m_wind(H)
+                          ~~~~~~~~~~~~~^^^
+  File "/home/anjana/elmfire-1/my_analysis/hrrr_winds.py", line 64, in scan_10m_wind
+    data = urllib.request.urlopen(req, timeout=300).read()
+  File "/usr/lib/python3.14/http/client.py", line 500, in read
+    s = self._safe_read(self.length)
+  File "/usr/lib/python3.14/http/client.py", line 660, in _safe_read
+    data.write(self.fp.read(delta))
+               ~~~~~~~~~~~~^^^^^^^
+  File "/usr/lib/python3.14/socket.py", line 725, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "/usr/lib/python3.14/ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TimeoutError: The read operation timed out

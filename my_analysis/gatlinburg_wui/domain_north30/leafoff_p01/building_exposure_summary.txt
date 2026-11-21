@@ -1,0 +1,7 @@
+Building exposure, domain_north30/leafoff_p01/spot2 (3 seeds); buildings with centroid in MTBS: 1614, labelled 1388 (burned 404, survived 984)
+Model-lost (P >= 2/3): 738 buildings of 1388 labelled
+Observed burned that the model loses (P >= 2/3): 46 %; never reached (P = 0): 45 %
+Observed survived that the model loses (false alarm): 56 %
+AUC P(lost) 0.45; AUC ember load 0.52 (0.5 = no skill)
+Median ember load (embers/m2): burned 2.13e-08, survived 2.18e-08
+Observed burned share by model P(lost): P=0.00: 0.34 (n=532), P=0.33: 0.31 (n=118), P=0.67: 0.27 (n=224), P=1.00: 0.25 (n=514)

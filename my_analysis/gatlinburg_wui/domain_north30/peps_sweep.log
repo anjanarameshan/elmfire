@@ -1,0 +1,16 @@
+ground fire only seed 1: 25 ac at 16 h
+P_EPS 0.01 threshold 0.0003 seed 1: 1592 ac at 16 h
+P_EPS 0.01 threshold 0.0005 seed 1: 1561 ac at 16 h
+P_EPS 0.01 threshold 0.00001 seed 1: 1839 ac at 16 h
+P_EPS 0.01 threshold 0.0003 seed 2: 622 ac at 16 h
+P_EPS 0.01 threshold 0.001 seed 1: 1897 ac at 16 h
+P_EPS 0.01 threshold 0.0005 seed 2: 445 ac at 16 h
+P_EPS 0.01 threshold 0.0001 seed 1: 1626 ac at 16 h
+P_EPS 0.01 threshold 0.00001 seed 2: 922 ac at 16 h
+P_EPS 0.01 threshold 0.001 seed 2: 471 ac at 16 h
+P_EPS 0.01 threshold 0.0003 seed 3: 1613 ac at 16 h
+P_EPS 0.01 threshold 0.0001 seed 2: 1084 ac at 16 h
+P_EPS 0.01 threshold 0.0005 seed 3: 1666 ac at 16 h
+P_EPS 0.01 threshold 0.00001 seed 3: 1773 ac at 16 h
+P_EPS 0.01 threshold 0.001 seed 3: 1700 ac at 16 h
+P_EPS 0.01 threshold 0.0001 seed 3: 1795 ac at 16 h
