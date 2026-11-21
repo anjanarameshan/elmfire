@@ -1,0 +1,3 @@
+scripts/run_wui_case.sh: line 124: {ELMFIRE_EXE:-elmfire_1.1}: command not found
+ELMFIRE exit code 127
+seed 9 finished in 4 min

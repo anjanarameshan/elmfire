@@ -1,0 +1,334 @@
+2026-10-13T07:29:57Z start: 48 files to download (18.7 GB), 4 workers
+2026-10-13T07:34:21Z retry 1 hrrr.20161127/conus/hrrr.t13z.wrfprsf00.grib2: The read operation timed out
+2026-10-13T07:34:22Z retry 1 hrrr.20161127/conus/hrrr.t12z.wrfprsf00.grib2: The read operation timed out
+2026-10-13T07:34:25Z retry 1 hrrr.20161127/conus/hrrr.t14z.wrfprsf00.grib2: The read operation timed out
+2026-10-13T07:34:29Z retry 1 hrrr.20161127/conus/hrrr.t15z.wrfprsf00.grib2: The read operation timed out
+2026-10-13T07:34:45Z retry 2 hrrr.20161127/conus/hrrr.t13z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:34:45Z retry 2 hrrr.20161127/conus/hrrr.t12z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:35:15Z retry 3 hrrr.20161127/conus/hrrr.t13z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:35:15Z retry 3 hrrr.20161127/conus/hrrr.t12z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:36:40Z retry 2 hrrr.20161127/conus/hrrr.t15z.wrfprsf00.grib2: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-10-13T07:37:45Z retry 4 hrrr.20161127/conus/hrrr.t13z.wrfprsf00.grib2: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-10-13T07:37:45Z retry 4 hrrr.20161127/conus/hrrr.t12z.wrfprsf00.grib2: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-10-13T07:38:44Z retry 2 hrrr.20161127/conus/hrrr.t14z.wrfprsf00.grib2: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-10-13T07:49:15Z retry 3 hrrr.20161127/conus/hrrr.t15z.wrfprsf00.grib2: <urlopen error [Errno 113] No route to host>
+2026-10-13T07:49:45Z retry 4 hrrr.20161127/conus/hrrr.t15z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:49:45Z retry 3 hrrr.20161127/conus/hrrr.t14z.wrfprsf00.grib2: <urlopen error timed out>
+2026-10-13T07:50:15Z retry 4 hrrr.20161127/conus/hrrr.t14z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:50:31Z retry 5 hrrr.20161127/conus/hrrr.t13z.wrfprsf00.grib2: <urlopen error [Errno 113] No route to host>
+2026-10-13T07:50:34Z retry 5 hrrr.20161127/conus/hrrr.t12z.wrfprsf00.grib2: <urlopen error [Errno 113] No route to host>
+2026-10-13T07:50:35Z retry 5 hrrr.20161127/conus/hrrr.t15z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:51:05Z retry 5 hrrr.20161127/conus/hrrr.t14z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:51:41Z retry 6 hrrr.20161127/conus/hrrr.t13z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:51:44Z retry 6 hrrr.20161127/conus/hrrr.t12z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:51:45Z retry 6 hrrr.20161127/conus/hrrr.t15z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:52:15Z retry 6 hrrr.20161127/conus/hrrr.t14z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:52:51Z retry 7 hrrr.20161127/conus/hrrr.t13z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:52:54Z retry 7 hrrr.20161127/conus/hrrr.t12z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:52:55Z retry 7 hrrr.20161127/conus/hrrr.t15z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:53:25Z retry 7 hrrr.20161127/conus/hrrr.t14z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:54:01Z retry 8 hrrr.20161127/conus/hrrr.t13z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:54:04Z retry 8 hrrr.20161127/conus/hrrr.t12z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:54:05Z retry 8 hrrr.20161127/conus/hrrr.t15z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:54:35Z retry 8 hrrr.20161127/conus/hrrr.t14z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:55:11Z retry 9 hrrr.20161127/conus/hrrr.t13z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:55:14Z retry 9 hrrr.20161127/conus/hrrr.t12z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:55:15Z retry 9 hrrr.20161127/conus/hrrr.t15z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:55:45Z retry 9 hrrr.20161127/conus/hrrr.t14z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:56:21Z retry 10 hrrr.20161127/conus/hrrr.t13z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:56:24Z retry 10 hrrr.20161127/conus/hrrr.t12z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:56:25Z retry 10 hrrr.20161127/conus/hrrr.t15z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:56:55Z retry 10 hrrr.20161127/conus/hrrr.t14z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:57:31Z retry 11 hrrr.20161127/conus/hrrr.t13z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:57:34Z retry 11 hrrr.20161127/conus/hrrr.t12z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:57:35Z retry 11 hrrr.20161127/conus/hrrr.t15z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:58:05Z retry 11 hrrr.20161127/conus/hrrr.t14z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:58:41Z retry 12 hrrr.20161127/conus/hrrr.t13z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:58:44Z retry 12 hrrr.20161127/conus/hrrr.t12z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:58:45Z retry 12 hrrr.20161127/conus/hrrr.t15z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:59:15Z retry 12 hrrr.20161127/conus/hrrr.t14z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:59:41Z FAIL hrrr.20161127/conus/hrrr.t13z.wrfprsf00.grib2 after 12 attempts: <urlopen error [Errno -3] Temporary failure in name resolution> (partial file kept for resume)
+2026-10-13T07:59:44Z FAIL hrrr.20161127/conus/hrrr.t12z.wrfprsf00.grib2 after 12 attempts: <urlopen error [Errno -3] Temporary failure in name resolution> (partial file kept for resume)
+2026-10-13T07:59:45Z FAIL hrrr.20161127/conus/hrrr.t15z.wrfprsf00.grib2 after 12 attempts: <urlopen error [Errno -3] Temporary failure in name resolution> (partial file kept for resume)
+2026-10-13T07:59:51Z retry 1 hrrr.20161127/conus/hrrr.t16z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:59:54Z retry 1 hrrr.20161127/conus/hrrr.t17z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T07:59:55Z retry 1 hrrr.20161127/conus/hrrr.t18z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:00:06Z retry 2 hrrr.20161127/conus/hrrr.t16z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:00:09Z retry 2 hrrr.20161127/conus/hrrr.t17z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:00:10Z retry 2 hrrr.20161127/conus/hrrr.t18z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:00:15Z FAIL hrrr.20161127/conus/hrrr.t14z.wrfprsf00.grib2 after 12 attempts: <urlopen error [Errno -3] Temporary failure in name resolution> (partial file kept for resume)
+2026-10-13T08:00:25Z retry 1 hrrr.20161127/conus/hrrr.t19z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:00:26Z retry 3 hrrr.20161127/conus/hrrr.t16z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:00:29Z retry 3 hrrr.20161127/conus/hrrr.t17z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:00:30Z retry 3 hrrr.20161127/conus/hrrr.t18z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:00:40Z retry 2 hrrr.20161127/conus/hrrr.t19z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:00:56Z retry 4 hrrr.20161127/conus/hrrr.t16z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:00:59Z retry 4 hrrr.20161127/conus/hrrr.t17z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:01:00Z retry 4 hrrr.20161127/conus/hrrr.t18z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:01:00Z retry 3 hrrr.20161127/conus/hrrr.t19z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:01:30Z retry 4 hrrr.20161127/conus/hrrr.t19z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:01:46Z retry 5 hrrr.20161127/conus/hrrr.t16z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:01:49Z retry 5 hrrr.20161127/conus/hrrr.t17z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:01:50Z retry 5 hrrr.20161127/conus/hrrr.t18z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:02:20Z retry 5 hrrr.20161127/conus/hrrr.t19z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:02:56Z retry 6 hrrr.20161127/conus/hrrr.t16z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:02:59Z retry 6 hrrr.20161127/conus/hrrr.t17z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:03:00Z retry 6 hrrr.20161127/conus/hrrr.t18z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:03:30Z retry 6 hrrr.20161127/conus/hrrr.t19z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:04:06Z retry 7 hrrr.20161127/conus/hrrr.t16z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:04:09Z retry 7 hrrr.20161127/conus/hrrr.t17z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:04:10Z retry 7 hrrr.20161127/conus/hrrr.t18z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:04:40Z retry 7 hrrr.20161127/conus/hrrr.t19z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:05:16Z retry 8 hrrr.20161127/conus/hrrr.t16z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:05:19Z retry 8 hrrr.20161127/conus/hrrr.t17z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:05:20Z retry 8 hrrr.20161127/conus/hrrr.t18z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:05:50Z retry 8 hrrr.20161127/conus/hrrr.t19z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:06:26Z retry 9 hrrr.20161127/conus/hrrr.t16z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:06:29Z retry 9 hrrr.20161127/conus/hrrr.t17z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:06:30Z retry 9 hrrr.20161127/conus/hrrr.t18z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:07:00Z retry 9 hrrr.20161127/conus/hrrr.t19z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:07:36Z retry 10 hrrr.20161127/conus/hrrr.t16z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:07:39Z retry 10 hrrr.20161127/conus/hrrr.t17z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:07:40Z retry 10 hrrr.20161127/conus/hrrr.t18z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:08:10Z retry 10 hrrr.20161127/conus/hrrr.t19z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:08:46Z retry 11 hrrr.20161127/conus/hrrr.t16z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:08:49Z retry 11 hrrr.20161127/conus/hrrr.t17z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:08:50Z retry 11 hrrr.20161127/conus/hrrr.t18z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:09:20Z retry 11 hrrr.20161127/conus/hrrr.t19z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:09:56Z retry 12 hrrr.20161127/conus/hrrr.t16z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:09:59Z retry 12 hrrr.20161127/conus/hrrr.t17z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:10:00Z retry 12 hrrr.20161127/conus/hrrr.t18z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:10:30Z retry 12 hrrr.20161127/conus/hrrr.t19z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:10:56Z FAIL hrrr.20161127/conus/hrrr.t16z.wrfprsf00.grib2 after 12 attempts: <urlopen error [Errno -3] Temporary failure in name resolution> (partial file kept for resume)
+2026-10-13T08:10:59Z FAIL hrrr.20161127/conus/hrrr.t17z.wrfprsf00.grib2 after 12 attempts: <urlopen error [Errno -3] Temporary failure in name resolution> (partial file kept for resume)
+2026-10-13T08:11:00Z FAIL hrrr.20161127/conus/hrrr.t18z.wrfprsf00.grib2 after 12 attempts: <urlopen error [Errno -3] Temporary failure in name resolution> (partial file kept for resume)
+2026-10-13T08:11:06Z retry 1 hrrr.20161127/conus/hrrr.t20z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:11:09Z retry 1 hrrr.20161127/conus/hrrr.t21z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:11:10Z retry 1 hrrr.20161127/conus/hrrr.t22z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:11:21Z retry 2 hrrr.20161127/conus/hrrr.t20z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:11:24Z retry 2 hrrr.20161127/conus/hrrr.t21z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:11:25Z retry 2 hrrr.20161127/conus/hrrr.t22z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:11:30Z FAIL hrrr.20161127/conus/hrrr.t19z.wrfprsf00.grib2 after 12 attempts: <urlopen error [Errno -3] Temporary failure in name resolution> (partial file kept for resume)
+2026-10-13T08:11:40Z retry 1 hrrr.20161127/conus/hrrr.t23z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:11:41Z retry 3 hrrr.20161127/conus/hrrr.t20z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:11:44Z retry 3 hrrr.20161127/conus/hrrr.t21z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:11:45Z retry 3 hrrr.20161127/conus/hrrr.t22z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:11:55Z retry 2 hrrr.20161127/conus/hrrr.t23z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:12:11Z retry 4 hrrr.20161127/conus/hrrr.t20z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:12:14Z retry 4 hrrr.20161127/conus/hrrr.t21z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:12:15Z retry 4 hrrr.20161127/conus/hrrr.t22z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:12:16Z retry 3 hrrr.20161127/conus/hrrr.t23z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:12:46Z retry 4 hrrr.20161127/conus/hrrr.t23z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:13:01Z retry 5 hrrr.20161127/conus/hrrr.t20z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:13:04Z retry 5 hrrr.20161127/conus/hrrr.t21z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:13:05Z retry 5 hrrr.20161127/conus/hrrr.t22z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:13:36Z retry 5 hrrr.20161127/conus/hrrr.t23z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:14:11Z retry 6 hrrr.20161127/conus/hrrr.t20z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:14:14Z retry 6 hrrr.20161127/conus/hrrr.t21z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:14:15Z retry 6 hrrr.20161127/conus/hrrr.t22z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:14:46Z retry 6 hrrr.20161127/conus/hrrr.t23z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:15:21Z retry 7 hrrr.20161127/conus/hrrr.t20z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:15:24Z retry 7 hrrr.20161127/conus/hrrr.t21z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:15:25Z retry 7 hrrr.20161127/conus/hrrr.t22z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:15:56Z retry 7 hrrr.20161127/conus/hrrr.t23z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:16:31Z retry 8 hrrr.20161127/conus/hrrr.t20z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:16:34Z retry 8 hrrr.20161127/conus/hrrr.t21z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:16:35Z retry 8 hrrr.20161127/conus/hrrr.t22z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:17:06Z retry 8 hrrr.20161127/conus/hrrr.t23z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:17:41Z retry 9 hrrr.20161127/conus/hrrr.t20z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:17:44Z retry 9 hrrr.20161127/conus/hrrr.t21z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:17:45Z retry 9 hrrr.20161127/conus/hrrr.t22z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:18:16Z retry 9 hrrr.20161127/conus/hrrr.t23z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:18:51Z retry 10 hrrr.20161127/conus/hrrr.t20z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:18:54Z retry 10 hrrr.20161127/conus/hrrr.t21z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:18:55Z retry 10 hrrr.20161127/conus/hrrr.t22z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:19:26Z retry 10 hrrr.20161127/conus/hrrr.t23z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:20:01Z retry 11 hrrr.20161127/conus/hrrr.t20z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:20:04Z retry 11 hrrr.20161127/conus/hrrr.t21z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:20:05Z retry 11 hrrr.20161127/conus/hrrr.t22z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:20:36Z retry 11 hrrr.20161127/conus/hrrr.t23z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:21:11Z retry 12 hrrr.20161127/conus/hrrr.t20z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:21:14Z retry 12 hrrr.20161127/conus/hrrr.t21z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:21:15Z retry 12 hrrr.20161127/conus/hrrr.t22z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:21:46Z retry 12 hrrr.20161127/conus/hrrr.t23z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:22:11Z FAIL hrrr.20161127/conus/hrrr.t20z.wrfprsf00.grib2 after 12 attempts: <urlopen error [Errno -3] Temporary failure in name resolution> (partial file kept for resume)
+2026-10-13T08:22:14Z FAIL hrrr.20161127/conus/hrrr.t21z.wrfprsf00.grib2 after 12 attempts: <urlopen error [Errno -3] Temporary failure in name resolution> (partial file kept for resume)
+2026-10-13T08:22:15Z FAIL hrrr.20161127/conus/hrrr.t22z.wrfprsf00.grib2 after 12 attempts: <urlopen error [Errno -3] Temporary failure in name resolution> (partial file kept for resume)
+2026-10-13T08:22:21Z retry 1 hrrr.20161128/conus/hrrr.t00z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:22:24Z retry 1 hrrr.20161128/conus/hrrr.t01z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:22:25Z retry 1 hrrr.20161128/conus/hrrr.t02z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:22:36Z retry 2 hrrr.20161128/conus/hrrr.t00z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:22:39Z retry 2 hrrr.20161128/conus/hrrr.t01z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:22:40Z retry 2 hrrr.20161128/conus/hrrr.t02z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:22:46Z FAIL hrrr.20161127/conus/hrrr.t23z.wrfprsf00.grib2 after 12 attempts: <urlopen error [Errno -3] Temporary failure in name resolution> (partial file kept for resume)
+2026-10-13T08:22:56Z retry 1 hrrr.20161128/conus/hrrr.t03z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:22:56Z retry 3 hrrr.20161128/conus/hrrr.t00z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:22:59Z retry 3 hrrr.20161128/conus/hrrr.t01z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:23:00Z retry 3 hrrr.20161128/conus/hrrr.t02z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:23:11Z retry 2 hrrr.20161128/conus/hrrr.t03z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:23:26Z retry 4 hrrr.20161128/conus/hrrr.t00z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:23:29Z retry 4 hrrr.20161128/conus/hrrr.t01z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:23:30Z retry 4 hrrr.20161128/conus/hrrr.t02z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:23:31Z retry 3 hrrr.20161128/conus/hrrr.t03z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:24:01Z retry 4 hrrr.20161128/conus/hrrr.t03z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:24:16Z retry 5 hrrr.20161128/conus/hrrr.t00z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:24:19Z retry 5 hrrr.20161128/conus/hrrr.t01z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:24:20Z retry 5 hrrr.20161128/conus/hrrr.t02z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:24:51Z retry 5 hrrr.20161128/conus/hrrr.t03z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:25:26Z retry 6 hrrr.20161128/conus/hrrr.t00z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:25:29Z retry 6 hrrr.20161128/conus/hrrr.t01z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:25:30Z retry 6 hrrr.20161128/conus/hrrr.t02z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:26:01Z retry 6 hrrr.20161128/conus/hrrr.t03z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:26:36Z retry 7 hrrr.20161128/conus/hrrr.t00z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:26:39Z retry 7 hrrr.20161128/conus/hrrr.t01z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:26:40Z retry 7 hrrr.20161128/conus/hrrr.t02z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:27:11Z retry 7 hrrr.20161128/conus/hrrr.t03z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:27:46Z retry 8 hrrr.20161128/conus/hrrr.t00z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:27:49Z retry 8 hrrr.20161128/conus/hrrr.t01z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:27:50Z retry 8 hrrr.20161128/conus/hrrr.t02z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:28:21Z retry 8 hrrr.20161128/conus/hrrr.t03z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:28:56Z retry 9 hrrr.20161128/conus/hrrr.t00z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:28:59Z retry 9 hrrr.20161128/conus/hrrr.t01z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:29:00Z retry 9 hrrr.20161128/conus/hrrr.t02z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:29:31Z retry 9 hrrr.20161128/conus/hrrr.t03z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:30:06Z retry 10 hrrr.20161128/conus/hrrr.t00z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:30:09Z retry 10 hrrr.20161128/conus/hrrr.t01z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:30:10Z retry 10 hrrr.20161128/conus/hrrr.t02z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:30:41Z retry 10 hrrr.20161128/conus/hrrr.t03z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:31:16Z retry 11 hrrr.20161128/conus/hrrr.t00z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:31:19Z retry 11 hrrr.20161128/conus/hrrr.t01z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:31:20Z retry 11 hrrr.20161128/conus/hrrr.t02z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:31:51Z retry 11 hrrr.20161128/conus/hrrr.t03z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:32:26Z retry 12 hrrr.20161128/conus/hrrr.t00z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:32:29Z retry 12 hrrr.20161128/conus/hrrr.t01z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:32:30Z retry 12 hrrr.20161128/conus/hrrr.t02z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:33:01Z retry 12 hrrr.20161128/conus/hrrr.t03z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:33:26Z FAIL hrrr.20161128/conus/hrrr.t00z.wrfprsf00.grib2 after 12 attempts: <urlopen error [Errno -3] Temporary failure in name resolution> (partial file kept for resume)
+2026-10-13T08:33:29Z FAIL hrrr.20161128/conus/hrrr.t01z.wrfprsf00.grib2 after 12 attempts: <urlopen error [Errno -3] Temporary failure in name resolution> (partial file kept for resume)
+2026-10-13T08:33:30Z FAIL hrrr.20161128/conus/hrrr.t02z.wrfprsf00.grib2 after 12 attempts: <urlopen error [Errno -3] Temporary failure in name resolution> (partial file kept for resume)
+2026-10-13T08:33:36Z retry 1 hrrr.20161128/conus/hrrr.t04z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:33:39Z retry 1 hrrr.20161128/conus/hrrr.t05z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:33:40Z retry 1 hrrr.20161128/conus/hrrr.t06z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:33:51Z retry 2 hrrr.20161128/conus/hrrr.t04z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:33:54Z retry 2 hrrr.20161128/conus/hrrr.t05z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:33:55Z retry 2 hrrr.20161128/conus/hrrr.t06z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:34:01Z FAIL hrrr.20161128/conus/hrrr.t03z.wrfprsf00.grib2 after 12 attempts: <urlopen error [Errno -3] Temporary failure in name resolution> (partial file kept for resume)
+2026-10-13T08:34:11Z retry 1 hrrr.20161128/conus/hrrr.t07z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:34:11Z retry 3 hrrr.20161128/conus/hrrr.t04z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:34:14Z retry 3 hrrr.20161128/conus/hrrr.t05z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:34:15Z retry 3 hrrr.20161128/conus/hrrr.t06z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:34:26Z retry 2 hrrr.20161128/conus/hrrr.t07z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:34:41Z retry 4 hrrr.20161128/conus/hrrr.t04z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:34:44Z retry 4 hrrr.20161128/conus/hrrr.t05z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:34:45Z retry 4 hrrr.20161128/conus/hrrr.t06z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:34:46Z retry 3 hrrr.20161128/conus/hrrr.t07z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:35:16Z retry 4 hrrr.20161128/conus/hrrr.t07z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:35:31Z retry 5 hrrr.20161128/conus/hrrr.t04z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:35:34Z retry 5 hrrr.20161128/conus/hrrr.t05z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:35:35Z retry 5 hrrr.20161128/conus/hrrr.t06z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:36:06Z retry 5 hrrr.20161128/conus/hrrr.t07z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:36:41Z retry 6 hrrr.20161128/conus/hrrr.t04z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:36:44Z retry 6 hrrr.20161128/conus/hrrr.t05z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:36:45Z retry 6 hrrr.20161128/conus/hrrr.t06z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:37:16Z retry 6 hrrr.20161128/conus/hrrr.t07z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:37:51Z retry 7 hrrr.20161128/conus/hrrr.t04z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:37:54Z retry 7 hrrr.20161128/conus/hrrr.t05z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:37:55Z retry 7 hrrr.20161128/conus/hrrr.t06z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:38:26Z retry 7 hrrr.20161128/conus/hrrr.t07z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:39:01Z retry 8 hrrr.20161128/conus/hrrr.t04z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:39:04Z retry 8 hrrr.20161128/conus/hrrr.t05z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:39:05Z retry 8 hrrr.20161128/conus/hrrr.t06z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:39:36Z retry 8 hrrr.20161128/conus/hrrr.t07z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:40:11Z retry 9 hrrr.20161128/conus/hrrr.t04z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:40:14Z retry 9 hrrr.20161128/conus/hrrr.t05z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:40:15Z retry 9 hrrr.20161128/conus/hrrr.t06z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:40:46Z retry 9 hrrr.20161128/conus/hrrr.t07z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:41:21Z retry 10 hrrr.20161128/conus/hrrr.t04z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:41:24Z retry 10 hrrr.20161128/conus/hrrr.t05z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:41:25Z retry 10 hrrr.20161128/conus/hrrr.t06z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:41:56Z retry 10 hrrr.20161128/conus/hrrr.t07z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:42:31Z retry 11 hrrr.20161128/conus/hrrr.t04z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:42:34Z retry 11 hrrr.20161128/conus/hrrr.t05z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:42:35Z retry 11 hrrr.20161128/conus/hrrr.t06z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:43:06Z retry 11 hrrr.20161128/conus/hrrr.t07z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:43:41Z retry 12 hrrr.20161128/conus/hrrr.t04z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:43:44Z retry 12 hrrr.20161128/conus/hrrr.t05z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:43:45Z retry 12 hrrr.20161128/conus/hrrr.t06z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:44:16Z retry 12 hrrr.20161128/conus/hrrr.t07z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:44:41Z FAIL hrrr.20161128/conus/hrrr.t04z.wrfprsf00.grib2 after 12 attempts: <urlopen error [Errno -3] Temporary failure in name resolution> (partial file kept for resume)
+2026-10-13T08:44:44Z FAIL hrrr.20161128/conus/hrrr.t05z.wrfprsf00.grib2 after 12 attempts: <urlopen error [Errno -3] Temporary failure in name resolution> (partial file kept for resume)
+2026-10-13T08:44:45Z FAIL hrrr.20161128/conus/hrrr.t06z.wrfprsf00.grib2 after 12 attempts: <urlopen error [Errno -3] Temporary failure in name resolution> (partial file kept for resume)
+2026-10-13T08:44:51Z retry 1 hrrr.20161128/conus/hrrr.t08z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:44:54Z retry 1 hrrr.20161128/conus/hrrr.t09z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:44:55Z retry 1 hrrr.20161128/conus/hrrr.t10z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:45:06Z retry 2 hrrr.20161128/conus/hrrr.t08z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:45:09Z retry 2 hrrr.20161128/conus/hrrr.t09z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:45:10Z retry 2 hrrr.20161128/conus/hrrr.t10z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:45:16Z FAIL hrrr.20161128/conus/hrrr.t07z.wrfprsf00.grib2 after 12 attempts: <urlopen error [Errno -3] Temporary failure in name resolution> (partial file kept for resume)
+2026-10-13T08:45:26Z retry 1 hrrr.20161128/conus/hrrr.t11z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:45:26Z retry 3 hrrr.20161128/conus/hrrr.t08z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:45:29Z retry 3 hrrr.20161128/conus/hrrr.t09z.wrfprsf00.grib2: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-10-13T08:47:39Z retry 2 hrrr.20161128/conus/hrrr.t11z.wrfprsf00.grib2: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-10-13T08:48:12Z retry 4 hrrr.20161128/conus/hrrr.t09z.wrfprsf00.grib2: The read operation timed out
+2026-10-13T08:49:20Z retry 3 hrrr.20161128/conus/hrrr.t10z.wrfprsf00.grib2: The read operation timed out
+2026-10-13T08:51:28Z start: 48 files to download (18.7 GB), 4 workers
+2026-10-13T08:53:28Z retry 1 hrrr.20161127/conus/hrrr.t13z.wrfprsf00.grib2: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-10-13T08:53:28Z retry 1 hrrr.20161127/conus/hrrr.t12z.wrfprsf00.grib2: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-10-13T08:53:28Z retry 1 hrrr.20161127/conus/hrrr.t14z.wrfprsf00.grib2: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-10-13T08:53:28Z retry 1 hrrr.20161127/conus/hrrr.t15z.wrfprsf00.grib2: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-10-13T08:57:08Z retry 2 hrrr.20161127/conus/hrrr.t15z.wrfprsf00.grib2: The read operation timed out
+2026-10-13T08:58:21Z retry 2 hrrr.20161127/conus/hrrr.t12z.wrfprsf00.grib2: The read operation timed out
+2026-10-13T08:59:02Z retry 2 hrrr.20161127/conus/hrrr.t14z.wrfprsf00.grib2: The read operation timed out
+2026-10-13T08:59:29Z retry 2 hrrr.20161127/conus/hrrr.t13z.wrfprsf00.grib2: The read operation timed out
+2026-10-13T09:00:42Z retry 3 hrrr.20161127/conus/hrrr.t12z.wrfprsf00.grib2: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-10-13T09:06:15Z retry 4 hrrr.20161127/conus/hrrr.t12z.wrfprsf00.grib2: The read operation timed out
+2026-10-13T09:20:20Z OK   hrrr.20161127/conus/hrrr.t13z.wrfprsf00.grib2  383 MB  684 msgs
+2026-10-13T09:21:19Z OK   hrrr.20161127/conus/hrrr.t12z.wrfprsf00.grib2  380 MB  684 msgs
+2026-10-13T09:22:30Z OK   hrrr.20161127/conus/hrrr.t15z.wrfprsf00.grib2  387 MB  684 msgs
+2026-10-13T09:30:00Z OK   hrrr.20161127/conus/hrrr.t14z.wrfprsf00.grib2  383 MB  684 msgs
+2026-10-13T09:52:01Z OK   hrrr.20161127/conus/hrrr.t16z.wrfprsf00.grib2  388 MB  684 msgs
+2026-10-13T09:53:15Z OK   hrrr.20161127/conus/hrrr.t17z.wrfprsf00.grib2  392 MB  684 msgs
+2026-10-13T09:54:19Z OK   hrrr.20161127/conus/hrrr.t18z.wrfprsf00.grib2  393 MB  684 msgs
+2026-10-13T10:04:34Z OK   hrrr.20161127/conus/hrrr.t19z.wrfprsf00.grib2  390 MB  684 msgs
+2026-10-13T10:20:58Z OK   hrrr.20161127/conus/hrrr.t21z.wrfprsf00.grib2  390 MB  684 msgs
+2026-10-13T10:22:55Z OK   hrrr.20161127/conus/hrrr.t20z.wrfprsf00.grib2  392 MB  684 msgs
+2026-10-13T10:26:29Z OK   hrrr.20161127/conus/hrrr.t22z.wrfprsf00.grib2  388 MB  684 msgs
+2026-10-13T10:33:38Z OK   hrrr.20161127/conus/hrrr.t23z.wrfprsf00.grib2  387 MB  684 msgs
+2026-10-13T10:46:30Z OK   hrrr.20161128/conus/hrrr.t00z.wrfprsf00.grib2  387 MB  684 msgs
+2026-10-13T10:52:42Z OK   hrrr.20161128/conus/hrrr.t02z.wrfprsf00.grib2  390 MB  684 msgs
+2026-10-13T10:56:56Z OK   hrrr.20161128/conus/hrrr.t01z.wrfprsf00.grib2  389 MB  684 msgs
+2026-10-13T11:02:59Z OK   hrrr.20161128/conus/hrrr.t03z.wrfprsf00.grib2  392 MB  684 msgs
+2026-10-13T11:14:22Z OK   hrrr.20161128/conus/hrrr.t04z.wrfprsf00.grib2  390 MB  684 msgs
+2026-10-13T11:21:14Z OK   hrrr.20161128/conus/hrrr.t05z.wrfprsf00.grib2  390 MB  684 msgs
+2026-10-13T11:27:58Z OK   hrrr.20161128/conus/hrrr.t06z.wrfprsf00.grib2  394 MB  684 msgs
+2026-10-13T11:38:36Z OK   hrrr.20161128/conus/hrrr.t07z.wrfprsf00.grib2  396 MB  684 msgs
+2026-10-13T11:50:06Z OK   hrrr.20161128/conus/hrrr.t08z.wrfprsf00.grib2  392 MB  684 msgs
+2026-10-13T12:04:38Z OK   hrrr.20161128/conus/hrrr.t09z.wrfprsf00.grib2  392 MB  684 msgs
+2026-10-13T12:10:07Z OK   hrrr.20161128/conus/hrrr.t10z.wrfprsf00.grib2  386 MB  684 msgs
+2026-10-13T12:13:02Z OK   hrrr.20161128/conus/hrrr.t11z.wrfprsf00.grib2  386 MB  684 msgs
+2026-10-13T12:32:16Z OK   hrrr.20161128/conus/hrrr.t12z.wrfprsf00.grib2  389 MB  684 msgs
+2026-10-13T12:37:42Z OK   hrrr.20161128/conus/hrrr.t13z.wrfprsf00.grib2  392 MB  684 msgs
+2026-10-13T12:41:50Z OK   hrrr.20161128/conus/hrrr.t14z.wrfprsf00.grib2  402 MB  684 msgs
+2026-10-13T12:42:24Z OK   hrrr.20161128/conus/hrrr.t15z.wrfprsf00.grib2  402 MB  684 msgs
+2026-10-13T13:01:38Z OK   hrrr.20161128/conus/hrrr.t16z.wrfprsf00.grib2  401 MB  684 msgs
+2026-10-13T13:11:34Z OK   hrrr.20161128/conus/hrrr.t20z.wrfprsf00.grib2  397 MB  684 msgs
+2026-10-13T13:12:36Z OK   hrrr.20161128/conus/hrrr.t17z.wrfprsf00.grib2  401 MB  684 msgs
+2026-10-13T13:14:21Z OK   hrrr.20161128/conus/hrrr.t19z.wrfprsf00.grib2  398 MB  684 msgs
+2026-10-13T13:29:01Z OK   hrrr.20161128/conus/hrrr.t21z.wrfprsf00.grib2  397 MB  684 msgs
+2026-10-13T13:34:28Z OK   hrrr.20161128/conus/hrrr.t23z.wrfprsf00.grib2  385 MB  684 msgs
+2026-10-13T13:39:29Z OK   hrrr.20161129/conus/hrrr.t00z.wrfprsf00.grib2  388 MB  684 msgs
+2026-10-13T13:41:07Z OK   hrrr.20161128/conus/hrrr.t22z.wrfprsf00.grib2  387 MB  684 msgs
+2026-10-13T13:51:48Z OK   hrrr.20161129/conus/hrrr.t01z.wrfprsf00.grib2  387 MB  684 msgs
+2026-10-13T14:00:43Z OK   hrrr.20161129/conus/hrrr.t03z.wrfprsf00.grib2  389 MB  684 msgs
+2026-10-13T14:00:45Z OK   hrrr.20161129/conus/hrrr.t02z.wrfprsf00.grib2  390 MB  684 msgs
+2026-10-13T14:02:15Z OK   hrrr.20161129/conus/hrrr.t04z.wrfprsf00.grib2  388 MB  684 msgs
+2026-10-13T14:18:16Z OK   hrrr.20161129/conus/hrrr.t05z.wrfprsf00.grib2  388 MB  684 msgs
+2026-10-13T14:27:48Z OK   hrrr.20161129/conus/hrrr.t07z.wrfprsf00.grib2  387 MB  684 msgs
+2026-10-13T14:29:00Z OK   hrrr.20161129/conus/hrrr.t08z.wrfprsf00.grib2  388 MB  684 msgs
+2026-10-13T14:30:26Z OK   hrrr.20161129/conus/hrrr.t06z.wrfprsf00.grib2  386 MB  684 msgs
+2026-10-13T14:46:32Z OK   hrrr.20161129/conus/hrrr.t09z.wrfprsf00.grib2  386 MB  684 msgs
+2026-10-13T14:51:54Z OK   hrrr.20161129/conus/hrrr.t11z.wrfprsf00.grib2  381 MB  684 msgs
+2026-10-13T14:53:37Z OK   hrrr.20161129/conus/hrrr.t10z.wrfprsf00.grib2  381 MB  684 msgs
+2026-10-13T14:55:28Z OK   hrrr.20161129/conus/hrrr.t12z.wrfprsf00.grib2  386 MB  684 msgs
+2026-10-13T14:55:28Z done: 51 verified, 0 not verified
+all files verified after pass 1

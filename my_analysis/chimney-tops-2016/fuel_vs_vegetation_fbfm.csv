@@ -1,0 +1,10 @@
+vegetation_fuel,share_pct,landfire_91_NB1_pct,landfire_98_NB8_pct,landfire_99_NB9_pct,landfire_101_GR1_pct,landfire_102_GR2_pct,landfire_121_GS1_pct,landfire_162_TU2_pct,landfire_165_TU5_pct,landfire_182_TL2_pct,landfire_183_TL3_pct,landfire_186_TL6_pct
+91 NB1 urban,2.7,55.0,0.3,0.0,1.9,0.4,0.8,3.8,0.0,10.8,10.0,16.7
+98 NB8 water,0.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,76.0,5.0,19.0
+99 NB9 bare,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0
+145 SH5 heavy shrub,1.2,0.0,0.0,0.0,0.0,0.4,0.0,1.1,0.7,35.4,0.0,62.4
+165 TU5 heavy timber-shrub,15.6,0.5,0.0,0.0,0.0,0.3,0.0,1.6,0.1,22.1,0.4,75.0
+182 TL2 light broadleaf litter,42.9,0.9,0.0,0.0,0.0,0.2,0.0,0.1,0.1,49.5,0.6,48.7
+183 TL3 conifer litter,0.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.6,67.6,0.0,14.9
+186 TL6 moderate broadleaf litter,16.7,0.9,0.0,0.0,0.0,0.0,0.1,0.1,0.0,44.7,0.3,53.9
+189 TL9 heavy broadleaf litter,20.4,1.4,0.0,0.1,0.1,0.0,0.0,0.6,0.0,36.4,0.7,60.6

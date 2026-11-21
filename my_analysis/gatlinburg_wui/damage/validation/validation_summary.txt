@@ -1,0 +1,46 @@
+Validation of model building ignition (ms_st09, 50 runs) against the by-eye review (all 1614 footprints in the MTBS perimeter)
+reviewed: {'survived': 984, 'damaged': 35, 'destroyed': 369, 'new': 158, 'unsure': 68}
+buildings without a model building cell (left out): 12
+used: 1378 buildings (401 burned = destroyed or damaged, 977 survived)
+
+Repeat check (60 batch-1 buildings shown again blind in batch 2):
+  same label 40 of 60 (67 %), Cohen's kappa 0.33
+  burned vs survived, pairs with both labels in survived/damaged/destroyed: 39 of 51 agree (76 %)
+  first damaged   -> second survived  1
+  first damaged   -> second unsure    1
+  first destroyed -> second new       3
+  first destroyed -> second survived  11
+  first destroyed -> second unsure    1
+  first new       -> second survived  1
+  first unsure    -> second new       1
+  first unsure    -> second survived  1
+
+Discrimination: weighted AUC of P(ignite) = 0.54 [95% bootstrap 0.51-0.57]; destroyed only: 0.54
+Brier score 0.459 (always predicting the observed rate 0.29 gives 0.206)
+Observed burned share 0.29 vs mean model P(ignite) 0.67 (weighted)
+
+Reliability (weighted):  P bin        n   mean P  observed burned share
+                       0.00-0.00   140   0.00    0.29
+                       0.00-0.20    53   0.09    0.34
+                       0.20-0.40    69   0.27    0.30
+                       0.40-0.60   253   0.43    0.24
+                       0.60-0.80   109   0.66    0.23
+                       0.80-1.00   379   0.90    0.27
+                       1.00-1.00   375   1.00    0.36
+
+Factors: odds ratio per 1 SD   observed (review)        model (P ignite | exposed, regression.csv)
+  distance_to_vegetation                   0.64 [0.47-0.87]       1.258 [1.203-1.317]
+  neighbour_building_cells_within_150_m    0.68 [0.57-0.82]       1.444 [1.400-1.490]
+  separation_between_buildings             1.53 [1.21-1.94]       0.959 [0.920-0.999]
+  building_plan_dimension                  0.97 [0.72-1.31]       1.124 [1.066-1.186]
+  slope                                    1.08 [0.94-1.24]       1.335 [1.305-1.366]
+
+Burned buildings the model never exposed (no adjacent burning cell in any of 50 runs): 2 of 401 (weighted 2 of 401)
+Burned buildings with model P(ignite) = 0: 40 (weighted 40)
+Survived buildings with model P(ignite) = 1: 240 of 977
+
+By neighbour building cells within 150 m (thirds of the used buildings):
+  neighbours      n   observed burned share   mean model P(ignite)
+  low  <22      442   0.43                    0.67
+  mid           472   0.31                    0.73
+  high >=44     464   0.13                    0.60

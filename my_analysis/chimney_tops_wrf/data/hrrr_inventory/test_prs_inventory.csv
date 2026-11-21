@@ -1,0 +1,817 @@
+file,msg,discipline,parameterCategory,parameterNumber,shortName,name,units,typeOfFirstFixedSurface,typeOfLevel,level,stepRange,dataDate,dataTime,cycle_utc,valid_utc
+hrrr.t18z.wrfprsf00.grib2,1,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,50,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,2,0,0,0,t,Temperature,K,pl,isobaricInhPa,50,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,3,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,50,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,4,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,50,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,5,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,50,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,6,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,50,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,7,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,50,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,8,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,50,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,9,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,50,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,10,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,50,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,11,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,50,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,12,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,50,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,13,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,50,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,14,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,50,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,15,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,75,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,16,0,0,0,t,Temperature,K,pl,isobaricInhPa,75,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,17,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,75,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,18,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,75,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,19,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,75,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,20,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,75,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,21,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,75,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,22,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,75,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,23,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,75,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,24,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,75,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,25,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,75,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,26,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,75,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,27,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,75,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,28,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,75,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,29,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,100,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,30,0,0,0,t,Temperature,K,pl,isobaricInhPa,100,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,31,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,100,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,32,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,100,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,33,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,100,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,34,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,100,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,35,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,100,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,36,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,100,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,37,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,100,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,38,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,100,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,39,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,100,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,40,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,100,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,41,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,100,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,42,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,100,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,43,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,125,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,44,0,0,0,t,Temperature,K,pl,isobaricInhPa,125,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,45,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,125,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,46,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,125,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,47,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,125,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,48,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,125,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,49,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,125,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,50,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,125,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,51,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,125,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,52,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,125,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,53,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,125,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,54,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,125,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,55,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,125,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,56,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,125,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,57,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,150,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,58,0,0,0,t,Temperature,K,pl,isobaricInhPa,150,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,59,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,150,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,60,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,150,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,61,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,150,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,62,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,150,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,63,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,150,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,64,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,150,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,65,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,150,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,66,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,150,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,67,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,150,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,68,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,150,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,69,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,150,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,70,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,150,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,71,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,175,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,72,0,0,0,t,Temperature,K,pl,isobaricInhPa,175,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,73,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,175,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,74,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,175,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,75,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,175,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,76,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,175,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,77,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,175,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,78,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,175,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,79,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,175,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,80,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,175,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,81,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,175,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,82,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,175,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,83,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,175,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,84,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,175,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,85,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,200,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,86,0,0,0,t,Temperature,K,pl,isobaricInhPa,200,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,87,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,200,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,88,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,200,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,89,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,200,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,90,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,200,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,91,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,200,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,92,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,200,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,93,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,200,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,94,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,200,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,95,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,200,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,96,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,200,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,97,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,200,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,98,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,200,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,99,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,225,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,100,0,0,0,t,Temperature,K,pl,isobaricInhPa,225,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,101,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,225,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,102,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,225,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,103,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,225,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,104,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,225,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,105,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,225,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,106,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,225,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,107,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,225,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,108,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,225,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,109,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,225,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,110,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,225,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,111,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,225,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,112,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,225,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,113,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,250,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,114,0,0,0,t,Temperature,K,pl,isobaricInhPa,250,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,115,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,250,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,116,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,250,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,117,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,250,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,118,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,250,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,119,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,250,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,120,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,250,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,121,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,250,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,122,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,250,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,123,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,250,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,124,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,250,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,125,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,250,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,126,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,250,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,127,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,275,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,128,0,0,0,t,Temperature,K,pl,isobaricInhPa,275,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,129,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,275,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,130,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,275,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,131,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,275,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,132,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,275,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,133,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,275,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,134,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,275,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,135,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,275,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,136,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,275,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,137,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,275,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,138,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,275,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,139,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,275,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,140,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,275,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,141,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,300,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,142,0,0,0,t,Temperature,K,pl,isobaricInhPa,300,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,143,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,300,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,144,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,300,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,145,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,300,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,146,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,300,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,147,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,300,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,148,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,300,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,149,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,300,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,150,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,300,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,151,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,300,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,152,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,300,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,153,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,300,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,154,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,300,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,155,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,325,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,156,0,0,0,t,Temperature,K,pl,isobaricInhPa,325,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,157,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,325,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,158,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,325,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,159,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,325,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,160,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,325,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,161,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,325,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,162,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,325,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,163,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,325,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,164,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,325,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,165,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,325,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,166,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,325,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,167,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,325,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,168,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,325,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,169,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,350,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,170,0,0,0,t,Temperature,K,pl,isobaricInhPa,350,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,171,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,350,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,172,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,350,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,173,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,350,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,174,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,350,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,175,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,350,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,176,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,350,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,177,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,350,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,178,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,350,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,179,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,350,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,180,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,350,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,181,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,350,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,182,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,350,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,183,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,375,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,184,0,0,0,t,Temperature,K,pl,isobaricInhPa,375,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,185,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,375,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,186,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,375,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,187,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,375,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,188,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,375,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,189,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,375,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,190,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,375,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,191,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,375,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,192,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,375,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,193,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,375,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,194,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,375,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,195,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,375,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,196,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,375,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,197,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,400,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,198,0,0,0,t,Temperature,K,pl,isobaricInhPa,400,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,199,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,400,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,200,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,400,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,201,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,400,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,202,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,400,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,203,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,400,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,204,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,400,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,205,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,400,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,206,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,400,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,207,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,400,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,208,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,400,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,209,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,400,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,210,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,400,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,211,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,425,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,212,0,0,0,t,Temperature,K,pl,isobaricInhPa,425,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,213,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,425,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,214,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,425,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,215,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,425,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,216,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,425,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,217,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,425,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,218,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,425,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,219,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,425,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,220,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,425,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,221,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,425,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,222,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,425,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,223,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,425,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,224,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,425,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,225,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,450,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,226,0,0,0,t,Temperature,K,pl,isobaricInhPa,450,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,227,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,450,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,228,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,450,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,229,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,450,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,230,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,450,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,231,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,450,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,232,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,450,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,233,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,450,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,234,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,450,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,235,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,450,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,236,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,450,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,237,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,450,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,238,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,450,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,239,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,475,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,240,0,0,0,t,Temperature,K,pl,isobaricInhPa,475,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,241,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,475,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,242,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,475,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,243,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,475,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,244,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,475,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,245,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,475,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,246,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,475,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,247,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,475,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,248,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,475,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,249,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,475,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,250,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,475,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,251,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,475,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,252,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,475,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,253,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,500,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,254,0,0,0,t,Temperature,K,pl,isobaricInhPa,500,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,255,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,500,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,256,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,500,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,257,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,500,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,258,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,500,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,259,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,500,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,260,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,500,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,261,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,500,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,262,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,500,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,263,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,500,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,264,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,500,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,265,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,500,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,266,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,500,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,267,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,525,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,268,0,0,0,t,Temperature,K,pl,isobaricInhPa,525,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,269,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,525,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,270,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,525,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,271,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,525,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,272,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,525,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,273,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,525,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,274,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,525,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,275,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,525,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,276,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,525,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,277,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,525,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,278,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,525,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,279,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,525,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,280,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,525,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,281,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,550,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,282,0,0,0,t,Temperature,K,pl,isobaricInhPa,550,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,283,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,550,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,284,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,550,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,285,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,550,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,286,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,550,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,287,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,550,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,288,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,550,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,289,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,550,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,290,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,550,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,291,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,550,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,292,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,550,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,293,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,550,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,294,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,550,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,295,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,575,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,296,0,0,0,t,Temperature,K,pl,isobaricInhPa,575,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,297,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,575,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,298,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,575,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,299,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,575,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,300,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,575,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,301,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,575,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,302,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,575,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,303,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,575,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,304,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,575,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,305,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,575,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,306,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,575,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,307,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,575,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,308,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,575,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,309,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,600,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,310,0,0,0,t,Temperature,K,pl,isobaricInhPa,600,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,311,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,600,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,312,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,600,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,313,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,600,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,314,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,600,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,315,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,600,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,316,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,600,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,317,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,600,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,318,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,600,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,319,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,600,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,320,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,600,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,321,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,600,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,322,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,600,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,323,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,625,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,324,0,0,0,t,Temperature,K,pl,isobaricInhPa,625,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,325,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,625,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,326,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,625,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,327,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,625,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,328,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,625,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,329,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,625,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,330,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,625,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,331,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,625,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,332,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,625,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,333,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,625,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,334,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,625,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,335,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,625,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,336,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,625,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,337,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,650,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,338,0,0,0,t,Temperature,K,pl,isobaricInhPa,650,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,339,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,650,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,340,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,650,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,341,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,650,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,342,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,650,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,343,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,650,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,344,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,650,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,345,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,650,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,346,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,650,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,347,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,650,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,348,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,650,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,349,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,650,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,350,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,650,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,351,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,675,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,352,0,0,0,t,Temperature,K,pl,isobaricInhPa,675,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,353,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,675,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,354,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,675,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,355,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,675,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,356,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,675,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,357,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,675,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,358,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,675,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,359,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,675,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,360,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,675,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,361,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,675,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,362,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,675,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,363,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,675,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,364,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,675,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,365,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,700,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,366,0,0,0,t,Temperature,K,pl,isobaricInhPa,700,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,367,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,700,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,368,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,700,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,369,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,700,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,370,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,700,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,371,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,700,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,372,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,700,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,373,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,700,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,374,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,700,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,375,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,700,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,376,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,700,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,377,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,700,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,378,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,700,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,379,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,725,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,380,0,0,0,t,Temperature,K,pl,isobaricInhPa,725,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,381,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,725,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,382,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,725,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,383,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,725,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,384,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,725,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,385,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,725,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,386,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,725,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,387,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,725,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,388,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,725,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,389,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,725,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,390,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,725,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,391,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,725,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,392,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,725,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,393,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,750,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,394,0,0,0,t,Temperature,K,pl,isobaricInhPa,750,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,395,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,750,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,396,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,750,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,397,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,750,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,398,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,750,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,399,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,750,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,400,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,750,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,401,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,750,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,402,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,750,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,403,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,750,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,404,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,750,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,405,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,750,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,406,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,750,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,407,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,775,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,408,0,0,0,t,Temperature,K,pl,isobaricInhPa,775,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,409,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,775,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,410,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,775,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,411,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,775,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,412,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,775,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,413,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,775,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,414,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,775,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,415,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,775,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,416,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,775,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,417,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,775,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,418,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,775,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,419,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,775,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,420,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,775,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,421,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,800,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,422,0,0,0,t,Temperature,K,pl,isobaricInhPa,800,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,423,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,800,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,424,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,800,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,425,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,800,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,426,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,800,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,427,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,800,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,428,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,800,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,429,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,800,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,430,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,800,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,431,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,800,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,432,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,800,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,433,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,800,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,434,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,800,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,435,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,825,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,436,0,0,0,t,Temperature,K,pl,isobaricInhPa,825,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,437,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,825,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,438,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,825,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,439,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,825,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,440,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,825,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,441,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,825,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,442,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,825,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,443,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,825,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,444,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,825,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,445,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,825,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,446,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,825,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,447,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,825,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,448,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,825,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,449,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,850,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,450,0,0,0,t,Temperature,K,pl,isobaricInhPa,850,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,451,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,850,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,452,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,850,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,453,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,850,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,454,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,850,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,455,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,850,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,456,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,850,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,457,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,850,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,458,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,850,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,459,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,850,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,460,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,850,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,461,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,850,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,462,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,850,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,463,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,875,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,464,0,0,0,t,Temperature,K,pl,isobaricInhPa,875,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,465,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,875,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,466,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,875,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,467,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,875,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,468,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,875,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,469,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,875,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,470,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,875,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,471,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,875,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,472,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,875,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,473,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,875,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,474,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,875,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,475,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,875,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,476,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,875,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,477,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,900,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,478,0,0,0,t,Temperature,K,pl,isobaricInhPa,900,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,479,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,900,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,480,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,900,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,481,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,900,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,482,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,900,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,483,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,900,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,484,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,900,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,485,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,900,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,486,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,900,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,487,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,900,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,488,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,900,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,489,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,900,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,490,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,900,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,491,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,925,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,492,0,0,0,t,Temperature,K,pl,isobaricInhPa,925,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,493,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,925,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,494,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,925,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,495,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,925,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,496,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,925,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,497,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,925,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,498,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,925,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,499,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,925,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,500,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,925,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,501,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,925,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,502,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,925,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,503,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,925,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,504,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,925,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,505,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,950,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,506,0,0,0,t,Temperature,K,pl,isobaricInhPa,950,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,507,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,950,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,508,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,950,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,509,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,950,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,510,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,950,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,511,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,950,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,512,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,950,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,513,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,950,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,514,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,950,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,515,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,950,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,516,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,950,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,517,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,950,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,518,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,950,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,519,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,975,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,520,0,0,0,t,Temperature,K,pl,isobaricInhPa,975,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,521,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,975,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,522,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,975,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,523,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,975,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,524,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,975,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,525,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,975,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,526,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,975,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,527,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,975,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,528,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,975,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,529,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,975,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,530,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,975,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,531,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,975,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,532,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,975,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,533,0,0,0,t,Temperature,K,pl,isobaricInhPa,1000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,534,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,1000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,535,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,1000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,536,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,1000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,537,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,1000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,538,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,1000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,539,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,1000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,540,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,1000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,541,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,1000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,542,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,1000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,543,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,1000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,544,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,1000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,545,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,1000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,546,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,1013,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,547,0,0,0,t,Temperature,K,pl,isobaricInhPa,1013,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,548,0,1,1,r,Relative humidity,%,pl,isobaricInhPa,1013,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,549,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,1013,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,550,0,1,0,q,Specific humidity,kg kg**-1,pl,isobaricInhPa,1013,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,551,0,2,8,w,Vertical velocity,Pa s**-1,pl,isobaricInhPa,1013,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,552,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,1013,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,553,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,1013,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,554,0,2,10,absv,Absolute vorticity,s**-1,pl,isobaricInhPa,1013,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,555,0,1,22,clwmr,Cloud mixing ratio,kg kg**-1,pl,isobaricInhPa,1013,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,556,0,6,0,cice,Cloud Ice,kg m**-2,pl,isobaricInhPa,1013,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,557,0,1,24,rwmr,Rain mixing ratio,kg kg**-1,pl,isobaricInhPa,1013,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,558,0,1,25,snmr,Snow mixing ratio,kg kg**-1,pl,isobaricInhPa,1013,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,559,0,1,32,grle,Graupel (snow pellets),kg kg**-1,pl,isobaricInhPa,1013,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,560,2,0,2,st,Soil temperature,K,sfc,depthBelowLandLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,561,2,0,192,soilw,Volumetric soil moisture content,Proportion,sfc,depthBelowLandLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,562,2,0,2,st,Soil temperature,K,sfc,depthBelowLandLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,563,2,0,192,soilw,Volumetric soil moisture content,Proportion,sfc,depthBelowLandLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,564,2,0,2,st,Soil temperature,K,sfc,depthBelowLandLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,565,2,0,192,soilw,Volumetric soil moisture content,Proportion,sfc,depthBelowLandLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,566,2,0,2,st,Soil temperature,K,sfc,depthBelowLandLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,567,2,0,192,soilw,Volumetric soil moisture content,Proportion,sfc,depthBelowLandLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,568,2,0,2,st,Soil temperature,K,sfc,depthBelowLandLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,569,2,0,192,soilw,Volumetric soil moisture content,Proportion,sfc,depthBelowLandLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,570,2,0,2,st,Soil temperature,K,sfc,depthBelowLandLayer,1,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,571,2,0,192,soilw,Volumetric soil moisture content,Proportion,sfc,depthBelowLandLayer,1,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,572,2,0,2,st,Soil temperature,K,sfc,depthBelowLandLayer,1,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,573,2,0,192,soilw,Volumetric soil moisture content,Proportion,sfc,depthBelowLandLayer,1,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,574,2,0,2,st,Soil temperature,K,sfc,depthBelowLandLayer,2,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,575,2,0,192,soilw,Volumetric soil moisture content,Proportion,sfc,depthBelowLandLayer,2,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,576,2,0,2,st,Soil temperature,K,sfc,depthBelowLandLayer,3,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,577,2,0,192,soilw,Volumetric soil moisture content,Proportion,sfc,depthBelowLandLayer,3,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,578,0,16,196,refc,Maximum/Composite radar reflectivity,dB,10,atmosphere,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,579,0,16,3,unknown,unknown,unknown,3,cloudTop,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,580,0,15,3,veril,Vertically-integrated liquid,kg m**-1,10,atmosphere,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,581,0,19,0,vis,Visibility,m,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,582,0,16,195,refd,Derived radar reflectivity,dB,sfc,heightAboveGround,1000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,583,0,16,195,refd,Derived radar reflectivity,dB,sfc,heightAboveGround,4000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,584,0,16,195,refd,Derived radar reflectivity,dB,20,isothermal,263,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,585,0,2,22,gust,Wind speed (gust),m s**-1,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,586,0,2,220,unknown,unknown,unknown,108,pressureFromGroundLayer,40000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,587,0,2,221,unknown,unknown,unknown,108,pressureFromGroundLayer,40000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,588,0,2,9,wz,Geometric vertical velocity,m s**-1,104,sigmaLayer,1,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,589,0,3,198,mslma,MSLP (MAPS System Reduction),Pa,sfc,meanSea,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,590,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,1000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,591,0,16,198,unknown,unknown,unknown,sfc,heightAboveGround,1000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,592,0,7,199,unknown,unknown,unknown,sfc,heightAboveGroundLayer,5000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,593,0,1,74,unknown,unknown,unknown,200,atmosphereSingleLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,594,0,17,192,ltng,Lightning,dimensionless,10,atmosphere,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,595,0,2,2,u,U component of wind,m s**-1,sfc,heightAboveGround,80,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,596,0,2,3,v,V component of wind,m s**-1,sfc,heightAboveGround,80,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,597,0,3,0,sp,Surface pressure,Pa,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,598,0,3,5,orog,Orography,m,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,599,0,0,0,t,Temperature,K,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,600,0,1,29,unknown,unknown,unknown,sfc,surface,0,unavailable,20161128,1800,2016-11-28T18:00Z,
+hrrr.t18z.wrfprsf00.grib2,601,2,0,194,mstav,Moisture availability,%,sfc,depthBelowLand,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,602,2,0,13,cnwat,Plant canopy surface water,kg m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,603,0,1,13,sdwe,Water equivalent of accumulated snow depth (deprecated),kg m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,604,0,1,42,snowc,Snow cover,%,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,605,0,1,11,sde,Snow depth,m,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,606,0,0,0,2t,2 metre temperature,K,sfc,heightAboveGround,2,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,607,0,0,2,pt,Potential temperature,K,sfc,heightAboveGround,2,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,608,0,1,0,2sh,2 metre specific humidity,kg kg**-1,sfc,heightAboveGround,2,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,609,0,0,6,2d,2 metre dewpoint temperature,K,sfc,heightAboveGround,2,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,610,0,1,1,2r,2 metre relative humidity,%,sfc,heightAboveGround,2,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,611,0,2,2,10u,10 metre U wind component,m s**-1,sfc,heightAboveGround,10,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,612,0,2,3,10v,10 metre V wind component,m s**-1,sfc,heightAboveGround,10,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,613,0,2,1,max_10si,Time-maximum 10 metre wind speed,m s**-1,sfc,heightAboveGround,10,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,614,0,1,39,cpofp,Percent frozen precipitation,%,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,615,0,1,7,prate,Precipitation rate,kg m**-2 s**-1,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,616,0,1,8,tp,Total Precipitation,kg m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,617,0,1,13,sdwe,Water equivalent of accumulated snow depth (deprecated),kg m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,618,0,1,227,unknown,unknown,unknown,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,619,1,0,6,ssrun,Storm surface runoff,kg m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,620,1,0,5,bgrun,Baseflow-groundwater runoff,kg m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,621,0,1,36,csnow,Categorical snow,(Code table 4.222),sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,622,0,1,35,cicep,Categorical ice pellets,(Code table 4.222),sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,623,0,1,34,cfrzr,Categorical freezing rain,(Code table 4.222),sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,624,0,1,33,crain,Categorical rain,(Code table 4.222),sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,625,2,0,1,fsr,Forecast surface roughness,m,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,626,0,2,30,fricv,Frictional velocity,m s**-1,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,627,0,0,11,ishf,Instantaneous surface sensible heat net flux,W m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,628,0,0,10,slhtf,Surface latent heat net flux,W m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,629,2,0,10,gflux,Ground heat flux,W m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,630,2,0,198,vgtyp,Vegetation Type,Integer(0-13),sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,631,0,7,10,lftx,Surface lifted index,K,pl,isobaricLayer,500,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,632,0,7,6,cape,Convective available potential energy,J kg**-1,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,633,0,7,7,cin,Convective inhibition,J kg**-1,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,634,0,1,3,pwat,Precipitable water,kg m**-2,200,atmosphereSingleLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,635,0,6,3,lcc,Low cloud cover,%,214,lowCloudLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,636,0,6,4,mcc,Medium cloud cover,%,224,middleCloudLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,637,0,6,5,hcc,High cloud cover,%,234,highCloudLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,638,0,6,1,tcc,Total Cloud Cover,%,10,atmosphere,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,639,0,3,0,pcdb,Pressure at cloud base,Pa,2,cloudBase,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,640,0,3,5,gh,Geopotential height,gpm,2,cloudBase,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,641,0,3,5,gh,Geopotential height,gpm,215,cloudCeiling,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,642,0,3,0,pres,Pressure,Pa,3,cloudTop,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,643,0,3,5,gh,Geopotential height,gpm,3,cloudTop,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,644,0,5,4,unknown,unknown,unknown,sfc,nominalTop,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,645,0,4,7,sdswrf,Surface downward short-wave radiation flux,W m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,646,0,5,3,sdlwrf,Surface downward long-wave radiation flux,W m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,647,0,4,8,suswrf,Surface upward short-wave radiation flux,W m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,648,0,5,4,sulwrf,Surface upward long-wave radiation flux,W m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,649,0,4,200,vbdsf,Visible Beam Downward Solar Flux,W m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,650,0,4,201,vddsf,Visible Diffuse Downward Solar Flux,W m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,651,0,7,8,hlcy,Storm relative helicity,m**2 s**-2,sfc,heightAboveGroundLayer,3000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,652,0,7,8,hlcy,Storm relative helicity,m**2 s**-2,sfc,heightAboveGroundLayer,1000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,653,0,2,27,ustm,U-component storm motion,m s**-1,sfc,heightAboveGroundLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,654,0,2,28,vstm,V-component storm motion,m s**-1,sfc,heightAboveGroundLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,655,0,2,15,vucsh,Vertical u-component shear,s**-1,sfc,heightAboveGroundLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,656,0,2,16,vvcsh,Vertical v-component shear,s**-1,sfc,heightAboveGroundLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,657,0,2,15,vucsh,Vertical u-component shear,s**-1,sfc,heightAboveGroundLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,658,0,2,16,vvcsh,Vertical v-component shear,s**-1,sfc,heightAboveGroundLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,659,0,3,5,gh,Geopotential height,gpm,4,isothermZero,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,660,0,1,1,r,Relative humidity,%,4,isothermZero,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,661,0,3,0,pres,Pressure,Pa,4,isothermZero,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,662,0,3,5,gh,Geopotential height,gpm,204,highestTroposphericFreezing,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,663,0,1,1,r,Relative humidity,%,204,highestTroposphericFreezing,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,664,0,3,0,pres,Pressure,Pa,204,highestTroposphericFreezing,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,665,0,3,5,gh,Geopotential height,gpm,20,isothermal,263,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,666,0,3,5,gh,Geopotential height,gpm,20,isothermal,253,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,667,0,7,193,4lftx,Best (4-layer) lifted index,K,108,pressureFromGroundLayer,18000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,668,0,7,6,cape,Convective available potential energy,J kg**-1,108,pressureFromGroundLayer,18000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,669,0,7,7,cin,Convective inhibition,J kg**-1,108,pressureFromGroundLayer,18000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,670,0,3,18,blh,Boundary layer height,m,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,671,0,3,5,gh,Geopotential height,gpm,5,adiabaticCondensation,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,672,0,7,6,cape,Convective available potential energy,J kg**-1,108,pressureFromGroundLayer,9000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,673,0,7,7,cin,Convective inhibition,J kg**-1,108,pressureFromGroundLayer,9000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,674,0,7,6,cape,Convective available potential energy,J kg**-1,108,pressureFromGroundLayer,25500,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,675,0,7,7,cin,Convective inhibition,J kg**-1,108,pressureFromGroundLayer,25500,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,676,0,3,5,gh,Geopotential height,gpm,247,equilibrium,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,677,0,3,200,plpl,Pressure of level from which parcel was lifted,Pa,108,pressureFromGroundLayer,25500,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,678,0,1,242,unknown,unknown,unknown,10,atmosphere,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,679,2,0,0,lsm,Land-sea mask,(0 - 1),sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,680,10,2,0,ci,Sea ice area fraction,(0 - 1),sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,681,3,192,1,SBT123,"Simulated Brightness Temperature for GOES 12, Channel 3",K,sfc,nominalTop,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,682,3,192,2,SBT124,"Simulated Brightness Temperature for GOES 12, Channel 4",K,sfc,nominalTop,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,683,3,192,7,SBT113,"Simulated Brightness Temperature for GOES 11, Channel 3",K,sfc,nominalTop,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfprsf00.grib2,684,3,192,8,SBT114,"Simulated Brightness Temperature for GOES 11, Channel 4",K,sfc,nominalTop,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,1,0,16,196,refc,Maximum/Composite radar reflectivity,dB,10,atmosphere,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,2,0,16,3,unknown,unknown,unknown,3,cloudTop,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,3,0,15,3,veril,Vertically-integrated liquid,kg m**-1,10,atmosphere,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,4,0,19,0,vis,Visibility,m,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,5,0,16,195,refd,Derived radar reflectivity,dB,sfc,heightAboveGround,1000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,6,0,16,195,refd,Derived radar reflectivity,dB,sfc,heightAboveGround,4000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,7,0,16,195,refd,Derived radar reflectivity,dB,20,isothermal,263,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,8,0,2,22,gust,Wind speed (gust),m s**-1,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,9,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,250,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,10,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,250,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,11,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,500,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,12,0,0,0,t,Temperature,K,pl,isobaricInhPa,500,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,13,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,500,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,14,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,500,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,15,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,500,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,16,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,700,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,17,0,0,0,t,Temperature,K,pl,isobaricInhPa,700,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,18,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,700,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,19,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,700,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,20,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,700,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,21,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,850,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,22,0,0,0,t,Temperature,K,pl,isobaricInhPa,850,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,23,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,850,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,24,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,850,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,25,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,850,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,26,0,0,0,t,Temperature,K,pl,isobaricInhPa,925,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,27,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,925,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,28,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,925,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,29,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,925,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,30,0,0,0,t,Temperature,K,pl,isobaricInhPa,1000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,31,0,0,6,dpt,Dew point temperature,K,pl,isobaricInhPa,1000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,32,0,2,2,u,U component of wind,m s**-1,pl,isobaricInhPa,1000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,33,0,2,3,v,V component of wind,m s**-1,pl,isobaricInhPa,1000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,34,0,2,220,unknown,unknown,unknown,108,pressureFromGroundLayer,40000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,35,0,2,221,unknown,unknown,unknown,108,pressureFromGroundLayer,40000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,36,0,2,9,wz,Geometric vertical velocity,m s**-1,104,sigmaLayer,1,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,37,0,3,198,mslma,MSLP (MAPS System Reduction),Pa,sfc,meanSea,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,38,0,3,5,gh,Geopotential height,gpm,pl,isobaricInhPa,1000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,39,0,16,198,unknown,unknown,unknown,sfc,heightAboveGround,1000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,40,0,7,199,unknown,unknown,unknown,sfc,heightAboveGroundLayer,5000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,41,0,1,74,unknown,unknown,unknown,200,atmosphereSingleLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,42,0,17,192,ltng,Lightning,dimensionless,10,atmosphere,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,43,0,2,2,u,U component of wind,m s**-1,sfc,heightAboveGround,80,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,44,0,2,3,v,V component of wind,m s**-1,sfc,heightAboveGround,80,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,45,0,3,0,sp,Surface pressure,Pa,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,46,0,3,5,orog,Orography,m,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,47,0,0,0,t,Temperature,K,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,48,0,1,29,unknown,unknown,unknown,sfc,surface,0,unavailable,20161128,1800,2016-11-28T18:00Z,
+hrrr.t18z.wrfsfcf00.grib2,49,2,0,194,mstav,Moisture availability,%,sfc,depthBelowLand,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,50,2,0,13,cnwat,Plant canopy surface water,kg m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,51,0,1,13,sdwe,Water equivalent of accumulated snow depth (deprecated),kg m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,52,0,1,42,snowc,Snow cover,%,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,53,0,1,11,sde,Snow depth,m,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,54,0,0,0,2t,2 metre temperature,K,sfc,heightAboveGround,2,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,55,0,0,2,pt,Potential temperature,K,sfc,heightAboveGround,2,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,56,0,1,0,2sh,2 metre specific humidity,kg kg**-1,sfc,heightAboveGround,2,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,57,0,0,6,2d,2 metre dewpoint temperature,K,sfc,heightAboveGround,2,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,58,0,1,1,2r,2 metre relative humidity,%,sfc,heightAboveGround,2,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,59,0,2,2,10u,10 metre U wind component,m s**-1,sfc,heightAboveGround,10,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,60,0,2,3,10v,10 metre V wind component,m s**-1,sfc,heightAboveGround,10,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,61,0,2,1,max_10si,Time-maximum 10 metre wind speed,m s**-1,sfc,heightAboveGround,10,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,62,0,1,39,cpofp,Percent frozen precipitation,%,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,63,0,1,7,prate,Precipitation rate,kg m**-2 s**-1,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,64,0,1,8,tp,Total Precipitation,kg m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,65,0,1,13,sdwe,Water equivalent of accumulated snow depth (deprecated),kg m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,66,0,1,227,unknown,unknown,unknown,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,67,1,0,6,ssrun,Storm surface runoff,kg m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,68,1,0,5,bgrun,Baseflow-groundwater runoff,kg m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,69,0,1,36,csnow,Categorical snow,(Code table 4.222),sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,70,0,1,35,cicep,Categorical ice pellets,(Code table 4.222),sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,71,0,1,34,cfrzr,Categorical freezing rain,(Code table 4.222),sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,72,0,1,33,crain,Categorical rain,(Code table 4.222),sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,73,2,0,1,fsr,Forecast surface roughness,m,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,74,0,2,30,fricv,Frictional velocity,m s**-1,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,75,0,0,11,ishf,Instantaneous surface sensible heat net flux,W m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,76,0,0,10,slhtf,Surface latent heat net flux,W m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,77,2,0,10,gflux,Ground heat flux,W m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,78,2,0,198,vgtyp,Vegetation Type,Integer(0-13),sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,79,0,7,10,lftx,Surface lifted index,K,pl,isobaricLayer,500,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,80,0,7,6,cape,Convective available potential energy,J kg**-1,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,81,0,7,7,cin,Convective inhibition,J kg**-1,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,82,0,1,3,pwat,Precipitable water,kg m**-2,200,atmosphereSingleLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,83,0,6,3,lcc,Low cloud cover,%,214,lowCloudLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,84,0,6,4,mcc,Medium cloud cover,%,224,middleCloudLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,85,0,6,5,hcc,High cloud cover,%,234,highCloudLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,86,0,6,1,tcc,Total Cloud Cover,%,10,atmosphere,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,87,0,3,0,pcdb,Pressure at cloud base,Pa,2,cloudBase,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,88,0,3,5,gh,Geopotential height,gpm,2,cloudBase,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,89,0,3,5,gh,Geopotential height,gpm,215,cloudCeiling,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,90,0,3,0,pres,Pressure,Pa,3,cloudTop,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,91,0,3,5,gh,Geopotential height,gpm,3,cloudTop,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,92,0,5,4,unknown,unknown,unknown,sfc,nominalTop,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,93,0,4,7,sdswrf,Surface downward short-wave radiation flux,W m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,94,0,5,3,sdlwrf,Surface downward long-wave radiation flux,W m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,95,0,4,8,suswrf,Surface upward short-wave radiation flux,W m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,96,0,5,4,sulwrf,Surface upward long-wave radiation flux,W m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,97,0,4,200,vbdsf,Visible Beam Downward Solar Flux,W m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,98,0,4,201,vddsf,Visible Diffuse Downward Solar Flux,W m**-2,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,99,0,7,8,hlcy,Storm relative helicity,m**2 s**-2,sfc,heightAboveGroundLayer,3000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,100,0,7,8,hlcy,Storm relative helicity,m**2 s**-2,sfc,heightAboveGroundLayer,1000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,101,0,2,27,ustm,U-component storm motion,m s**-1,sfc,heightAboveGroundLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,102,0,2,28,vstm,V-component storm motion,m s**-1,sfc,heightAboveGroundLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,103,0,2,15,vucsh,Vertical u-component shear,s**-1,sfc,heightAboveGroundLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,104,0,2,16,vvcsh,Vertical v-component shear,s**-1,sfc,heightAboveGroundLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,105,0,2,15,vucsh,Vertical u-component shear,s**-1,sfc,heightAboveGroundLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,106,0,2,16,vvcsh,Vertical v-component shear,s**-1,sfc,heightAboveGroundLayer,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,107,0,3,5,gh,Geopotential height,gpm,4,isothermZero,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,108,0,1,1,r,Relative humidity,%,4,isothermZero,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,109,0,3,0,pres,Pressure,Pa,4,isothermZero,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,110,0,3,5,gh,Geopotential height,gpm,204,highestTroposphericFreezing,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,111,0,1,1,r,Relative humidity,%,204,highestTroposphericFreezing,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,112,0,3,0,pres,Pressure,Pa,204,highestTroposphericFreezing,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,113,0,3,5,gh,Geopotential height,gpm,20,isothermal,263,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,114,0,3,5,gh,Geopotential height,gpm,20,isothermal,253,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,115,0,7,193,4lftx,Best (4-layer) lifted index,K,108,pressureFromGroundLayer,18000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,116,0,7,6,cape,Convective available potential energy,J kg**-1,108,pressureFromGroundLayer,18000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,117,0,7,7,cin,Convective inhibition,J kg**-1,108,pressureFromGroundLayer,18000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,118,0,3,18,blh,Boundary layer height,m,sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,119,0,3,5,gh,Geopotential height,gpm,5,adiabaticCondensation,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,120,0,7,6,cape,Convective available potential energy,J kg**-1,108,pressureFromGroundLayer,9000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,121,0,7,7,cin,Convective inhibition,J kg**-1,108,pressureFromGroundLayer,9000,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,122,0,7,6,cape,Convective available potential energy,J kg**-1,108,pressureFromGroundLayer,25500,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,123,0,7,7,cin,Convective inhibition,J kg**-1,108,pressureFromGroundLayer,25500,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,124,0,3,5,gh,Geopotential height,gpm,247,equilibrium,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,125,0,3,200,plpl,Pressure of level from which parcel was lifted,Pa,108,pressureFromGroundLayer,25500,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,126,0,1,242,unknown,unknown,unknown,10,atmosphere,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,127,2,0,0,lsm,Land-sea mask,(0 - 1),sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,128,10,2,0,ci,Sea ice area fraction,(0 - 1),sfc,surface,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,129,3,192,1,SBT123,"Simulated Brightness Temperature for GOES 12, Channel 3",K,sfc,nominalTop,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,130,3,192,2,SBT124,"Simulated Brightness Temperature for GOES 12, Channel 4",K,sfc,nominalTop,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,131,3,192,7,SBT113,"Simulated Brightness Temperature for GOES 11, Channel 3",K,sfc,nominalTop,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z
+hrrr.t18z.wrfsfcf00.grib2,132,3,192,8,SBT114,"Simulated Brightness Temperature for GOES 11, Channel 4",K,sfc,nominalTop,0,0,20161128,1800,2016-11-28T18:00Z,2016-11-28T18:00Z

@@ -1,0 +1,5 @@
+Ember-receptive runs (seed means); observed MTBS 15003 ac, north of the building line 6429 ac
+f     seeds  total ac  inside ac  outside ac  north-of-line ac  Sorensen(north)  buildings ignited in MTBS
+20 %      3      1678        830         848              1521             0.17        77
+30 %      3      6796       1996        4800              6585             0.27       282
+40 %      3     12591       3056        9535             12265             0.30       519

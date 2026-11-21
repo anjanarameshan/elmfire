@@ -1,0 +1,92 @@
+Settings unchanged - reusing ./fuel/chimneytops2016.tar
+Spotting: ON (spotting.in) - ignition prob 100 %, cells spotting 100 %, min intensity 0 kW/m
+Fuel map: /home/anjana/elmfire-1/my_analysis/fuel-test/lf2016_full/fbfm40_lf2016_complete.tif
+Spread-rate adjustment factor (adj): 1
+Leaf-off canopy cover factor: 1.0 (fuel models 182 186 189)
+hour  0 Sat 26 14:00 EST | Chimney Tops   6.2 mph from 312 deg, gust  12.7 mph | Gatlinburg   3.9 mph from  10 deg, gust   6.9 mph   [analysis (wrfprs)]
+hour  1 Sat 26 15:00 EST | Chimney Tops   5.5 mph from 309 deg, gust  10.9 mph | Gatlinburg   3.4 mph from  18 deg, gust   6.2 mph   [analysis (wrfprs)]
+hour  2 Sat 26 16:00 EST | Chimney Tops   5.9 mph from 310 deg, gust  11.6 mph | Gatlinburg   4.2 mph from   2 deg, gust   7.5 mph   [analysis (wrfprs)]
+hour  3 Sat 26 17:00 EST | Chimney Tops   3.9 mph from 301 deg, gust   8.2 mph | Gatlinburg   2.4 mph from 350 deg, gust   5.1 mph   [analysis (wrfprs)]
+hour  4 Sat 26 18:00 EST | Chimney Tops   3.8 mph from 289 deg, gust   8.0 mph | Gatlinburg   1.8 mph from 310 deg, gust   3.1 mph   [analysis (wrfprs)]
+hour  5 Sat 26 19:00 EST | Chimney Tops   3.6 mph from 294 deg, gust   7.7 mph | Gatlinburg   3.0 mph from 252 deg, gust   4.1 mph   [analysis (wrfprs)]
+hour  6 Sat 26 20:00 EST | Chimney Tops   4.0 mph from 325 deg, gust   7.4 mph | Gatlinburg   3.2 mph from 280 deg, gust   3.7 mph   [analysis (wrfprs)]
+hour  7 Sat 26 21:00 EST | Chimney Tops   3.3 mph from 337 deg, gust   5.8 mph | Gatlinburg   3.1 mph from 287 deg, gust   3.6 mph   [analysis (wrfprs)]
+hour  8 Sat 26 22:00 EST | Chimney Tops   2.4 mph from   2 deg, gust   5.1 mph | Gatlinburg   4.1 mph from 290 deg, gust   4.8 mph   [analysis (wrfprs)]
+Traceback (most recent call last):
+  File "/home/anjana/.local/lib/python3.14/site-packages/urllib3/response.py", line 905, in _error_catcher
+    yield
+  File "/home/anjana/.local/lib/python3.14/site-packages/urllib3/response.py", line 1022, in _raw_read
+    data = self._fp_read(amt, read1=read1) if not fp_closed else b""
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/anjana/.local/lib/python3.14/site-packages/urllib3/response.py", line 1005, in _fp_read
+    return self._fp.read(amt) if amt is not None else self._fp.read()
+           ~~~~~~~~~~~~~^^^^^
+  File "/usr/lib/python3.14/http/client.py", line 484, in read
+    s = self.fp.read(amt)
+  File "/usr/lib/python3.14/socket.py", line 725, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "/usr/lib/python3.14/ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/anjana/.local/lib/python3.14/site-packages/requests/models.py", line 937, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "/home/anjana/.local/lib/python3.14/site-packages/urllib3/response.py", line 1267, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "/home/anjana/.local/lib/python3.14/site-packages/urllib3/response.py", line 1110, in read
+    data = self._raw_read(amt)
+  File "/home/anjana/.local/lib/python3.14/site-packages/urllib3/response.py", line 1021, in _raw_read
+    with self._error_catcher():
+         ~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/home/anjana/.local/lib/python3.14/site-packages/urllib3/response.py", line 910, in _error_catcher
+    raise ReadTimeoutError(self._pool, None, "Read timed out.") from e  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/anjana/venvs/elmfire/lib/python3.14/site-packages/herbie/core.py", line 1124, in subset
+    data = response.content
+           ^^^^^^^^^^^^^^^^
+  File "/home/anjana/.local/lib/python3.14/site-packages/requests/models.py", line 1042, in content
+    self._content = b"".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b""
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anjana/.local/lib/python3.14/site-packages/requests/models.py", line 943, in generate
+    raise ConnectionError(e)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Read timed out.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/anjana/elmfire-1/my_analysis/hrrr_winds.py", line 259, in <module>
+    main()
+    ~~~~^^
+  File "/home/anjana/elmfire-1/my_analysis/hrrr_winds.py", line 205, in main
+    u, v, g, lat, lon, source = get_hour(t)
+                                ~~~~~~~~^^^
+  File "/home/anjana/elmfire-1/my_analysis/hrrr_winds.py", line 138, in get_hour
+    out = H.xarray(":(UGRD|VGRD):10 m above|:GUST:surface", remove_grib=False)
+  File "/home/anjana/venvs/elmfire/lib/python3.14/site-packages/herbie/core.py", line 1314, in xarray
+    self.download(search=search, **download_kwargs)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anjana/venvs/elmfire/lib/python3.14/site-packages/herbie/core.py", line 1243, in download
+    subset(search, outFile, verbose=verbose)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anjana/venvs/elmfire/lib/python3.14/site-packages/herbie/core.py", line 1139, in subset
+    raise RuntimeError(f"Processing failed: {e}") from e
+RuntimeError: Processing failed: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Read timed out.
+corrupted size vs. prev_size while consolidating
+./01-run.sh: line 157: 58020 Aborted                    $PY $A/hrrr_winds.py $INPUTS "$START_UTC" ./hrrr_wind 2>&1
+     58021 Done                       | grep -v -i "warn\|xr.merge\|logic ="

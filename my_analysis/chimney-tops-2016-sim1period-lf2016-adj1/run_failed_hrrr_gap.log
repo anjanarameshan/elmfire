@@ -1,0 +1,24 @@
+Using LANDFIRE 1.4.0
+Using historical weather
+Weather start time: 2016-11-26 19:00
+Weather stop  time: 2016-11-29 19:00
+Valid inputs received - calling CloudFire fuel weather ignition microservice
+Downloading tarball
+Complete
+Spotting: ON (spotting.in) - ignition prob 100 %, cells spotting 100 %, min intensity 0 kW/m
+Fuel map: /home/anjana/elmfire-1/my_analysis/fuel-test/lf2016_full/fbfm40_lf2016_complete.tif
+Spread-rate adjustment factor (adj): 1
+Leaf-off canopy cover factor: 1.0 (fuel models 182 186 189)
+Traceback (most recent call last):
+  File "/home/anjana/elmfire-1/my_analysis/hrrr_winds.py", line 167, in <module>
+    main()
+    ~~~~^^
+  File "/home/anjana/elmfire-1/my_analysis/hrrr_winds.py", line 113, in main
+    u, v, g, lat, lon, source = get_hour(t)
+                                ~~~~~~~~^^^
+  File "/home/anjana/elmfire-1/my_analysis/hrrr_winds.py", line 54, in get_hour
+    H, back = find_run(t)
+              ~~~~~~~~^^^
+  File "/home/anjana/elmfire-1/my_analysis/hrrr_winds.py", line 49, in find_run
+    raise RuntimeError(f"No HRRR data valid at {t:%Y-%m-%d %H:%M} UTC (analysis or 1-2 h forecast)")
+RuntimeError: No HRRR data valid at 2016-11-26 19:00 UTC (analysis or 1-2 h forecast)

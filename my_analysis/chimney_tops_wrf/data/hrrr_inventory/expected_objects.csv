@@ -1,0 +1,616 @@
+valid_utc,cycle_utc,lead_h,product,s3_key,s3_bytes,s3_status
+2016-11-22T00:00Z,2016-11-22T00:00Z,0,wrfprs,hrrr.20161122/conus/hrrr.t00z.wrfprsf00.grib2,367373204,available
+2016-11-22T00:00Z,2016-11-22T00:00Z,0,wrfsfc,hrrr.20161122/conus/hrrr.t00z.wrfsfcf00.grib2,110071877,available
+2016-11-22T00:00Z,2016-11-22T00:00Z,0,wrfnat,hrrr.20161122/conus/hrrr.t00z.wrfnatf00.grib2,623247336,available
+2016-11-22T01:00Z,2016-11-22T01:00Z,0,wrfprs,hrrr.20161122/conus/hrrr.t01z.wrfprsf00.grib2,368824158,available
+2016-11-22T01:00Z,2016-11-22T01:00Z,0,wrfsfc,hrrr.20161122/conus/hrrr.t01z.wrfsfcf00.grib2,111644415,available
+2016-11-22T01:00Z,2016-11-22T01:00Z,0,wrfnat,hrrr.20161122/conus/hrrr.t01z.wrfnatf00.grib2,625924399,available
+2016-11-22T02:00Z,2016-11-22T02:00Z,0,wrfprs,hrrr.20161122/conus/hrrr.t02z.wrfprsf00.grib2,368557818,available
+2016-11-22T02:00Z,2016-11-22T02:00Z,0,wrfsfc,hrrr.20161122/conus/hrrr.t02z.wrfsfcf00.grib2,110259785,available
+2016-11-22T02:00Z,2016-11-22T02:00Z,0,wrfnat,hrrr.20161122/conus/hrrr.t02z.wrfnatf00.grib2,625242792,available
+2016-11-22T03:00Z,2016-11-22T03:00Z,0,wrfprs,hrrr.20161122/conus/hrrr.t03z.wrfprsf00.grib2,368792905,available
+2016-11-22T03:00Z,2016-11-22T03:00Z,0,wrfsfc,hrrr.20161122/conus/hrrr.t03z.wrfsfcf00.grib2,110629609,available
+2016-11-22T03:00Z,2016-11-22T03:00Z,0,wrfnat,hrrr.20161122/conus/hrrr.t03z.wrfnatf00.grib2,625155693,available
+2016-11-22T04:00Z,2016-11-22T04:00Z,0,wrfprs,hrrr.20161122/conus/hrrr.t04z.wrfprsf00.grib2,373759329,available
+2016-11-22T04:00Z,2016-11-22T04:00Z,0,wrfsfc,hrrr.20161122/conus/hrrr.t04z.wrfsfcf00.grib2,111816932,available
+2016-11-22T04:00Z,2016-11-22T04:00Z,0,wrfnat,hrrr.20161122/conus/hrrr.t04z.wrfnatf00.grib2,629537625,available
+2016-11-22T05:00Z,2016-11-22T05:00Z,0,wrfprs,hrrr.20161122/conus/hrrr.t05z.wrfprsf00.grib2,375310040,available
+2016-11-22T05:00Z,2016-11-22T05:00Z,0,wrfsfc,hrrr.20161122/conus/hrrr.t05z.wrfsfcf00.grib2,112148335,available
+2016-11-22T05:00Z,2016-11-22T05:00Z,0,wrfnat,hrrr.20161122/conus/hrrr.t05z.wrfnatf00.grib2,628775641,available
+2016-11-22T06:00Z,2016-11-22T06:00Z,0,wrfprs,hrrr.20161122/conus/hrrr.t06z.wrfprsf00.grib2,373501301,available
+2016-11-22T06:00Z,2016-11-22T06:00Z,0,wrfsfc,hrrr.20161122/conus/hrrr.t06z.wrfsfcf00.grib2,112547929,available
+2016-11-22T06:00Z,2016-11-22T06:00Z,0,wrfnat,hrrr.20161122/conus/hrrr.t06z.wrfnatf00.grib2,630140544,available
+2016-11-22T07:00Z,2016-11-22T07:00Z,0,wrfprs,hrrr.20161122/conus/hrrr.t07z.wrfprsf00.grib2,374439184,available
+2016-11-22T07:00Z,2016-11-22T07:00Z,0,wrfsfc,hrrr.20161122/conus/hrrr.t07z.wrfsfcf00.grib2,112940989,available
+2016-11-22T07:00Z,2016-11-22T07:00Z,0,wrfnat,hrrr.20161122/conus/hrrr.t07z.wrfnatf00.grib2,632325578,available
+2016-11-22T08:00Z,2016-11-22T08:00Z,0,wrfprs,hrrr.20161122/conus/hrrr.t08z.wrfprsf00.grib2,375891923,available
+2016-11-22T08:00Z,2016-11-22T08:00Z,0,wrfsfc,hrrr.20161122/conus/hrrr.t08z.wrfsfcf00.grib2,113141797,available
+2016-11-22T08:00Z,2016-11-22T08:00Z,0,wrfnat,hrrr.20161122/conus/hrrr.t08z.wrfnatf00.grib2,635447393,available
+2016-11-22T09:00Z,2016-11-22T09:00Z,0,wrfprs,hrrr.20161122/conus/hrrr.t09z.wrfprsf00.grib2,375566807,available
+2016-11-22T09:00Z,2016-11-22T09:00Z,0,wrfsfc,hrrr.20161122/conus/hrrr.t09z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-22T09:00Z,2016-11-22T09:00Z,0,wrfnat,hrrr.20161122/conus/hrrr.t09z.wrfnatf00.grib2,636452807,available
+2016-11-22T10:00Z,2016-11-22T10:00Z,0,wrfprs,hrrr.20161122/conus/hrrr.t10z.wrfprsf00.grib2,371779979,available
+2016-11-22T10:00Z,2016-11-22T10:00Z,0,wrfsfc,hrrr.20161122/conus/hrrr.t10z.wrfsfcf00.grib2,112455770,available
+2016-11-22T10:00Z,2016-11-22T10:00Z,0,wrfnat,hrrr.20161122/conus/hrrr.t10z.wrfnatf00.grib2,628258875,available
+2016-11-22T11:00Z,2016-11-22T11:00Z,0,wrfprs,hrrr.20161122/conus/hrrr.t11z.wrfprsf00.grib2,372596490,available
+2016-11-22T11:00Z,2016-11-22T11:00Z,0,wrfsfc,hrrr.20161122/conus/hrrr.t11z.wrfsfcf00.grib2,112895607,available
+2016-11-22T11:00Z,2016-11-22T11:00Z,0,wrfnat,hrrr.20161122/conus/hrrr.t11z.wrfnatf00.grib2,631009077,available
+2016-11-22T12:00Z,2016-11-22T12:00Z,0,wrfprs,hrrr.20161122/conus/hrrr.t12z.wrfprsf00.grib2,376058850,available
+2016-11-22T12:00Z,2016-11-22T12:00Z,0,wrfsfc,hrrr.20161122/conus/hrrr.t12z.wrfsfcf00.grib2,114796348,available
+2016-11-22T12:00Z,2016-11-22T12:00Z,0,wrfnat,hrrr.20161122/conus/hrrr.t12z.wrfnatf00.grib2,633691221,available
+2016-11-22T13:00Z,2016-11-22T13:00Z,0,wrfprs,hrrr.20161122/conus/hrrr.t13z.wrfprsf00.grib2,379479312,available
+2016-11-22T13:00Z,2016-11-22T13:00Z,0,wrfsfc,hrrr.20161122/conus/hrrr.t13z.wrfsfcf00.grib2,116692803,available
+2016-11-22T13:00Z,2016-11-22T13:00Z,0,wrfnat,hrrr.20161122/conus/hrrr.t13z.wrfnatf00.grib2,636864373,available
+2016-11-22T14:00Z,2016-11-22T14:00Z,0,wrfprs,hrrr.20161122/conus/hrrr.t14z.wrfprsf00.grib2,382230515,available
+2016-11-22T14:00Z,2016-11-22T14:00Z,0,wrfsfc,hrrr.20161122/conus/hrrr.t14z.wrfsfcf00.grib2,118130507,available
+2016-11-22T14:00Z,2016-11-22T14:00Z,0,wrfnat,hrrr.20161122/conus/hrrr.t14z.wrfnatf00.grib2,639275450,available
+2016-11-22T15:00Z,2016-11-22T15:00Z,0,wrfprs,hrrr.20161122/conus/hrrr.t15z.wrfprsf00.grib2,382745231,available
+2016-11-22T15:00Z,2016-11-22T15:00Z,0,wrfsfc,hrrr.20161122/conus/hrrr.t15z.wrfsfcf00.grib2,119195962,available
+2016-11-22T15:00Z,2016-11-22T15:00Z,0,wrfnat,hrrr.20161122/conus/hrrr.t15z.wrfnatf00.grib2,638208812,available
+2016-11-22T16:00Z,2016-11-22T16:00Z,0,wrfprs,hrrr.20161122/conus/hrrr.t16z.wrfprsf00.grib2,382838630,available
+2016-11-22T16:00Z,2016-11-22T16:00Z,0,wrfsfc,hrrr.20161122/conus/hrrr.t16z.wrfsfcf00.grib2,120119454,available
+2016-11-22T16:00Z,2016-11-22T16:00Z,0,wrfnat,hrrr.20161122/conus/hrrr.t16z.wrfnatf00.grib2,638772102,available
+2016-11-22T17:00Z,2016-11-22T17:00Z,0,wrfprs,hrrr.20161122/conus/hrrr.t17z.wrfprsf00.grib2,383379927,available
+2016-11-22T17:00Z,2016-11-22T17:00Z,0,wrfsfc,hrrr.20161122/conus/hrrr.t17z.wrfsfcf00.grib2,120512072,available
+2016-11-22T17:00Z,2016-11-22T17:00Z,0,wrfnat,hrrr.20161122/conus/hrrr.t17z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-22T18:00Z,2016-11-22T18:00Z,0,wrfprs,hrrr.20161122/conus/hrrr.t18z.wrfprsf00.grib2,380856868,available
+2016-11-22T18:00Z,2016-11-22T18:00Z,0,wrfsfc,hrrr.20161122/conus/hrrr.t18z.wrfsfcf00.grib2,119851435,available
+2016-11-22T18:00Z,2016-11-22T18:00Z,0,wrfnat,hrrr.20161122/conus/hrrr.t18z.wrfnatf00.grib2,637578176,available
+2016-11-22T19:00Z,2016-11-22T19:00Z,0,wrfprs,hrrr.20161122/conus/hrrr.t19z.wrfprsf00.grib2,379429269,available
+2016-11-22T19:00Z,2016-11-22T19:00Z,0,wrfsfc,hrrr.20161122/conus/hrrr.t19z.wrfsfcf00.grib2,119380901,available
+2016-11-22T19:00Z,2016-11-22T19:00Z,0,wrfnat,hrrr.20161122/conus/hrrr.t19z.wrfnatf00.grib2,633695968,available
+2016-11-22T20:00Z,2016-11-22T20:00Z,0,wrfprs,hrrr.20161122/conus/hrrr.t20z.wrfprsf00.grib2,378462304,available
+2016-11-22T20:00Z,2016-11-22T20:00Z,0,wrfsfc,hrrr.20161122/conus/hrrr.t20z.wrfsfcf00.grib2,118806191,available
+2016-11-22T20:00Z,2016-11-22T20:00Z,0,wrfnat,hrrr.20161122/conus/hrrr.t20z.wrfnatf00.grib2,634806697,available
+2016-11-22T21:00Z,2016-11-22T21:00Z,0,wrfprs,hrrr.20161122/conus/hrrr.t21z.wrfprsf00.grib2,376565586,available
+2016-11-22T21:00Z,2016-11-22T21:00Z,0,wrfsfc,hrrr.20161122/conus/hrrr.t21z.wrfsfcf00.grib2,116741990,available
+2016-11-22T21:00Z,2016-11-22T21:00Z,0,wrfnat,hrrr.20161122/conus/hrrr.t21z.wrfnatf00.grib2,629833407,available
+2016-11-22T22:00Z,2016-11-22T22:00Z,0,wrfprs,hrrr.20161122/conus/hrrr.t22z.wrfprsf00.grib2,371867947,available
+2016-11-22T22:00Z,2016-11-22T22:00Z,0,wrfsfc,hrrr.20161122/conus/hrrr.t22z.wrfsfcf00.grib2,113695940,available
+2016-11-22T22:00Z,2016-11-22T22:00Z,0,wrfnat,hrrr.20161122/conus/hrrr.t22z.wrfnatf00.grib2,624682880,available
+2016-11-22T23:00Z,2016-11-22T23:00Z,0,wrfprs,hrrr.20161122/conus/hrrr.t23z.wrfprsf00.grib2,369293127,available
+2016-11-22T23:00Z,2016-11-22T23:00Z,0,wrfsfc,hrrr.20161122/conus/hrrr.t23z.wrfsfcf00.grib2,111805947,available
+2016-11-22T23:00Z,2016-11-22T23:00Z,0,wrfnat,hrrr.20161122/conus/hrrr.t23z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-23T00:00Z,2016-11-23T00:00Z,0,wrfprs,hrrr.20161123/conus/hrrr.t00z.wrfprsf00.grib2,368171330,available
+2016-11-23T00:00Z,2016-11-23T00:00Z,0,wrfsfc,hrrr.20161123/conus/hrrr.t00z.wrfsfcf00.grib2,110137469,available
+2016-11-23T00:00Z,2016-11-23T00:00Z,0,wrfnat,hrrr.20161123/conus/hrrr.t00z.wrfnatf00.grib2,619257742,available
+2016-11-23T01:00Z,2016-11-23T01:00Z,0,wrfprs,hrrr.20161123/conus/hrrr.t01z.wrfprsf00.grib2,367973971,available
+2016-11-23T01:00Z,2016-11-23T01:00Z,0,wrfsfc,hrrr.20161123/conus/hrrr.t01z.wrfsfcf00.grib2,109705670,available
+2016-11-23T01:00Z,2016-11-23T01:00Z,0,wrfnat,hrrr.20161123/conus/hrrr.t01z.wrfnatf00.grib2,621791579,available
+2016-11-23T02:00Z,2016-11-23T02:00Z,0,wrfprs,hrrr.20161123/conus/hrrr.t02z.wrfprsf00.grib2,369732166,available
+2016-11-23T02:00Z,2016-11-23T02:00Z,0,wrfsfc,hrrr.20161123/conus/hrrr.t02z.wrfsfcf00.grib2,110647937,available
+2016-11-23T02:00Z,2016-11-23T02:00Z,0,wrfnat,hrrr.20161123/conus/hrrr.t02z.wrfnatf00.grib2,624088633,available
+2016-11-23T03:00Z,2016-11-23T03:00Z,0,wrfprs,hrrr.20161123/conus/hrrr.t03z.wrfprsf00.grib2,370912004,available
+2016-11-23T03:00Z,2016-11-23T03:00Z,0,wrfsfc,hrrr.20161123/conus/hrrr.t03z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-23T03:00Z,2016-11-23T03:00Z,0,wrfnat,hrrr.20161123/conus/hrrr.t03z.wrfnatf00.grib2,625031815,available
+2016-11-23T04:00Z,2016-11-23T04:00Z,0,wrfprs,hrrr.20161123/conus/hrrr.t04z.wrfprsf00.grib2,371257058,available
+2016-11-23T04:00Z,2016-11-23T04:00Z,0,wrfsfc,hrrr.20161123/conus/hrrr.t04z.wrfsfcf00.grib2,111279796,available
+2016-11-23T04:00Z,2016-11-23T04:00Z,0,wrfnat,hrrr.20161123/conus/hrrr.t04z.wrfnatf00.grib2,626654207,available
+2016-11-23T05:00Z,2016-11-23T05:00Z,0,wrfprs,hrrr.20161123/conus/hrrr.t05z.wrfprsf00.grib2,372443335,available
+2016-11-23T05:00Z,2016-11-23T05:00Z,0,wrfsfc,hrrr.20161123/conus/hrrr.t05z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-23T05:00Z,2016-11-23T05:00Z,0,wrfnat,hrrr.20161123/conus/hrrr.t05z.wrfnatf00.grib2,627092061,available
+2016-11-23T06:00Z,2016-11-23T06:00Z,0,wrfprs,hrrr.20161123/conus/hrrr.t06z.wrfprsf00.grib2,374538153,available
+2016-11-23T06:00Z,2016-11-23T06:00Z,0,wrfsfc,hrrr.20161123/conus/hrrr.t06z.wrfsfcf00.grib2,111980830,available
+2016-11-23T06:00Z,2016-11-23T06:00Z,0,wrfnat,hrrr.20161123/conus/hrrr.t06z.wrfnatf00.grib2,627912769,available
+2016-11-23T07:00Z,2016-11-23T07:00Z,0,wrfprs,hrrr.20161123/conus/hrrr.t07z.wrfprsf00.grib2,374511331,available
+2016-11-23T07:00Z,2016-11-23T07:00Z,0,wrfsfc,hrrr.20161123/conus/hrrr.t07z.wrfsfcf00.grib2,112284318,available
+2016-11-23T07:00Z,2016-11-23T07:00Z,0,wrfnat,hrrr.20161123/conus/hrrr.t07z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-23T08:00Z,2016-11-23T08:00Z,0,wrfprs,hrrr.20161123/conus/hrrr.t08z.wrfprsf00.grib2,374275130,available
+2016-11-23T08:00Z,2016-11-23T08:00Z,0,wrfsfc,hrrr.20161123/conus/hrrr.t08z.wrfsfcf00.grib2,112588648,available
+2016-11-23T08:00Z,2016-11-23T08:00Z,0,wrfnat,hrrr.20161123/conus/hrrr.t08z.wrfnatf00.grib2,628965840,available
+2016-11-23T09:00Z,2016-11-23T09:00Z,0,wrfprs,hrrr.20161123/conus/hrrr.t09z.wrfprsf00.grib2,374658934,available
+2016-11-23T09:00Z,2016-11-23T09:00Z,0,wrfsfc,hrrr.20161123/conus/hrrr.t09z.wrfsfcf00.grib2,112231066,available
+2016-11-23T09:00Z,2016-11-23T09:00Z,0,wrfnat,hrrr.20161123/conus/hrrr.t09z.wrfnatf00.grib2,629737600,available
+2016-11-23T10:00Z,2016-11-23T10:00Z,0,wrfprs,hrrr.20161123/conus/hrrr.t10z.wrfprsf00.grib2,370994312,available
+2016-11-23T10:00Z,2016-11-23T10:00Z,0,wrfsfc,hrrr.20161123/conus/hrrr.t10z.wrfsfcf00.grib2,111578663,available
+2016-11-23T10:00Z,2016-11-23T10:00Z,0,wrfnat,hrrr.20161123/conus/hrrr.t10z.wrfnatf00.grib2,621205995,available
+2016-11-23T11:00Z,2016-11-23T11:00Z,0,wrfprs,hrrr.20161123/conus/hrrr.t11z.wrfprsf00.grib2,370659066,available
+2016-11-23T11:00Z,2016-11-23T11:00Z,0,wrfsfc,hrrr.20161123/conus/hrrr.t11z.wrfsfcf00.grib2,111722768,available
+2016-11-23T11:00Z,2016-11-23T11:00Z,0,wrfnat,hrrr.20161123/conus/hrrr.t11z.wrfnatf00.grib2,622511972,available
+2016-11-23T12:00Z,2016-11-23T12:00Z,0,wrfprs,hrrr.20161123/conus/hrrr.t12z.wrfprsf00.grib2,373283241,available
+2016-11-23T12:00Z,2016-11-23T12:00Z,0,wrfsfc,hrrr.20161123/conus/hrrr.t12z.wrfsfcf00.grib2,113621215,available
+2016-11-23T12:00Z,2016-11-23T12:00Z,0,wrfnat,hrrr.20161123/conus/hrrr.t12z.wrfnatf00.grib2,624078120,available
+2016-11-23T13:00Z,2016-11-23T13:00Z,0,wrfprs,hrrr.20161123/conus/hrrr.t13z.wrfprsf00.grib2,374863337,available
+2016-11-23T13:00Z,2016-11-23T13:00Z,0,wrfsfc,hrrr.20161123/conus/hrrr.t13z.wrfsfcf00.grib2,114528269,available
+2016-11-23T13:00Z,2016-11-23T13:00Z,0,wrfnat,hrrr.20161123/conus/hrrr.t13z.wrfnatf00.grib2,625938878,available
+2016-11-23T14:00Z,2016-11-23T14:00Z,0,wrfprs,hrrr.20161123/conus/hrrr.t14z.wrfprsf00.grib2,377726806,available
+2016-11-23T14:00Z,2016-11-23T14:00Z,0,wrfsfc,hrrr.20161123/conus/hrrr.t14z.wrfsfcf00.grib2,116422428,available
+2016-11-23T14:00Z,2016-11-23T14:00Z,0,wrfnat,hrrr.20161123/conus/hrrr.t14z.wrfnatf00.grib2,627006322,available
+2016-11-23T15:00Z,2016-11-23T15:00Z,0,wrfprs,hrrr.20161123/conus/hrrr.t15z.wrfprsf00.grib2,376419469,available
+2016-11-23T15:00Z,2016-11-23T15:00Z,0,wrfsfc,hrrr.20161123/conus/hrrr.t15z.wrfsfcf00.grib2,116393261,available
+2016-11-23T15:00Z,2016-11-23T15:00Z,0,wrfnat,hrrr.20161123/conus/hrrr.t15z.wrfnatf00.grib2,625064098,available
+2016-11-23T16:00Z,2016-11-23T16:00Z,0,wrfprs,hrrr.20161123/conus/hrrr.t16z.wrfprsf00.grib2,378554029,available
+2016-11-23T16:00Z,2016-11-23T16:00Z,0,wrfsfc,hrrr.20161123/conus/hrrr.t16z.wrfsfcf00.grib2,118888342,available
+2016-11-23T16:00Z,2016-11-23T16:00Z,0,wrfnat,hrrr.20161123/conus/hrrr.t16z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-23T17:00Z,2016-11-23T17:00Z,0,wrfprs,hrrr.20161123/conus/hrrr.t17z.wrfprsf00.grib2,379090336,available
+2016-11-23T17:00Z,2016-11-23T17:00Z,0,wrfsfc,hrrr.20161123/conus/hrrr.t17z.wrfsfcf00.grib2,118629891,available
+2016-11-23T17:00Z,2016-11-23T17:00Z,0,wrfnat,hrrr.20161123/conus/hrrr.t17z.wrfnatf00.grib2,628734975,available
+2016-11-23T18:00Z,2016-11-23T18:00Z,0,wrfprs,hrrr.20161123/conus/hrrr.t18z.wrfprsf00.grib2,378194176,available
+2016-11-23T18:00Z,2016-11-23T18:00Z,0,wrfsfc,hrrr.20161123/conus/hrrr.t18z.wrfsfcf00.grib2,118526190,available
+2016-11-23T18:00Z,2016-11-23T18:00Z,0,wrfnat,hrrr.20161123/conus/hrrr.t18z.wrfnatf00.grib2,630872305,available
+2016-11-23T19:00Z,2016-11-23T19:00Z,0,wrfprs,hrrr.20161123/conus/hrrr.t19z.wrfprsf00.grib2,377066459,available
+2016-11-23T19:00Z,2016-11-23T19:00Z,0,wrfsfc,hrrr.20161123/conus/hrrr.t19z.wrfsfcf00.grib2,116718300,available
+2016-11-23T19:00Z,2016-11-23T19:00Z,0,wrfnat,hrrr.20161123/conus/hrrr.t19z.wrfnatf00.grib2,628806223,available
+2016-11-23T20:00Z,2016-11-23T20:00Z,0,wrfprs,hrrr.20161123/conus/hrrr.t20z.wrfprsf00.grib2,376392508,available
+2016-11-23T20:00Z,2016-11-23T20:00Z,0,wrfsfc,hrrr.20161123/conus/hrrr.t20z.wrfsfcf00.grib2,117142066,available
+2016-11-23T20:00Z,2016-11-23T20:00Z,0,wrfnat,hrrr.20161123/conus/hrrr.t20z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-23T21:00Z,2016-11-23T21:00Z,0,wrfprs,hrrr.20161123/conus/hrrr.t21z.wrfprsf00.grib2,375784667,available
+2016-11-23T21:00Z,2016-11-23T21:00Z,0,wrfsfc,hrrr.20161123/conus/hrrr.t21z.wrfsfcf00.grib2,115558608,available
+2016-11-23T21:00Z,2016-11-23T21:00Z,0,wrfnat,hrrr.20161123/conus/hrrr.t21z.wrfnatf00.grib2,630926511,available
+2016-11-23T22:00Z,2016-11-23T22:00Z,0,wrfprs,hrrr.20161123/conus/hrrr.t22z.wrfprsf00.grib2,371165792,available
+2016-11-23T22:00Z,2016-11-23T22:00Z,0,wrfsfc,hrrr.20161123/conus/hrrr.t22z.wrfsfcf00.grib2,113974864,available
+2016-11-23T22:00Z,2016-11-23T22:00Z,0,wrfnat,hrrr.20161123/conus/hrrr.t22z.wrfnatf00.grib2,622746788,available
+2016-11-23T23:00Z,2016-11-23T23:00Z,0,wrfprs,hrrr.20161123/conus/hrrr.t23z.wrfprsf00.grib2,370978391,available
+2016-11-23T23:00Z,2016-11-23T23:00Z,0,wrfsfc,hrrr.20161123/conus/hrrr.t23z.wrfsfcf00.grib2,112071754,available
+2016-11-23T23:00Z,2016-11-23T23:00Z,0,wrfnat,hrrr.20161123/conus/hrrr.t23z.wrfnatf00.grib2,621777122,available
+2016-11-24T00:00Z,2016-11-24T00:00Z,0,wrfprs,hrrr.20161124/conus/hrrr.t00z.wrfprsf00.grib2,368651653,available
+2016-11-24T00:00Z,2016-11-24T00:00Z,0,wrfsfc,hrrr.20161124/conus/hrrr.t00z.wrfsfcf00.grib2,110084982,available
+2016-11-24T00:00Z,2016-11-24T00:00Z,0,wrfnat,hrrr.20161124/conus/hrrr.t00z.wrfnatf00.grib2,620850529,available
+2016-11-24T01:00Z,2016-11-24T01:00Z,0,wrfprs,hrrr.20161124/conus/hrrr.t01z.wrfprsf00.grib2,369835231,available
+2016-11-24T01:00Z,2016-11-24T01:00Z,0,wrfsfc,hrrr.20161124/conus/hrrr.t01z.wrfsfcf00.grib2,110461461,available
+2016-11-24T01:00Z,2016-11-24T01:00Z,0,wrfnat,hrrr.20161124/conus/hrrr.t01z.wrfnatf00.grib2,621343854,available
+2016-11-24T02:00Z,2016-11-24T02:00Z,0,wrfprs,hrrr.20161124/conus/hrrr.t02z.wrfprsf00.grib2,370275659,available
+2016-11-24T02:00Z,2016-11-24T02:00Z,0,wrfsfc,hrrr.20161124/conus/hrrr.t02z.wrfsfcf00.grib2,110537523,available
+2016-11-24T02:00Z,2016-11-24T02:00Z,0,wrfnat,hrrr.20161124/conus/hrrr.t02z.wrfnatf00.grib2,622847636,available
+2016-11-24T03:00Z,2016-11-24T03:00Z,0,wrfprs,hrrr.20161124/conus/hrrr.t03z.wrfprsf00.grib2,369544956,available
+2016-11-24T03:00Z,2016-11-24T03:00Z,0,wrfsfc,hrrr.20161124/conus/hrrr.t03z.wrfsfcf00.grib2,110529480,available
+2016-11-24T03:00Z,2016-11-24T03:00Z,0,wrfnat,hrrr.20161124/conus/hrrr.t03z.wrfnatf00.grib2,622380174,available
+2016-11-24T04:00Z,2016-11-24T04:00Z,0,wrfprs,hrrr.20161124/conus/hrrr.t04z.wrfprsf00.grib2,369487918,available
+2016-11-24T04:00Z,2016-11-24T04:00Z,0,wrfsfc,hrrr.20161124/conus/hrrr.t04z.wrfsfcf00.grib2,110761691,available
+2016-11-24T04:00Z,2016-11-24T04:00Z,0,wrfnat,hrrr.20161124/conus/hrrr.t04z.wrfnatf00.grib2,622381319,available
+2016-11-24T05:00Z,2016-11-24T05:00Z,0,wrfprs,hrrr.20161124/conus/hrrr.t05z.wrfprsf00.grib2,369510117,available
+2016-11-24T05:00Z,2016-11-24T05:00Z,0,wrfsfc,hrrr.20161124/conus/hrrr.t05z.wrfsfcf00.grib2,110959437,available
+2016-11-24T05:00Z,2016-11-24T05:00Z,0,wrfnat,hrrr.20161124/conus/hrrr.t05z.wrfnatf00.grib2,624520846,available
+2016-11-24T06:00Z,2016-11-24T06:00Z,0,wrfprs,hrrr.20161124/conus/hrrr.t06z.wrfprsf00.grib2,371434499,available
+2016-11-24T06:00Z,2016-11-24T06:00Z,0,wrfsfc,hrrr.20161124/conus/hrrr.t06z.wrfsfcf00.grib2,111326774,available
+2016-11-24T06:00Z,2016-11-24T06:00Z,0,wrfnat,hrrr.20161124/conus/hrrr.t06z.wrfnatf00.grib2,624203722,available
+2016-11-24T07:00Z,2016-11-24T07:00Z,0,wrfprs,hrrr.20161124/conus/hrrr.t07z.wrfprsf00.grib2,371738119,available
+2016-11-24T07:00Z,2016-11-24T07:00Z,0,wrfsfc,hrrr.20161124/conus/hrrr.t07z.wrfsfcf00.grib2,111507776,available
+2016-11-24T07:00Z,2016-11-24T07:00Z,0,wrfnat,hrrr.20161124/conus/hrrr.t07z.wrfnatf00.grib2,624686905,available
+2016-11-24T08:00Z,2016-11-24T08:00Z,0,wrfprs,hrrr.20161124/conus/hrrr.t08z.wrfprsf00.grib2,370624572,available
+2016-11-24T08:00Z,2016-11-24T08:00Z,0,wrfsfc,hrrr.20161124/conus/hrrr.t08z.wrfsfcf00.grib2,111229274,available
+2016-11-24T08:00Z,2016-11-24T08:00Z,0,wrfnat,hrrr.20161124/conus/hrrr.t08z.wrfnatf00.grib2,624362726,available
+2016-11-24T09:00Z,2016-11-24T09:00Z,0,wrfprs,hrrr.20161124/conus/hrrr.t09z.wrfprsf00.grib2,371449685,available
+2016-11-24T09:00Z,2016-11-24T09:00Z,0,wrfsfc,hrrr.20161124/conus/hrrr.t09z.wrfsfcf00.grib2,111811425,available
+2016-11-24T09:00Z,2016-11-24T09:00Z,0,wrfnat,hrrr.20161124/conus/hrrr.t09z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-24T10:00Z,2016-11-24T10:00Z,0,wrfprs,hrrr.20161124/conus/hrrr.t10z.wrfprsf00.grib2,367992893,available
+2016-11-24T10:00Z,2016-11-24T10:00Z,0,wrfsfc,hrrr.20161124/conus/hrrr.t10z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-24T10:00Z,2016-11-24T10:00Z,0,wrfnat,hrrr.20161124/conus/hrrr.t10z.wrfnatf00.grib2,621693599,available
+2016-11-24T11:00Z,2016-11-24T11:00Z,0,wrfprs,hrrr.20161124/conus/hrrr.t11z.wrfprsf00.grib2,368354102,available
+2016-11-24T11:00Z,2016-11-24T11:00Z,0,wrfsfc,hrrr.20161124/conus/hrrr.t11z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-24T11:00Z,2016-11-24T11:00Z,0,wrfnat,hrrr.20161124/conus/hrrr.t11z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-24T12:00Z,2016-11-24T12:00Z,0,wrfprs,hrrr.20161124/conus/hrrr.t12z.wrfprsf00.grib2,371093774,available
+2016-11-24T12:00Z,2016-11-24T12:00Z,0,wrfsfc,hrrr.20161124/conus/hrrr.t12z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-24T12:00Z,2016-11-24T12:00Z,0,wrfnat,hrrr.20161124/conus/hrrr.t12z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-24T13:00Z,2016-11-24T13:00Z,0,wrfprs,hrrr.20161124/conus/hrrr.t13z.wrfprsf00.grib2,372576812,available
+2016-11-24T13:00Z,2016-11-24T13:00Z,0,wrfsfc,hrrr.20161124/conus/hrrr.t13z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-24T13:00Z,2016-11-24T13:00Z,0,wrfnat,hrrr.20161124/conus/hrrr.t13z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-24T14:00Z,2016-11-24T14:00Z,0,wrfprs,hrrr.20161124/conus/hrrr.t14z.wrfprsf00.grib2,373627068,available
+2016-11-24T14:00Z,2016-11-24T14:00Z,0,wrfsfc,hrrr.20161124/conus/hrrr.t14z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-24T14:00Z,2016-11-24T14:00Z,0,wrfnat,hrrr.20161124/conus/hrrr.t14z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-24T15:00Z,2016-11-24T15:00Z,0,wrfprs,hrrr.20161124/conus/hrrr.t15z.wrfprsf00.grib2,375418464,available
+2016-11-24T15:00Z,2016-11-24T15:00Z,0,wrfsfc,hrrr.20161124/conus/hrrr.t15z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-24T15:00Z,2016-11-24T15:00Z,0,wrfnat,hrrr.20161124/conus/hrrr.t15z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-24T16:00Z,2016-11-24T16:00Z,0,wrfprs,hrrr.20161124/conus/hrrr.t16z.wrfprsf00.grib2,375717807,available
+2016-11-24T16:00Z,2016-11-24T16:00Z,0,wrfsfc,hrrr.20161124/conus/hrrr.t16z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-24T16:00Z,2016-11-24T16:00Z,0,wrfnat,hrrr.20161124/conus/hrrr.t16z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-24T17:00Z,2016-11-24T17:00Z,0,wrfprs,hrrr.20161124/conus/hrrr.t17z.wrfprsf00.grib2,375539654,available
+2016-11-24T17:00Z,2016-11-24T17:00Z,0,wrfsfc,hrrr.20161124/conus/hrrr.t17z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-24T17:00Z,2016-11-24T17:00Z,0,wrfnat,hrrr.20161124/conus/hrrr.t17z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-24T18:00Z,2016-11-24T18:00Z,0,wrfprs,hrrr.20161124/conus/hrrr.t18z.wrfprsf00.grib2,375034151,available
+2016-11-24T18:00Z,2016-11-24T18:00Z,0,wrfsfc,hrrr.20161124/conus/hrrr.t18z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-24T18:00Z,2016-11-24T18:00Z,0,wrfnat,hrrr.20161124/conus/hrrr.t18z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-24T19:00Z,2016-11-24T19:00Z,0,wrfprs,hrrr.20161124/conus/hrrr.t19z.wrfprsf00.grib2,372136340,available
+2016-11-24T19:00Z,2016-11-24T19:00Z,0,wrfsfc,hrrr.20161124/conus/hrrr.t19z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-24T19:00Z,2016-11-24T19:00Z,0,wrfnat,hrrr.20161124/conus/hrrr.t19z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-24T20:00Z,2016-11-24T20:00Z,0,wrfprs,hrrr.20161124/conus/hrrr.t20z.wrfprsf00.grib2,372463200,available
+2016-11-24T20:00Z,2016-11-24T20:00Z,0,wrfsfc,hrrr.20161124/conus/hrrr.t20z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-24T20:00Z,2016-11-24T20:00Z,0,wrfnat,hrrr.20161124/conus/hrrr.t20z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-24T21:00Z,2016-11-24T21:00Z,0,wrfprs,hrrr.20161124/conus/hrrr.t21z.wrfprsf00.grib2,372834613,available
+2016-11-24T21:00Z,2016-11-24T21:00Z,0,wrfsfc,hrrr.20161124/conus/hrrr.t21z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-24T21:00Z,2016-11-24T21:00Z,0,wrfnat,hrrr.20161124/conus/hrrr.t21z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-24T22:00Z,2016-11-24T22:00Z,0,wrfprs,hrrr.20161124/conus/hrrr.t22z.wrfprsf00.grib2,365175218,available
+2016-11-24T22:00Z,2016-11-24T22:00Z,0,wrfsfc,hrrr.20161124/conus/hrrr.t22z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-24T22:00Z,2016-11-24T22:00Z,0,wrfnat,hrrr.20161124/conus/hrrr.t22z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-24T23:00Z,2016-11-24T23:00Z,0,wrfprs,hrrr.20161124/conus/hrrr.t23z.wrfprsf00.grib2,363671562,available
+2016-11-24T23:00Z,2016-11-24T23:00Z,0,wrfsfc,hrrr.20161124/conus/hrrr.t23z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-24T23:00Z,2016-11-24T23:00Z,0,wrfnat,hrrr.20161124/conus/hrrr.t23z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-25T00:00Z,2016-11-25T00:00Z,0,wrfprs,hrrr.20161125/conus/hrrr.t00z.wrfprsf00.grib2,362215322,available
+2016-11-25T00:00Z,2016-11-25T00:00Z,0,wrfsfc,hrrr.20161125/conus/hrrr.t00z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-25T00:00Z,2016-11-25T00:00Z,0,wrfnat,hrrr.20161125/conus/hrrr.t00z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-25T01:00Z,2016-11-25T01:00Z,0,wrfprs,hrrr.20161125/conus/hrrr.t01z.wrfprsf00.grib2,362872026,available
+2016-11-25T01:00Z,2016-11-25T01:00Z,0,wrfsfc,hrrr.20161125/conus/hrrr.t01z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-25T01:00Z,2016-11-25T01:00Z,0,wrfnat,hrrr.20161125/conus/hrrr.t01z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-25T02:00Z,2016-11-25T02:00Z,0,wrfprs,hrrr.20161125/conus/hrrr.t02z.wrfprsf00.grib2,364567794,available
+2016-11-25T02:00Z,2016-11-25T02:00Z,0,wrfsfc,hrrr.20161125/conus/hrrr.t02z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-25T02:00Z,2016-11-25T02:00Z,0,wrfnat,hrrr.20161125/conus/hrrr.t02z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-25T03:00Z,2016-11-25T03:00Z,0,wrfprs,hrrr.20161125/conus/hrrr.t03z.wrfprsf00.grib2,364570939,available
+2016-11-25T03:00Z,2016-11-25T03:00Z,0,wrfsfc,hrrr.20161125/conus/hrrr.t03z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-25T03:00Z,2016-11-25T03:00Z,0,wrfnat,hrrr.20161125/conus/hrrr.t03z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-25T04:00Z,2016-11-25T04:00Z,0,wrfprs,hrrr.20161125/conus/hrrr.t04z.wrfprsf00.grib2,364362806,available
+2016-11-25T04:00Z,2016-11-25T04:00Z,0,wrfsfc,hrrr.20161125/conus/hrrr.t04z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-25T04:00Z,2016-11-25T04:00Z,0,wrfnat,hrrr.20161125/conus/hrrr.t04z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-25T05:00Z,2016-11-25T05:00Z,0,wrfprs,hrrr.20161125/conus/hrrr.t05z.wrfprsf00.grib2,364782709,available
+2016-11-25T05:00Z,2016-11-25T05:00Z,0,wrfsfc,hrrr.20161125/conus/hrrr.t05z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-25T05:00Z,2016-11-25T05:00Z,0,wrfnat,hrrr.20161125/conus/hrrr.t05z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-25T06:00Z,2016-11-25T06:00Z,0,wrfprs,hrrr.20161125/conus/hrrr.t06z.wrfprsf00.grib2,365432867,available
+2016-11-25T06:00Z,2016-11-25T06:00Z,0,wrfsfc,hrrr.20161125/conus/hrrr.t06z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-25T06:00Z,2016-11-25T06:00Z,0,wrfnat,hrrr.20161125/conus/hrrr.t06z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-25T07:00Z,2016-11-25T07:00Z,0,wrfprs,hrrr.20161125/conus/hrrr.t07z.wrfprsf00.grib2,366321045,available
+2016-11-25T07:00Z,2016-11-25T07:00Z,0,wrfsfc,hrrr.20161125/conus/hrrr.t07z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-25T07:00Z,2016-11-25T07:00Z,0,wrfnat,hrrr.20161125/conus/hrrr.t07z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-25T08:00Z,2016-11-25T08:00Z,0,wrfprs,hrrr.20161125/conus/hrrr.t08z.wrfprsf00.grib2,367849089,available
+2016-11-25T08:00Z,2016-11-25T08:00Z,0,wrfsfc,hrrr.20161125/conus/hrrr.t08z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-25T08:00Z,2016-11-25T08:00Z,0,wrfnat,hrrr.20161125/conus/hrrr.t08z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-25T09:00Z,2016-11-25T09:00Z,0,wrfprs,hrrr.20161125/conus/hrrr.t09z.wrfprsf00.grib2,369364870,available
+2016-11-25T09:00Z,2016-11-25T09:00Z,0,wrfsfc,hrrr.20161125/conus/hrrr.t09z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-25T09:00Z,2016-11-25T09:00Z,0,wrfnat,hrrr.20161125/conus/hrrr.t09z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-25T10:00Z,2016-11-25T10:00Z,0,wrfprs,hrrr.20161125/conus/hrrr.t10z.wrfprsf00.grib2,365025336,available
+2016-11-25T10:00Z,2016-11-25T10:00Z,0,wrfsfc,hrrr.20161125/conus/hrrr.t10z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-25T10:00Z,2016-11-25T10:00Z,0,wrfnat,hrrr.20161125/conus/hrrr.t10z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-25T11:00Z,2016-11-25T11:00Z,0,wrfprs,hrrr.20161125/conus/hrrr.t11z.wrfprsf00.grib2,366695483,available
+2016-11-25T11:00Z,2016-11-25T11:00Z,0,wrfsfc,hrrr.20161125/conus/hrrr.t11z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-25T11:00Z,2016-11-25T11:00Z,0,wrfnat,hrrr.20161125/conus/hrrr.t11z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-25T12:00Z,2016-11-25T12:00Z,0,wrfprs,hrrr.20161125/conus/hrrr.t12z.wrfprsf00.grib2,372353030,available
+2016-11-25T12:00Z,2016-11-25T12:00Z,0,wrfsfc,hrrr.20161125/conus/hrrr.t12z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-25T12:00Z,2016-11-25T12:00Z,0,wrfnat,hrrr.20161125/conus/hrrr.t12z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-25T13:00Z,2016-11-25T13:00Z,0,wrfprs,hrrr.20161125/conus/hrrr.t13z.wrfprsf00.grib2,376121921,available
+2016-11-25T13:00Z,2016-11-25T13:00Z,0,wrfsfc,hrrr.20161125/conus/hrrr.t13z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-25T13:00Z,2016-11-25T13:00Z,0,wrfnat,hrrr.20161125/conus/hrrr.t13z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-25T14:00Z,2016-11-25T14:00Z,0,wrfprs,hrrr.20161125/conus/hrrr.t14z.wrfprsf00.grib2,374693180,available
+2016-11-25T14:00Z,2016-11-25T14:00Z,0,wrfsfc,hrrr.20161125/conus/hrrr.t14z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-25T14:00Z,2016-11-25T14:00Z,0,wrfnat,hrrr.20161125/conus/hrrr.t14z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-25T15:00Z,2016-11-25T15:00Z,0,wrfprs,hrrr.20161125/conus/hrrr.t15z.wrfprsf00.grib2,376386003,available
+2016-11-25T15:00Z,2016-11-25T15:00Z,0,wrfsfc,hrrr.20161125/conus/hrrr.t15z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-25T15:00Z,2016-11-25T15:00Z,0,wrfnat,hrrr.20161125/conus/hrrr.t15z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-25T16:00Z,2016-11-25T16:00Z,0,wrfprs,hrrr.20161125/conus/hrrr.t16z.wrfprsf00.grib2,375351442,available
+2016-11-25T16:00Z,2016-11-25T16:00Z,0,wrfsfc,hrrr.20161125/conus/hrrr.t16z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-25T16:00Z,2016-11-25T16:00Z,0,wrfnat,hrrr.20161125/conus/hrrr.t16z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-25T17:00Z,2016-11-25T17:00Z,0,wrfprs,hrrr.20161125/conus/hrrr.t17z.wrfprsf00.grib2,374932887,available
+2016-11-25T17:00Z,2016-11-25T17:00Z,0,wrfsfc,hrrr.20161125/conus/hrrr.t17z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-25T17:00Z,2016-11-25T17:00Z,0,wrfnat,hrrr.20161125/conus/hrrr.t17z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-25T18:00Z,2016-11-25T18:00Z,0,wrfprs,hrrr.20161125/conus/hrrr.t18z.wrfprsf00.grib2,375156613,available
+2016-11-25T18:00Z,2016-11-25T18:00Z,0,wrfsfc,hrrr.20161125/conus/hrrr.t18z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-25T18:00Z,2016-11-25T18:00Z,0,wrfnat,hrrr.20161125/conus/hrrr.t18z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-25T19:00Z,2016-11-25T19:00Z,0,wrfprs,hrrr.20161125/conus/hrrr.t19z.wrfprsf00.grib2,372553147,available
+2016-11-25T19:00Z,2016-11-25T19:00Z,0,wrfsfc,hrrr.20161125/conus/hrrr.t19z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-25T19:00Z,2016-11-25T19:00Z,0,wrfnat,hrrr.20161125/conus/hrrr.t19z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-25T20:00Z,2016-11-25T20:00Z,0,wrfprs,hrrr.20161125/conus/hrrr.t20z.wrfprsf00.grib2,374145370,available
+2016-11-25T20:00Z,2016-11-25T20:00Z,0,wrfsfc,hrrr.20161125/conus/hrrr.t20z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-25T20:00Z,2016-11-25T20:00Z,0,wrfnat,hrrr.20161125/conus/hrrr.t20z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-25T21:00Z,2016-11-25T21:00Z,0,wrfprs,hrrr.20161125/conus/hrrr.t21z.wrfprsf00.grib2,372020866,available
+2016-11-25T21:00Z,2016-11-25T21:00Z,0,wrfsfc,hrrr.20161125/conus/hrrr.t21z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-25T21:00Z,2016-11-25T21:00Z,0,wrfnat,hrrr.20161125/conus/hrrr.t21z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-25T22:00Z,2016-11-25T22:00Z,0,wrfprs,hrrr.20161125/conus/hrrr.t22z.wrfprsf00.grib2,363712272,available
+2016-11-25T22:00Z,2016-11-25T22:00Z,0,wrfsfc,hrrr.20161125/conus/hrrr.t22z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-25T22:00Z,2016-11-25T22:00Z,0,wrfnat,hrrr.20161125/conus/hrrr.t22z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-25T23:00Z,2016-11-25T23:00Z,0,wrfprs,hrrr.20161125/conus/hrrr.t23z.wrfprsf00.grib2,363515767,available
+2016-11-25T23:00Z,2016-11-25T23:00Z,0,wrfsfc,hrrr.20161125/conus/hrrr.t23z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-25T23:00Z,2016-11-25T23:00Z,0,wrfnat,hrrr.20161125/conus/hrrr.t23z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-26T00:00Z,2016-11-26T00:00Z,0,wrfprs,hrrr.20161126/conus/hrrr.t00z.wrfprsf00.grib2,364850038,available
+2016-11-26T00:00Z,2016-11-26T00:00Z,0,wrfsfc,hrrr.20161126/conus/hrrr.t00z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-26T00:00Z,2016-11-26T00:00Z,0,wrfnat,hrrr.20161126/conus/hrrr.t00z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-26T01:00Z,2016-11-26T01:00Z,0,wrfprs,hrrr.20161126/conus/hrrr.t01z.wrfprsf00.grib2,367155388,available
+2016-11-26T01:00Z,2016-11-26T01:00Z,0,wrfsfc,hrrr.20161126/conus/hrrr.t01z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-26T01:00Z,2016-11-26T01:00Z,0,wrfnat,hrrr.20161126/conus/hrrr.t01z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-26T02:00Z,2016-11-26T02:00Z,0,wrfprs,hrrr.20161126/conus/hrrr.t02z.wrfprsf00.grib2,370002280,available
+2016-11-26T02:00Z,2016-11-26T02:00Z,0,wrfsfc,hrrr.20161126/conus/hrrr.t02z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-26T02:00Z,2016-11-26T02:00Z,0,wrfnat,hrrr.20161126/conus/hrrr.t02z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-26T03:00Z,2016-11-26T03:00Z,0,wrfprs,hrrr.20161126/conus/hrrr.t03z.wrfprsf00.grib2,371859799,available
+2016-11-26T03:00Z,2016-11-26T03:00Z,0,wrfsfc,hrrr.20161126/conus/hrrr.t03z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-26T03:00Z,2016-11-26T03:00Z,0,wrfnat,hrrr.20161126/conus/hrrr.t03z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-26T04:00Z,2016-11-26T04:00Z,0,wrfprs,hrrr.20161126/conus/hrrr.t04z.wrfprsf00.grib2,373950662,available
+2016-11-26T04:00Z,2016-11-26T04:00Z,0,wrfsfc,hrrr.20161126/conus/hrrr.t04z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-26T04:00Z,2016-11-26T04:00Z,0,wrfnat,hrrr.20161126/conus/hrrr.t04z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-26T05:00Z,2016-11-26T05:00Z,0,wrfprs,hrrr.20161126/conus/hrrr.t05z.wrfprsf00.grib2,375581370,available
+2016-11-26T05:00Z,2016-11-26T05:00Z,0,wrfsfc,hrrr.20161126/conus/hrrr.t05z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-26T05:00Z,2016-11-26T05:00Z,0,wrfnat,hrrr.20161126/conus/hrrr.t05z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-26T06:00Z,2016-11-26T06:00Z,0,wrfprs,hrrr.20161126/conus/hrrr.t06z.wrfprsf00.grib2,374741998,available
+2016-11-26T06:00Z,2016-11-26T06:00Z,0,wrfsfc,hrrr.20161126/conus/hrrr.t06z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-26T06:00Z,2016-11-26T06:00Z,0,wrfnat,hrrr.20161126/conus/hrrr.t06z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-26T07:00Z,2016-11-26T07:00Z,0,wrfprs,hrrr.20161126/conus/hrrr.t07z.wrfprsf00.grib2,376222690,available
+2016-11-26T07:00Z,2016-11-26T07:00Z,0,wrfsfc,hrrr.20161126/conus/hrrr.t07z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-26T07:00Z,2016-11-26T07:00Z,0,wrfnat,hrrr.20161126/conus/hrrr.t07z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-26T08:00Z,2016-11-26T08:00Z,0,wrfprs,hrrr.20161126/conus/hrrr.t08z.wrfprsf00.grib2,376613990,available
+2016-11-26T08:00Z,2016-11-26T08:00Z,0,wrfsfc,hrrr.20161126/conus/hrrr.t08z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-26T08:00Z,2016-11-26T08:00Z,0,wrfnat,hrrr.20161126/conus/hrrr.t08z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-26T09:00Z,2016-11-26T09:00Z,0,wrfprs,hrrr.20161126/conus/hrrr.t09z.wrfprsf00.grib2,378558537,available
+2016-11-26T09:00Z,2016-11-26T09:00Z,0,wrfsfc,hrrr.20161126/conus/hrrr.t09z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-26T09:00Z,2016-11-26T09:00Z,0,wrfnat,hrrr.20161126/conus/hrrr.t09z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-26T10:00Z,2016-11-26T10:00Z,0,wrfprs,hrrr.20161126/conus/hrrr.t10z.wrfprsf00.grib2,374920340,available
+2016-11-26T10:00Z,2016-11-26T10:00Z,0,wrfsfc,hrrr.20161126/conus/hrrr.t10z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-26T10:00Z,2016-11-26T10:00Z,0,wrfnat,hrrr.20161126/conus/hrrr.t10z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-26T11:00Z,2016-11-26T11:00Z,0,wrfprs,hrrr.20161126/conus/hrrr.t11z.wrfprsf00.grib2,373014528,available
+2016-11-26T11:00Z,2016-11-26T11:00Z,0,wrfsfc,hrrr.20161126/conus/hrrr.t11z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-26T11:00Z,2016-11-26T11:00Z,0,wrfnat,hrrr.20161126/conus/hrrr.t11z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-26T12:00Z,2016-11-26T12:00Z,0,wrfprs,hrrr.20161126/conus/hrrr.t12z.wrfprsf00.grib2,377911566,available
+2016-11-26T12:00Z,2016-11-26T12:00Z,0,wrfsfc,hrrr.20161126/conus/hrrr.t12z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-26T12:00Z,2016-11-26T12:00Z,0,wrfnat,hrrr.20161126/conus/hrrr.t12z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-26T13:00Z,2016-11-26T13:00Z,0,wrfprs,hrrr.20161126/conus/hrrr.t13z.wrfprsf00.grib2,378816070,available
+2016-11-26T13:00Z,2016-11-26T13:00Z,0,wrfsfc,hrrr.20161126/conus/hrrr.t13z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-26T13:00Z,2016-11-26T13:00Z,0,wrfnat,hrrr.20161126/conus/hrrr.t13z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-26T14:00Z,2016-11-26T14:00Z,0,wrfprs,hrrr.20161126/conus/hrrr.t14z.wrfprsf00.grib2,379967049,available
+2016-11-26T14:00Z,2016-11-26T14:00Z,0,wrfsfc,hrrr.20161126/conus/hrrr.t14z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-26T14:00Z,2016-11-26T14:00Z,0,wrfnat,hrrr.20161126/conus/hrrr.t14z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-26T15:00Z,2016-11-26T15:00Z,0,wrfprs,hrrr.20161126/conus/hrrr.t15z.wrfprsf00.grib2,382414632,available
+2016-11-26T15:00Z,2016-11-26T15:00Z,0,wrfsfc,hrrr.20161126/conus/hrrr.t15z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-26T15:00Z,2016-11-26T15:00Z,0,wrfnat,hrrr.20161126/conus/hrrr.t15z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-26T16:00Z,2016-11-26T16:00Z,0,wrfprs,hrrr.20161126/conus/hrrr.t16z.wrfprsf00.grib2,380510380,available
+2016-11-26T16:00Z,2016-11-26T16:00Z,0,wrfsfc,hrrr.20161126/conus/hrrr.t16z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-26T16:00Z,2016-11-26T16:00Z,0,wrfnat,hrrr.20161126/conus/hrrr.t16z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-26T17:00Z,2016-11-26T17:00Z,0,wrfprs,hrrr.20161126/conus/hrrr.t17z.wrfprsf00.grib2,381447228,available
+2016-11-26T17:00Z,2016-11-26T17:00Z,0,wrfsfc,hrrr.20161126/conus/hrrr.t17z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-26T17:00Z,2016-11-26T17:00Z,0,wrfnat,hrrr.20161126/conus/hrrr.t17z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-26T18:00Z,2016-11-26T18:00Z,0,wrfprs,hrrr.20161126/conus/hrrr.t18z.wrfprsf00.grib2,380753374,available
+2016-11-26T18:00Z,2016-11-26T18:00Z,0,wrfsfc,hrrr.20161126/conus/hrrr.t18z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-26T18:00Z,2016-11-26T18:00Z,0,wrfnat,hrrr.20161126/conus/hrrr.t18z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-26T19:00Z,2016-11-26T19:00Z,0,wrfprs,hrrr.20161126/conus/hrrr.t19z.wrfprsf00.grib2,376800386,available
+2016-11-26T19:00Z,2016-11-26T19:00Z,0,wrfsfc,hrrr.20161126/conus/hrrr.t19z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-26T19:00Z,2016-11-26T19:00Z,0,wrfnat,hrrr.20161126/conus/hrrr.t19z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-26T20:00Z,2016-11-26T20:00Z,0,wrfprs,hrrr.20161126/conus/hrrr.t20z.wrfprsf00.grib2,373730819,available
+2016-11-26T20:00Z,2016-11-26T20:00Z,0,wrfsfc,hrrr.20161126/conus/hrrr.t20z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-26T20:00Z,2016-11-26T20:00Z,0,wrfnat,hrrr.20161126/conus/hrrr.t20z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-26T21:00Z,2016-11-26T21:00Z,0,wrfprs,hrrr.20161126/conus/hrrr.t21z.wrfprsf00.grib2,373413002,available
+2016-11-26T21:00Z,2016-11-26T21:00Z,0,wrfsfc,hrrr.20161126/conus/hrrr.t21z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-26T21:00Z,2016-11-26T21:00Z,0,wrfnat,hrrr.20161126/conus/hrrr.t21z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-26T22:00Z,2016-11-26T22:00Z,0,wrfprs,hrrr.20161126/conus/hrrr.t22z.wrfprsf00.grib2,368105848,available
+2016-11-26T22:00Z,2016-11-26T22:00Z,0,wrfsfc,hrrr.20161126/conus/hrrr.t22z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-26T22:00Z,2016-11-26T22:00Z,0,wrfnat,hrrr.20161126/conus/hrrr.t22z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-26T23:00Z,2016-11-26T23:00Z,0,wrfprs,hrrr.20161126/conus/hrrr.t23z.wrfprsf00.grib2,366281752,available
+2016-11-26T23:00Z,2016-11-26T23:00Z,0,wrfsfc,hrrr.20161126/conus/hrrr.t23z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-26T23:00Z,2016-11-26T23:00Z,0,wrfnat,hrrr.20161126/conus/hrrr.t23z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-27T00:00Z,2016-11-27T00:00Z,0,wrfprs,hrrr.20161127/conus/hrrr.t00z.wrfprsf00.grib2,367739983,available
+2016-11-27T00:00Z,2016-11-27T00:00Z,0,wrfsfc,hrrr.20161127/conus/hrrr.t00z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-27T00:00Z,2016-11-27T00:00Z,0,wrfnat,hrrr.20161127/conus/hrrr.t00z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-27T01:00Z,2016-11-27T01:00Z,0,wrfprs,hrrr.20161127/conus/hrrr.t01z.wrfprsf00.grib2,370900262,available
+2016-11-27T01:00Z,2016-11-27T01:00Z,0,wrfsfc,hrrr.20161127/conus/hrrr.t01z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-27T01:00Z,2016-11-27T01:00Z,0,wrfnat,hrrr.20161127/conus/hrrr.t01z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-27T02:00Z,2016-11-27T02:00Z,0,wrfprs,hrrr.20161127/conus/hrrr.t02z.wrfprsf00.grib2,370826015,available
+2016-11-27T02:00Z,2016-11-27T02:00Z,0,wrfsfc,hrrr.20161127/conus/hrrr.t02z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-27T02:00Z,2016-11-27T02:00Z,0,wrfnat,hrrr.20161127/conus/hrrr.t02z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-27T03:00Z,2016-11-27T03:00Z,0,wrfprs,hrrr.20161127/conus/hrrr.t03z.wrfprsf00.grib2,374810074,available
+2016-11-27T03:00Z,2016-11-27T03:00Z,0,wrfsfc,hrrr.20161127/conus/hrrr.t03z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-27T03:00Z,2016-11-27T03:00Z,0,wrfnat,hrrr.20161127/conus/hrrr.t03z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-27T04:00Z,2016-11-27T04:00Z,0,wrfprs,hrrr.20161127/conus/hrrr.t04z.wrfprsf00.grib2,377219917,available
+2016-11-27T04:00Z,2016-11-27T04:00Z,0,wrfsfc,hrrr.20161127/conus/hrrr.t04z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-27T04:00Z,2016-11-27T04:00Z,0,wrfnat,hrrr.20161127/conus/hrrr.t04z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-27T05:00Z,2016-11-27T05:00Z,0,wrfprs,hrrr.20161127/conus/hrrr.t05z.wrfprsf00.grib2,378196223,available
+2016-11-27T05:00Z,2016-11-27T05:00Z,0,wrfsfc,hrrr.20161127/conus/hrrr.t05z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-27T05:00Z,2016-11-27T05:00Z,0,wrfnat,hrrr.20161127/conus/hrrr.t05z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-27T06:00Z,2016-11-27T06:00Z,0,wrfprs,hrrr.20161127/conus/hrrr.t06z.wrfprsf00.grib2,379744728,available
+2016-11-27T06:00Z,2016-11-27T06:00Z,0,wrfsfc,hrrr.20161127/conus/hrrr.t06z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-27T06:00Z,2016-11-27T06:00Z,0,wrfnat,hrrr.20161127/conus/hrrr.t06z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-27T07:00Z,2016-11-27T07:00Z,0,wrfprs,hrrr.20161127/conus/hrrr.t07z.wrfprsf00.grib2,378771688,available
+2016-11-27T07:00Z,2016-11-27T07:00Z,0,wrfsfc,hrrr.20161127/conus/hrrr.t07z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-27T07:00Z,2016-11-27T07:00Z,0,wrfnat,hrrr.20161127/conus/hrrr.t07z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-27T08:00Z,2016-11-27T08:00Z,0,wrfprs,hrrr.20161127/conus/hrrr.t08z.wrfprsf00.grib2,380363524,available
+2016-11-27T08:00Z,2016-11-27T08:00Z,0,wrfsfc,hrrr.20161127/conus/hrrr.t08z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-27T08:00Z,2016-11-27T08:00Z,0,wrfnat,hrrr.20161127/conus/hrrr.t08z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-27T09:00Z,2016-11-27T09:00Z,0,wrfprs,hrrr.20161127/conus/hrrr.t09z.wrfprsf00.grib2,382508168,available
+2016-11-27T09:00Z,2016-11-27T09:00Z,0,wrfsfc,hrrr.20161127/conus/hrrr.t09z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-27T09:00Z,2016-11-27T09:00Z,0,wrfnat,hrrr.20161127/conus/hrrr.t09z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-27T10:00Z,2016-11-27T10:00Z,0,wrfprs,hrrr.20161127/conus/hrrr.t10z.wrfprsf00.grib2,375013670,available
+2016-11-27T10:00Z,2016-11-27T10:00Z,0,wrfsfc,hrrr.20161127/conus/hrrr.t10z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-27T10:00Z,2016-11-27T10:00Z,0,wrfnat,hrrr.20161127/conus/hrrr.t10z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-27T11:00Z,2016-11-27T11:00Z,0,wrfprs,hrrr.20161127/conus/hrrr.t11z.wrfprsf00.grib2,375985986,available
+2016-11-27T11:00Z,2016-11-27T11:00Z,0,wrfsfc,hrrr.20161127/conus/hrrr.t11z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-27T11:00Z,2016-11-27T11:00Z,0,wrfnat,hrrr.20161127/conus/hrrr.t11z.wrfnatf00.grib2,632697506,available
+2016-11-27T12:00Z,2016-11-27T12:00Z,0,wrfprs,hrrr.20161127/conus/hrrr.t12z.wrfprsf00.grib2,380053328,available
+2016-11-27T12:00Z,2016-11-27T12:00Z,0,wrfsfc,hrrr.20161127/conus/hrrr.t12z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-27T12:00Z,2016-11-27T12:00Z,0,wrfnat,hrrr.20161127/conus/hrrr.t12z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-27T13:00Z,2016-11-27T13:00Z,0,wrfprs,hrrr.20161127/conus/hrrr.t13z.wrfprsf00.grib2,383079661,available
+2016-11-27T13:00Z,2016-11-27T13:00Z,0,wrfsfc,hrrr.20161127/conus/hrrr.t13z.wrfsfcf00.grib2,116515001,available
+2016-11-27T13:00Z,2016-11-27T13:00Z,0,wrfnat,hrrr.20161127/conus/hrrr.t13z.wrfnatf00.grib2,638706513,available
+2016-11-27T14:00Z,2016-11-27T14:00Z,0,wrfprs,hrrr.20161127/conus/hrrr.t14z.wrfprsf00.grib2,383084050,available
+2016-11-27T14:00Z,2016-11-27T14:00Z,0,wrfsfc,hrrr.20161127/conus/hrrr.t14z.wrfsfcf00.grib2,116590388,available
+2016-11-27T14:00Z,2016-11-27T14:00Z,0,wrfnat,hrrr.20161127/conus/hrrr.t14z.wrfnatf00.grib2,639653274,available
+2016-11-27T15:00Z,2016-11-27T15:00Z,0,wrfprs,hrrr.20161127/conus/hrrr.t15z.wrfprsf00.grib2,387484908,available
+2016-11-27T15:00Z,2016-11-27T15:00Z,0,wrfsfc,hrrr.20161127/conus/hrrr.t15z.wrfsfcf00.grib2,118642531,available
+2016-11-27T15:00Z,2016-11-27T15:00Z,0,wrfnat,hrrr.20161127/conus/hrrr.t15z.wrfnatf00.grib2,642596468,available
+2016-11-27T16:00Z,2016-11-27T16:00Z,0,wrfprs,hrrr.20161127/conus/hrrr.t16z.wrfprsf00.grib2,388062081,available
+2016-11-27T16:00Z,2016-11-27T16:00Z,0,wrfsfc,hrrr.20161127/conus/hrrr.t16z.wrfsfcf00.grib2,120489369,available
+2016-11-27T16:00Z,2016-11-27T16:00Z,0,wrfnat,hrrr.20161127/conus/hrrr.t16z.wrfnatf00.grib2,642647781,available
+2016-11-27T17:00Z,2016-11-27T17:00Z,0,wrfprs,hrrr.20161127/conus/hrrr.t17z.wrfprsf00.grib2,392075705,available
+2016-11-27T17:00Z,2016-11-27T17:00Z,0,wrfsfc,hrrr.20161127/conus/hrrr.t17z.wrfsfcf00.grib2,121832801,available
+2016-11-27T17:00Z,2016-11-27T17:00Z,0,wrfnat,hrrr.20161127/conus/hrrr.t17z.wrfnatf00.grib2,645313130,available
+2016-11-27T18:00Z,2016-11-27T18:00Z,0,wrfprs,hrrr.20161127/conus/hrrr.t18z.wrfprsf00.grib2,392534389,available
+2016-11-27T18:00Z,2016-11-27T18:00Z,0,wrfsfc,hrrr.20161127/conus/hrrr.t18z.wrfsfcf00.grib2,122131790,available
+2016-11-27T18:00Z,2016-11-27T18:00Z,0,wrfnat,hrrr.20161127/conus/hrrr.t18z.wrfnatf00.grib2,648016140,available
+2016-11-27T19:00Z,2016-11-27T19:00Z,0,wrfprs,hrrr.20161127/conus/hrrr.t19z.wrfprsf00.grib2,390055967,available
+2016-11-27T19:00Z,2016-11-27T19:00Z,0,wrfsfc,hrrr.20161127/conus/hrrr.t19z.wrfsfcf00.grib2,120656712,available
+2016-11-27T19:00Z,2016-11-27T19:00Z,0,wrfnat,hrrr.20161127/conus/hrrr.t19z.wrfnatf00.grib2,650293446,available
+2016-11-27T20:00Z,2016-11-27T20:00Z,0,wrfprs,hrrr.20161127/conus/hrrr.t20z.wrfprsf00.grib2,391804676,available
+2016-11-27T20:00Z,2016-11-27T20:00Z,0,wrfsfc,hrrr.20161127/conus/hrrr.t20z.wrfsfcf00.grib2,120090512,available
+2016-11-27T20:00Z,2016-11-27T20:00Z,0,wrfnat,hrrr.20161127/conus/hrrr.t20z.wrfnatf00.grib2,650895180,available
+2016-11-27T21:00Z,2016-11-27T21:00Z,0,wrfprs,hrrr.20161127/conus/hrrr.t21z.wrfprsf00.grib2,389868432,available
+2016-11-27T21:00Z,2016-11-27T21:00Z,0,wrfsfc,hrrr.20161127/conus/hrrr.t21z.wrfsfcf00.grib2,118522192,available
+2016-11-27T21:00Z,2016-11-27T21:00Z,0,wrfnat,hrrr.20161127/conus/hrrr.t21z.wrfnatf00.grib2,648792699,available
+2016-11-27T22:00Z,2016-11-27T22:00Z,0,wrfprs,hrrr.20161127/conus/hrrr.t22z.wrfprsf00.grib2,387735258,available
+2016-11-27T22:00Z,2016-11-27T22:00Z,0,wrfsfc,hrrr.20161127/conus/hrrr.t22z.wrfsfcf00.grib2,117884007,available
+2016-11-27T22:00Z,2016-11-27T22:00Z,0,wrfnat,hrrr.20161127/conus/hrrr.t22z.wrfnatf00.grib2,644933966,available
+2016-11-27T23:00Z,2016-11-27T23:00Z,0,wrfprs,hrrr.20161127/conus/hrrr.t23z.wrfprsf00.grib2,386991846,available
+2016-11-27T23:00Z,2016-11-27T23:00Z,0,wrfsfc,hrrr.20161127/conus/hrrr.t23z.wrfsfcf00.grib2,115991613,available
+2016-11-27T23:00Z,2016-11-27T23:00Z,0,wrfnat,hrrr.20161127/conus/hrrr.t23z.wrfnatf00.grib2,644564738,available
+2016-11-28T00:00Z,2016-11-28T00:00Z,0,wrfprs,hrrr.20161128/conus/hrrr.t00z.wrfprsf00.grib2,387077313,available
+2016-11-28T00:00Z,2016-11-28T00:00Z,0,wrfsfc,hrrr.20161128/conus/hrrr.t00z.wrfsfcf00.grib2,113725804,available
+2016-11-28T00:00Z,2016-11-28T00:00Z,0,wrfnat,hrrr.20161128/conus/hrrr.t00z.wrfnatf00.grib2,643619200,available
+2016-11-28T01:00Z,2016-11-28T01:00Z,0,wrfprs,hrrr.20161128/conus/hrrr.t01z.wrfprsf00.grib2,389271875,available
+2016-11-28T01:00Z,2016-11-28T01:00Z,0,wrfsfc,hrrr.20161128/conus/hrrr.t01z.wrfsfcf00.grib2,113313314,available
+2016-11-28T01:00Z,2016-11-28T01:00Z,0,wrfnat,hrrr.20161128/conus/hrrr.t01z.wrfnatf00.grib2,642618328,available
+2016-11-28T02:00Z,2016-11-28T02:00Z,0,wrfprs,hrrr.20161128/conus/hrrr.t02z.wrfprsf00.grib2,389862801,available
+2016-11-28T02:00Z,2016-11-28T02:00Z,0,wrfsfc,hrrr.20161128/conus/hrrr.t02z.wrfsfcf00.grib2,113640864,available
+2016-11-28T02:00Z,2016-11-28T02:00Z,0,wrfnat,hrrr.20161128/conus/hrrr.t02z.wrfnatf00.grib2,643325131,available
+2016-11-28T03:00Z,2016-11-28T03:00Z,0,wrfprs,hrrr.20161128/conus/hrrr.t03z.wrfprsf00.grib2,391518075,available
+2016-11-28T03:00Z,2016-11-28T03:00Z,0,wrfsfc,hrrr.20161128/conus/hrrr.t03z.wrfsfcf00.grib2,114632278,available
+2016-11-28T03:00Z,2016-11-28T03:00Z,0,wrfnat,hrrr.20161128/conus/hrrr.t03z.wrfnatf00.grib2,643673589,available
+2016-11-28T04:00Z,2016-11-28T04:00Z,0,wrfprs,hrrr.20161128/conus/hrrr.t04z.wrfprsf00.grib2,389777372,available
+2016-11-28T04:00Z,2016-11-28T04:00Z,0,wrfsfc,hrrr.20161128/conus/hrrr.t04z.wrfsfcf00.grib2,113324358,available
+2016-11-28T04:00Z,2016-11-28T04:00Z,0,wrfnat,hrrr.20161128/conus/hrrr.t04z.wrfnatf00.grib2,644705047,available
+2016-11-28T05:00Z,2016-11-28T05:00Z,0,wrfprs,hrrr.20161128/conus/hrrr.t05z.wrfprsf00.grib2,390370101,available
+2016-11-28T05:00Z,2016-11-28T05:00Z,0,wrfsfc,hrrr.20161128/conus/hrrr.t05z.wrfsfcf00.grib2,113906350,available
+2016-11-28T05:00Z,2016-11-28T05:00Z,0,wrfnat,hrrr.20161128/conus/hrrr.t05z.wrfnatf00.grib2,643734923,available
+2016-11-28T06:00Z,2016-11-28T06:00Z,0,wrfprs,hrrr.20161128/conus/hrrr.t06z.wrfprsf00.grib2,394299135,available
+2016-11-28T06:00Z,2016-11-28T06:00Z,0,wrfsfc,hrrr.20161128/conus/hrrr.t06z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-28T06:00Z,2016-11-28T06:00Z,0,wrfnat,hrrr.20161128/conus/hrrr.t06z.wrfnatf00.grib2,649930573,available
+2016-11-28T07:00Z,2016-11-28T07:00Z,0,wrfprs,hrrr.20161128/conus/hrrr.t07z.wrfprsf00.grib2,395588327,available
+2016-11-28T07:00Z,2016-11-28T07:00Z,0,wrfsfc,hrrr.20161128/conus/hrrr.t07z.wrfsfcf00.grib2,116398183,available
+2016-11-28T07:00Z,2016-11-28T07:00Z,0,wrfnat,hrrr.20161128/conus/hrrr.t07z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-28T08:00Z,2016-11-28T08:00Z,0,wrfprs,hrrr.20161128/conus/hrrr.t08z.wrfprsf00.grib2,392375890,available
+2016-11-28T08:00Z,2016-11-28T08:00Z,0,wrfsfc,hrrr.20161128/conus/hrrr.t08z.wrfsfcf00.grib2,114205740,available
+2016-11-28T08:00Z,2016-11-28T08:00Z,0,wrfnat,hrrr.20161128/conus/hrrr.t08z.wrfnatf00.grib2,649325102,available
+2016-11-28T09:00Z,2016-11-28T09:00Z,0,wrfprs,hrrr.20161128/conus/hrrr.t09z.wrfprsf00.grib2,391919776,available
+2016-11-28T09:00Z,2016-11-28T09:00Z,0,wrfsfc,hrrr.20161128/conus/hrrr.t09z.wrfsfcf00.grib2,114044063,available
+2016-11-28T09:00Z,2016-11-28T09:00Z,0,wrfnat,hrrr.20161128/conus/hrrr.t09z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-28T10:00Z,2016-11-28T10:00Z,0,wrfprs,hrrr.20161128/conus/hrrr.t10z.wrfprsf00.grib2,386381053,available
+2016-11-28T10:00Z,2016-11-28T10:00Z,0,wrfsfc,hrrr.20161128/conus/hrrr.t10z.wrfsfcf00.grib2,112736430,available
+2016-11-28T10:00Z,2016-11-28T10:00Z,0,wrfnat,hrrr.20161128/conus/hrrr.t10z.wrfnatf00.grib2,635280086,available
+2016-11-28T11:00Z,2016-11-28T11:00Z,0,wrfprs,hrrr.20161128/conus/hrrr.t11z.wrfprsf00.grib2,386325920,available
+2016-11-28T11:00Z,2016-11-28T11:00Z,0,wrfsfc,hrrr.20161128/conus/hrrr.t11z.wrfsfcf00.grib2,113058162,available
+2016-11-28T11:00Z,2016-11-28T11:00Z,0,wrfnat,hrrr.20161128/conus/hrrr.t11z.wrfnatf00.grib2,633648384,available
+2016-11-28T12:00Z,2016-11-28T12:00Z,0,wrfprs,hrrr.20161128/conus/hrrr.t12z.wrfprsf00.grib2,389406367,available
+2016-11-28T12:00Z,2016-11-28T12:00Z,0,wrfsfc,hrrr.20161128/conus/hrrr.t12z.wrfsfcf00.grib2,114493490,available
+2016-11-28T12:00Z,2016-11-28T12:00Z,0,wrfnat,hrrr.20161128/conus/hrrr.t12z.wrfnatf00.grib2,639018950,available
+2016-11-28T13:00Z,2016-11-28T13:00Z,0,wrfprs,hrrr.20161128/conus/hrrr.t13z.wrfprsf00.grib2,391711882,available
+2016-11-28T13:00Z,2016-11-28T13:00Z,0,wrfsfc,hrrr.20161128/conus/hrrr.t13z.wrfsfcf00.grib2,115693888,available
+2016-11-28T13:00Z,2016-11-28T13:00Z,0,wrfnat,hrrr.20161128/conus/hrrr.t13z.wrfnatf00.grib2,644226113,available
+2016-11-28T14:00Z,2016-11-28T14:00Z,0,wrfprs,hrrr.20161128/conus/hrrr.t14z.wrfprsf00.grib2,401893248,available
+2016-11-28T14:00Z,2016-11-28T14:00Z,0,wrfsfc,hrrr.20161128/conus/hrrr.t14z.wrfsfcf00.grib2,121125259,available
+2016-11-28T14:00Z,2016-11-28T14:00Z,0,wrfnat,hrrr.20161128/conus/hrrr.t14z.wrfnatf00.grib2,656717956,available
+2016-11-28T15:00Z,2016-11-28T15:00Z,0,wrfprs,hrrr.20161128/conus/hrrr.t15z.wrfprsf00.grib2,401534165,available
+2016-11-28T15:00Z,2016-11-28T15:00Z,0,wrfsfc,hrrr.20161128/conus/hrrr.t15z.wrfsfcf00.grib2,121969953,available
+2016-11-28T15:00Z,2016-11-28T15:00Z,0,wrfnat,hrrr.20161128/conus/hrrr.t15z.wrfnatf00.grib2,655932971,available
+2016-11-28T16:00Z,2016-11-28T16:00Z,0,wrfprs,hrrr.20161128/conus/hrrr.t16z.wrfprsf00.grib2,400534697,available
+2016-11-28T16:00Z,2016-11-28T16:00Z,0,wrfsfc,hrrr.20161128/conus/hrrr.t16z.wrfsfcf00.grib2,121198912,available
+2016-11-28T16:00Z,2016-11-28T16:00Z,0,wrfnat,hrrr.20161128/conus/hrrr.t16z.wrfnatf00.grib2,655992746,available
+2016-11-28T17:00Z,2016-11-28T17:00Z,0,wrfprs,hrrr.20161128/conus/hrrr.t17z.wrfprsf00.grib2,401356730,available
+2016-11-28T17:00Z,2016-11-28T17:00Z,0,wrfsfc,hrrr.20161128/conus/hrrr.t17z.wrfsfcf00.grib2,122262839,available
+2016-11-28T17:00Z,2016-11-28T17:00Z,0,wrfnat,hrrr.20161128/conus/hrrr.t17z.wrfnatf00.grib2,657695301,available
+2016-11-28T18:00Z,2016-11-28T18:00Z,0,wrfprs,hrrr.20161128/conus/hrrr.t18z.wrfprsf00.grib2,399707993,available
+2016-11-28T18:00Z,2016-11-28T18:00Z,0,wrfsfc,hrrr.20161128/conus/hrrr.t18z.wrfsfcf00.grib2,122668854,available
+2016-11-28T18:00Z,2016-11-28T18:00Z,0,wrfnat,hrrr.20161128/conus/hrrr.t18z.wrfnatf00.grib2,658785685,available
+2016-11-28T19:00Z,2016-11-28T19:00Z,0,wrfprs,hrrr.20161128/conus/hrrr.t19z.wrfprsf00.grib2,398383912,available
+2016-11-28T19:00Z,2016-11-28T19:00Z,0,wrfsfc,hrrr.20161128/conus/hrrr.t19z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-28T19:00Z,2016-11-28T19:00Z,0,wrfnat,hrrr.20161128/conus/hrrr.t19z.wrfnatf00.grib2,656782632,available
+2016-11-28T20:00Z,2016-11-28T20:00Z,0,wrfprs,hrrr.20161128/conus/hrrr.t20z.wrfprsf00.grib2,396598890,available
+2016-11-28T20:00Z,2016-11-28T20:00Z,0,wrfsfc,hrrr.20161128/conus/hrrr.t20z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-28T20:00Z,2016-11-28T20:00Z,0,wrfnat,hrrr.20161128/conus/hrrr.t20z.wrfnatf00.grib2,655657842,available
+2016-11-28T21:00Z,2016-11-28T21:00Z,0,wrfprs,hrrr.20161128/conus/hrrr.t21z.wrfprsf00.grib2,396675701,available
+2016-11-28T21:00Z,2016-11-28T21:00Z,0,wrfsfc,hrrr.20161128/conus/hrrr.t21z.wrfsfcf00.grib2,119888549,available
+2016-11-28T21:00Z,2016-11-28T21:00Z,0,wrfnat,hrrr.20161128/conus/hrrr.t21z.wrfnatf00.grib2,654035578,available
+2016-11-28T22:00Z,2016-11-28T22:00Z,0,wrfprs,hrrr.20161128/conus/hrrr.t22z.wrfprsf00.grib2,386923723,available
+2016-11-28T22:00Z,2016-11-28T22:00Z,0,wrfsfc,hrrr.20161128/conus/hrrr.t22z.wrfsfcf00.grib2,116071640,available
+2016-11-28T22:00Z,2016-11-28T22:00Z,0,wrfnat,hrrr.20161128/conus/hrrr.t22z.wrfnatf00.grib2,640863083,available
+2016-11-28T23:00Z,2016-11-28T23:00Z,0,wrfprs,hrrr.20161128/conus/hrrr.t23z.wrfprsf00.grib2,385341384,available
+2016-11-28T23:00Z,2016-11-28T23:00Z,0,wrfsfc,hrrr.20161128/conus/hrrr.t23z.wrfsfcf00.grib2,114061195,available
+2016-11-28T23:00Z,2016-11-28T23:00Z,0,wrfnat,hrrr.20161128/conus/hrrr.t23z.wrfnatf00.grib2,637427433,available
+2016-11-29T00:00Z,2016-11-29T00:00Z,0,wrfprs,hrrr.20161129/conus/hrrr.t00z.wrfprsf00.grib2,388048141,available
+2016-11-29T00:00Z,2016-11-29T00:00Z,0,wrfsfc,hrrr.20161129/conus/hrrr.t00z.wrfsfcf00.grib2,114350984,available
+2016-11-29T00:00Z,2016-11-29T00:00Z,0,wrfnat,hrrr.20161129/conus/hrrr.t00z.wrfnatf00.grib2,636762402,available
+2016-11-29T01:00Z,2016-11-29T01:00Z,0,wrfprs,hrrr.20161129/conus/hrrr.t01z.wrfprsf00.grib2,387040538,available
+2016-11-29T01:00Z,2016-11-29T01:00Z,0,wrfsfc,hrrr.20161129/conus/hrrr.t01z.wrfsfcf00.grib2,113307977,available
+2016-11-29T01:00Z,2016-11-29T01:00Z,0,wrfnat,hrrr.20161129/conus/hrrr.t01z.wrfnatf00.grib2,635320942,available
+2016-11-29T02:00Z,2016-11-29T02:00Z,0,wrfprs,hrrr.20161129/conus/hrrr.t02z.wrfprsf00.grib2,389700620,available
+2016-11-29T02:00Z,2016-11-29T02:00Z,0,wrfsfc,hrrr.20161129/conus/hrrr.t02z.wrfsfcf00.grib2,113464674,available
+2016-11-29T02:00Z,2016-11-29T02:00Z,0,wrfnat,hrrr.20161129/conus/hrrr.t02z.wrfnatf00.grib2,637870495,available
+2016-11-29T03:00Z,2016-11-29T03:00Z,0,wrfprs,hrrr.20161129/conus/hrrr.t03z.wrfprsf00.grib2,388655352,available
+2016-11-29T03:00Z,2016-11-29T03:00Z,0,wrfsfc,hrrr.20161129/conus/hrrr.t03z.wrfsfcf00.grib2,113022547,available
+2016-11-29T03:00Z,2016-11-29T03:00Z,0,wrfnat,hrrr.20161129/conus/hrrr.t03z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-29T04:00Z,2016-11-29T04:00Z,0,wrfprs,hrrr.20161129/conus/hrrr.t04z.wrfprsf00.grib2,387937720,available
+2016-11-29T04:00Z,2016-11-29T04:00Z,0,wrfsfc,hrrr.20161129/conus/hrrr.t04z.wrfsfcf00.grib2,112557145,available
+2016-11-29T04:00Z,2016-11-29T04:00Z,0,wrfnat,hrrr.20161129/conus/hrrr.t04z.wrfnatf00.grib2,637593042,available
+2016-11-29T05:00Z,2016-11-29T05:00Z,0,wrfprs,hrrr.20161129/conus/hrrr.t05z.wrfprsf00.grib2,388365698,available
+2016-11-29T05:00Z,2016-11-29T05:00Z,0,wrfsfc,hrrr.20161129/conus/hrrr.t05z.wrfsfcf00.grib2,112822906,available
+2016-11-29T05:00Z,2016-11-29T05:00Z,0,wrfnat,hrrr.20161129/conus/hrrr.t05z.wrfnatf00.grib2,637286774,available
+2016-11-29T06:00Z,2016-11-29T06:00Z,0,wrfprs,hrrr.20161129/conus/hrrr.t06z.wrfprsf00.grib2,386098224,available
+2016-11-29T06:00Z,2016-11-29T06:00Z,0,wrfsfc,hrrr.20161129/conus/hrrr.t06z.wrfsfcf00.grib2,112680975,available
+2016-11-29T06:00Z,2016-11-29T06:00Z,0,wrfnat,hrrr.20161129/conus/hrrr.t06z.wrfnatf00.grib2,637945455,available
+2016-11-29T07:00Z,2016-11-29T07:00Z,0,wrfprs,hrrr.20161129/conus/hrrr.t07z.wrfprsf00.grib2,387495716,available
+2016-11-29T07:00Z,2016-11-29T07:00Z,0,wrfsfc,hrrr.20161129/conus/hrrr.t07z.wrfsfcf00.grib2,113784395,available
+2016-11-29T07:00Z,2016-11-29T07:00Z,0,wrfnat,hrrr.20161129/conus/hrrr.t07z.wrfnatf00.grib2,641756185,available
+2016-11-29T08:00Z,2016-11-29T08:00Z,0,wrfprs,hrrr.20161129/conus/hrrr.t08z.wrfprsf00.grib2,388499559,available
+2016-11-29T08:00Z,2016-11-29T08:00Z,0,wrfsfc,hrrr.20161129/conus/hrrr.t08z.wrfsfcf00.grib2,114428028,available
+2016-11-29T08:00Z,2016-11-29T08:00Z,0,wrfnat,hrrr.20161129/conus/hrrr.t08z.wrfnatf00.grib2,642584623,available
+2016-11-29T09:00Z,2016-11-29T09:00Z,0,wrfprs,hrrr.20161129/conus/hrrr.t09z.wrfprsf00.grib2,386293913,available
+2016-11-29T09:00Z,2016-11-29T09:00Z,0,wrfsfc,hrrr.20161129/conus/hrrr.t09z.wrfsfcf00.grib2,113072959,available
+2016-11-29T09:00Z,2016-11-29T09:00Z,0,wrfnat,hrrr.20161129/conus/hrrr.t09z.wrfnatf00.grib2,641486438,available
+2016-11-29T10:00Z,2016-11-29T10:00Z,0,wrfprs,hrrr.20161129/conus/hrrr.t10z.wrfprsf00.grib2,381121546,available
+2016-11-29T10:00Z,2016-11-29T10:00Z,0,wrfsfc,hrrr.20161129/conus/hrrr.t10z.wrfsfcf00.grib2,111566680,available
+2016-11-29T10:00Z,2016-11-29T10:00Z,0,wrfnat,hrrr.20161129/conus/hrrr.t10z.wrfnatf00.grib2,632803736,available
+2016-11-29T11:00Z,2016-11-29T11:00Z,0,wrfprs,hrrr.20161129/conus/hrrr.t11z.wrfprsf00.grib2,381245274,available
+2016-11-29T11:00Z,2016-11-29T11:00Z,0,wrfsfc,hrrr.20161129/conus/hrrr.t11z.wrfsfcf00.grib2,111609242,available
+2016-11-29T11:00Z,2016-11-29T11:00Z,0,wrfnat,hrrr.20161129/conus/hrrr.t11z.wrfnatf00.grib2,630939364,available
+2016-11-29T12:00Z,2016-11-29T12:00Z,0,wrfprs,hrrr.20161129/conus/hrrr.t12z.wrfprsf00.grib2,385600573,available
+2016-11-29T12:00Z,2016-11-29T12:00Z,0,wrfsfc,hrrr.20161129/conus/hrrr.t12z.wrfsfcf00.grib2,114582680,available
+2016-11-29T12:00Z,2016-11-29T12:00Z,0,wrfnat,hrrr.20161129/conus/hrrr.t12z.wrfnatf00.grib2,635033473,available
+2016-11-29T13:00Z,2016-11-29T13:00Z,0,wrfprs,hrrr.20161129/conus/hrrr.t13z.wrfprsf00.grib2,386852670,available
+2016-11-29T13:00Z,2016-11-29T13:00Z,0,wrfsfc,hrrr.20161129/conus/hrrr.t13z.wrfsfcf00.grib2,113947182,available
+2016-11-29T13:00Z,2016-11-29T13:00Z,0,wrfnat,hrrr.20161129/conus/hrrr.t13z.wrfnatf00.grib2,634786659,available
+2016-11-29T14:00Z,2016-11-29T14:00Z,0,wrfprs,hrrr.20161129/conus/hrrr.t14z.wrfprsf00.grib2,388420489,available
+2016-11-29T14:00Z,2016-11-29T14:00Z,0,wrfsfc,hrrr.20161129/conus/hrrr.t14z.wrfsfcf00.grib2,117276152,available
+2016-11-29T14:00Z,2016-11-29T14:00Z,0,wrfnat,hrrr.20161129/conus/hrrr.t14z.wrfnatf00.grib2,637659086,available
+2016-11-29T15:00Z,2016-11-29T15:00Z,0,wrfprs,hrrr.20161129/conus/hrrr.t15z.wrfprsf00.grib2,388872159,available
+2016-11-29T15:00Z,2016-11-29T15:00Z,0,wrfsfc,hrrr.20161129/conus/hrrr.t15z.wrfsfcf00.grib2,118458757,available
+2016-11-29T15:00Z,2016-11-29T15:00Z,0,wrfnat,hrrr.20161129/conus/hrrr.t15z.wrfnatf00.grib2,638045035,available
+2016-11-29T16:00Z,2016-11-29T16:00Z,0,wrfprs,hrrr.20161129/conus/hrrr.t16z.wrfprsf00.grib2,383793010,available
+2016-11-29T16:00Z,2016-11-29T16:00Z,0,wrfsfc,hrrr.20161129/conus/hrrr.t16z.wrfsfcf00.grib2,117853300,available
+2016-11-29T16:00Z,2016-11-29T16:00Z,0,wrfnat,hrrr.20161129/conus/hrrr.t16z.wrfnatf00.grib2,633377193,available
+2016-11-29T17:00Z,2016-11-29T17:00Z,0,wrfprs,hrrr.20161129/conus/hrrr.t17z.wrfprsf00.grib2,385208202,available
+2016-11-29T17:00Z,2016-11-29T17:00Z,0,wrfsfc,hrrr.20161129/conus/hrrr.t17z.wrfsfcf00.grib2,118301169,available
+2016-11-29T17:00Z,2016-11-29T17:00Z,0,wrfnat,hrrr.20161129/conus/hrrr.t17z.wrfnatf00.grib2,636848300,available
+2016-11-29T18:00Z,2016-11-29T18:00Z,0,wrfprs,hrrr.20161129/conus/hrrr.t18z.wrfprsf00.grib2,383688359,available
+2016-11-29T18:00Z,2016-11-29T18:00Z,0,wrfsfc,hrrr.20161129/conus/hrrr.t18z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-29T18:00Z,2016-11-29T18:00Z,0,wrfnat,hrrr.20161129/conus/hrrr.t18z.wrfnatf00.grib2,636577073,available
+2016-11-29T19:00Z,2016-11-29T19:00Z,0,wrfprs,hrrr.20161129/conus/hrrr.t19z.wrfprsf00.grib2,381873015,available
+2016-11-29T19:00Z,2016-11-29T19:00Z,0,wrfsfc,hrrr.20161129/conus/hrrr.t19z.wrfsfcf00.grib2,116338878,available
+2016-11-29T19:00Z,2016-11-29T19:00Z,0,wrfnat,hrrr.20161129/conus/hrrr.t19z.wrfnatf00.grib2,634362412,available
+2016-11-29T20:00Z,2016-11-29T20:00Z,0,wrfprs,hrrr.20161129/conus/hrrr.t20z.wrfprsf00.grib2,383501726,available
+2016-11-29T20:00Z,2016-11-29T20:00Z,0,wrfsfc,hrrr.20161129/conus/hrrr.t20z.wrfsfcf00.grib2,117737917,available
+2016-11-29T20:00Z,2016-11-29T20:00Z,0,wrfnat,hrrr.20161129/conus/hrrr.t20z.wrfnatf00.grib2,634203351,available
+2016-11-29T21:00Z,2016-11-29T21:00Z,0,wrfprs,hrrr.20161129/conus/hrrr.t21z.wrfprsf00.grib2,382208589,available
+2016-11-29T21:00Z,2016-11-29T21:00Z,0,wrfsfc,hrrr.20161129/conus/hrrr.t21z.wrfsfcf00.grib2,,missing: key not in S3 listing
+2016-11-29T21:00Z,2016-11-29T21:00Z,0,wrfnat,hrrr.20161129/conus/hrrr.t21z.wrfnatf00.grib2,635389308,available
+2016-11-29T22:00Z,2016-11-29T22:00Z,0,wrfprs,hrrr.20161129/conus/hrrr.t22z.wrfprsf00.grib2,374505648,available
+2016-11-29T22:00Z,2016-11-29T22:00Z,0,wrfsfc,hrrr.20161129/conus/hrrr.t22z.wrfsfcf00.grib2,114113707,available
+2016-11-29T22:00Z,2016-11-29T22:00Z,0,wrfnat,hrrr.20161129/conus/hrrr.t22z.wrfnatf00.grib2,,missing: key not in S3 listing
+2016-11-29T23:00Z,2016-11-29T23:00Z,0,wrfprs,hrrr.20161129/conus/hrrr.t23z.wrfprsf00.grib2,372641115,available
+2016-11-29T23:00Z,2016-11-29T23:00Z,0,wrfsfc,hrrr.20161129/conus/hrrr.t23z.wrfsfcf00.grib2,112268848,available
+2016-11-29T23:00Z,2016-11-29T23:00Z,0,wrfnat,hrrr.20161129/conus/hrrr.t23z.wrfnatf00.grib2,623149615,available
+2016-11-30T00:00Z,2016-11-30T00:00Z,0,wrfprs,hrrr.20161130/conus/hrrr.t00z.wrfprsf00.grib2,375664675,available
+2016-11-30T00:00Z,2016-11-30T00:00Z,0,wrfsfc,hrrr.20161130/conus/hrrr.t00z.wrfsfcf00.grib2,112116530,available
+2016-11-30T00:00Z,2016-11-30T00:00Z,0,wrfnat,hrrr.20161130/conus/hrrr.t00z.wrfnatf00.grib2,623503938,available
+2016-11-30T01:00Z,2016-11-30T01:00Z,0,wrfprs,hrrr.20161130/conus/hrrr.t01z.wrfprsf00.grib2,376215430,available
+2016-11-30T01:00Z,2016-11-30T01:00Z,0,wrfsfc,hrrr.20161130/conus/hrrr.t01z.wrfsfcf00.grib2,111171194,available
+2016-11-30T01:00Z,2016-11-30T01:00Z,0,wrfnat,hrrr.20161130/conus/hrrr.t01z.wrfnatf00.grib2,624176724,available
+2016-11-30T02:00Z,2016-11-30T02:00Z,0,wrfprs,hrrr.20161130/conus/hrrr.t02z.wrfprsf00.grib2,375956719,available
+2016-11-30T02:00Z,2016-11-30T02:00Z,0,wrfsfc,hrrr.20161130/conus/hrrr.t02z.wrfsfcf00.grib2,111034456,available
+2016-11-30T02:00Z,2016-11-30T02:00Z,0,wrfnat,hrrr.20161130/conus/hrrr.t02z.wrfnatf00.grib2,624893292,available
+2016-11-30T03:00Z,2016-11-30T03:00Z,0,wrfprs,hrrr.20161130/conus/hrrr.t03z.wrfprsf00.grib2,375061697,available
+2016-11-30T03:00Z,2016-11-30T03:00Z,0,wrfsfc,hrrr.20161130/conus/hrrr.t03z.wrfsfcf00.grib2,110459692,available
+2016-11-30T03:00Z,2016-11-30T03:00Z,0,wrfnat,hrrr.20161130/conus/hrrr.t03z.wrfnatf00.grib2,623583171,available
+2016-11-30T04:00Z,2016-11-30T04:00Z,0,wrfprs,hrrr.20161130/conus/hrrr.t04z.wrfprsf00.grib2,375772634,available
+2016-11-30T04:00Z,2016-11-30T04:00Z,0,wrfsfc,hrrr.20161130/conus/hrrr.t04z.wrfsfcf00.grib2,110764561,available
+2016-11-30T04:00Z,2016-11-30T04:00Z,0,wrfnat,hrrr.20161130/conus/hrrr.t04z.wrfnatf00.grib2,624025194,available
+2016-11-30T05:00Z,2016-11-30T05:00Z,0,wrfprs,hrrr.20161130/conus/hrrr.t05z.wrfprsf00.grib2,376939753,available
+2016-11-30T05:00Z,2016-11-30T05:00Z,0,wrfsfc,hrrr.20161130/conus/hrrr.t05z.wrfsfcf00.grib2,112437550,available
+2016-11-30T05:00Z,2016-11-30T05:00Z,0,wrfnat,hrrr.20161130/conus/hrrr.t05z.wrfnatf00.grib2,626470550,available
+2016-11-30T06:00Z,2016-11-30T06:00Z,0,wrfprs,hrrr.20161130/conus/hrrr.t06z.wrfprsf00.grib2,375295063,available
+2016-11-30T06:00Z,2016-11-30T06:00Z,0,wrfsfc,hrrr.20161130/conus/hrrr.t06z.wrfsfcf00.grib2,111240172,available
+2016-11-30T06:00Z,2016-11-30T06:00Z,0,wrfnat,hrrr.20161130/conus/hrrr.t06z.wrfnatf00.grib2,620889382,available
+2016-11-30T07:00Z,2016-11-30T07:00Z,0,wrfprs,hrrr.20161130/conus/hrrr.t07z.wrfprsf00.grib2,376332553,available
+2016-11-30T07:00Z,2016-11-30T07:00Z,0,wrfsfc,hrrr.20161130/conus/hrrr.t07z.wrfsfcf00.grib2,111540413,available
+2016-11-30T07:00Z,2016-11-30T07:00Z,0,wrfnat,hrrr.20161130/conus/hrrr.t07z.wrfnatf00.grib2,623320624,available
+2016-11-30T08:00Z,2016-11-30T08:00Z,0,wrfprs,hrrr.20161130/conus/hrrr.t08z.wrfprsf00.grib2,376608859,available
+2016-11-30T08:00Z,2016-11-30T08:00Z,0,wrfsfc,hrrr.20161130/conus/hrrr.t08z.wrfsfcf00.grib2,112973476,available
+2016-11-30T08:00Z,2016-11-30T08:00Z,0,wrfnat,hrrr.20161130/conus/hrrr.t08z.wrfnatf00.grib2,624295040,available
+2016-11-30T09:00Z,2016-11-30T09:00Z,0,wrfprs,hrrr.20161130/conus/hrrr.t09z.wrfprsf00.grib2,377372807,available
+2016-11-30T09:00Z,2016-11-30T09:00Z,0,wrfsfc,hrrr.20161130/conus/hrrr.t09z.wrfsfcf00.grib2,112048875,available
+2016-11-30T09:00Z,2016-11-30T09:00Z,0,wrfnat,hrrr.20161130/conus/hrrr.t09z.wrfnatf00.grib2,625939264,available
+2016-11-30T10:00Z,2016-11-30T10:00Z,0,wrfprs,hrrr.20161130/conus/hrrr.t10z.wrfprsf00.grib2,374430698,available
+2016-11-30T10:00Z,2016-11-30T10:00Z,0,wrfsfc,hrrr.20161130/conus/hrrr.t10z.wrfsfcf00.grib2,111288693,available
+2016-11-30T10:00Z,2016-11-30T10:00Z,0,wrfnat,hrrr.20161130/conus/hrrr.t10z.wrfnatf00.grib2,623031155,available
+2016-11-30T11:00Z,2016-11-30T11:00Z,0,wrfprs,hrrr.20161130/conus/hrrr.t11z.wrfprsf00.grib2,373998141,available
+2016-11-30T11:00Z,2016-11-30T11:00Z,0,wrfsfc,hrrr.20161130/conus/hrrr.t11z.wrfsfcf00.grib2,111600496,available
+2016-11-30T11:00Z,2016-11-30T11:00Z,0,wrfnat,hrrr.20161130/conus/hrrr.t11z.wrfnatf00.grib2,624594459,available
+2016-11-30T12:00Z,2016-11-30T12:00Z,0,wrfprs,hrrr.20161130/conus/hrrr.t12z.wrfprsf00.grib2,378130031,available
+2016-11-30T12:00Z,2016-11-30T12:00Z,0,wrfsfc,hrrr.20161130/conus/hrrr.t12z.wrfsfcf00.grib2,112281898,available
+2016-11-30T12:00Z,2016-11-30T12:00Z,0,wrfnat,hrrr.20161130/conus/hrrr.t12z.wrfnatf00.grib2,626944544,available

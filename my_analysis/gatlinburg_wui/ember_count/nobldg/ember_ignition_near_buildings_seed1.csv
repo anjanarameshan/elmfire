@@ -1,0 +1,6 @@
+loc,near_cells,burned,ember_ign,pct_ember,mean_prod,median_prod,mean_prod_emberign,mean_prod_front,all_veg_ember_ign,all_veg_burned
+Reported,3213,1581,1462,92.5,2963,175,2045,14238,28701,30102
+1 km north,3213,1610,1482,92.0,2312,188,1667,9790,34320,36456
+1 km south,3213,1368,1271,92.9,2165,162,1437,11701,26721,27980
+1 km east,3213,1701,1567,92.1,2132,166,1309,11752,40905,43537
+1 km west,3213,247,222,89.9,1989,83,2155,513,2395,2736

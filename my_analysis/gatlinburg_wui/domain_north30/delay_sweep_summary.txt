@@ -1,0 +1,17 @@
+CELL_IGNITION_DELAY sweep, domain extended 10.2 km north (seed means). MTBS 15003 ac, north of building line 6429 ac
+delay   total   inside  outside  out%  Sor_MTBS  north   Sor_north  bldgs  top-edge  score_AAR (calibration, 0 = best)
+  100   84657     4798    79860   94      0.10   84170       0.10   1054      1/1   1.29   (seeds total: 84657)
+  300   79930     4720    75210   94      0.10   79495       0.10   1026      3/3   1.04   (seeds total: 78844, 79205, 81742)
+
+Burned area added since 11:00 vs AAR - 500 (acres):
+time   AAR-500      100s      300s
+15:00     1500      3148       934
+17:00     3500      6327      2872
+18:00     4500     10608      6926
+19:00     5500     25516     17676
+20:00     6500     38627     31445
+21:00     8500     52476     42882
+00:00    15500     65784     61350
+02:00    16500     79703     73379
+
+Closest to the AAR curve: delay 300 s (score 1.04); its perimeter test: Sorensen 0.10, outside 75210 ac
